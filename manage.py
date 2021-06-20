@@ -6,7 +6,7 @@ from sys import argv
 
 def main():
     """Run administrative tasks."""
-    environ.setdefault("DJANGO_SETTINGS_MODULE", "mighty_meadow.settings")
+    environ.setdefault("DJANGO_SETTINGS_MODULE", "silver_umbrella.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
