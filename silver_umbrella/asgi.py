@@ -9,7 +9,7 @@ from hypercorn.asyncio import serve
 from hypercorn.config import Config
 from hypercorn.middleware import DispatcherMiddleware
 
-environ.setdefault("DJANGO_SETTINGS_MODULE", "mighty_meadow.settings")
+environ.setdefault("DJANGO_SETTINGS_MODULE", "silver_umbrella.settings")
 BaseMemcachedCache.close = lambda self, **kwargs: None
 
 shutdown_event = asyncio.Event()
