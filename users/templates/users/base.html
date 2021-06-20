@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="shortcut" href="{% static 'favicon.ico' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="{% static 'app.js' %}"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link defer rel="stylesheet" href="{% static 'main.css' %}" />
+    {% if title %}
+    <title>Healthcare Organization - {{ title }}</title>
+    {% else %}
+    <title>Healthcare Organization</title>
+    {% endif %}
+  </head>
+  <div class="topnav" id="myTopnav">
+    <a href="/" class="active">Home</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'logout' %}">Logout</a>
+    <a href="{% url 'register' %}">Register</a>
+    <a href="javascript:void(0)" class="icon"></a>
+    <!-- javascript:void(0); -->
+    <i class="fa fa-bars"></i>
+  </div>
+  <body>
+    <div class="w3-mobile w3-twothird w3-card-4">
+      <main role="main" class="container">
+        <div class="row">
+          <div class="col-md-8">
+            {% if messages %} {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+            {% endfor %} {% endif %} {% block content %} {% endblock %}
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="w3-mobile w3-third w3-card-4">
+      <header class="w3-container">
+        <h1>Sidebar</h1>
+        <ul>
+          <li><a href="{% url 'profile' %}">Profile</a></li>
+        </ul>
+      </header>
+      <div class="col-md-4">
+        <div class="content-section">
+          <p class="text-muted">You can put any information here you'd like.</p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-light">Announcements</li>
+            <li class="list-group-item list-group-item-light">Calendars</li>
+            <li class="list-group-item list-group-item-light">etc</li>
+          </ul>
+        </div>
+      </div>
+      <footer class="w3-container">
+        <h5>Something</h5>
+      </footer>
+    </div>
+  </body>
+</html>

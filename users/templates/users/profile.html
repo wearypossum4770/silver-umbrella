@@ -1,0 +1,33 @@
+{% extends "users/base.html" %} {% load static %} {% block content %}
+<div class="content-section">
+  <div class="media">
+    <img
+      class="rounded-circle account-img"
+      src="{{ user.profile.image.url }}"
+    />
+    <div class="media-body">
+      <h2 class="account-heading">Welcome {{ user.username }}</h2>
+      <p class="text-secondary">{{ user.email }}</p>
+    </div>
+    {% for address in addresses %}
+
+    <button
+      class="w3-button w3-block w3-left-align"
+      onclick="handleCollapse('{{address.idempotent_key}}')"
+    >
+      {{ address.address_type }} Address
+    </button>
+    <div class="w3-container w3-hide" id="{{address.idempotent_key}}">
+      <address>
+        <p>Street 1: {{ address.street1 }}</p>
+        <p>Street 2: {{ address.street2 }}</p>
+        <p>
+          City, State, Zip: {{ address.state }} {{ address.city }} , {{
+          address.zipcode }}
+        </p>
+      </address>
+    </div>
+    {% endfor %}
+  </div>
+  {% endblock content %}
+</div>
