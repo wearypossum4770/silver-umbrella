@@ -2,4 +2,4 @@
 ./manage.py migrate
 black .
 isort .
-web: gunicorn mighty_meadow.wsgi
+web: gunicorn silver_umbrella.wsgi
