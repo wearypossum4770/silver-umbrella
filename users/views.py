@@ -23,8 +23,9 @@ def about(request):
 
 
 def registration(request):
-    form = UserRegisterForm(request.POST)
+    form = UserRegisterForm
     if request.method == "POST":
+        form = (request.POST)
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get("username")
@@ -33,6 +34,7 @@ def registration(request):
                 f" {username} Your account has been created! You are now able to log in",
             )
             return redirect("login")
+    form()
     return render(request, "users/register.html", {"form": form})
 
 
