@@ -1,0 +1,6 @@
+# Conforms to IETF `draft-foudil-securitytxt-07`
+Contact: mailto:security@linkedin.com
+Contact: https://www.linkedin.com/help/linkedin/answer/62924
+Encryption: https://www.linkedin.com/help/linkedin/answer/79676
+Canonical: https://www.linkedin.com/.well-known/security.txt
+Policy: https://www.linkedin.com/help/linkedin/answer/62924

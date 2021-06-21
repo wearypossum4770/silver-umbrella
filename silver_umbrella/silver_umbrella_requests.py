@@ -1,20 +1,13 @@
 import asyncio
 import json
 
-# from django.conf import settings
 import aiohttp
 import requests
 
 request_object = {}
-
 base_url = "http://127.0.0.1:8000"
-# def genryusai_shigekuni_yamamoto_data():
-#     with open(f"{settings.BASE_DIR}/users/fixtures/new_registrant.json") as _d:
-#         __data__ = json.load(_d)
-#     return __data__
 reqs = [
     {
-        # "data": genryusai_shigekuni_yamamoto_data(),
         "url": f"{base_url}/register/",
     },
 ]
@@ -35,6 +28,10 @@ async def main():
         "/appointments/1/",
     ]
     async with aiohttp.ClientSession(cookies=jar) as session:
+        async with session.get(
+            "https://silver-umbrella-2019.herokuapp.com/"
+        ) as herokuapp:
+            request_object["herokuapp"] = herokuapp.headers
         for request in reqs:
             async with session.get(**request) as primaryPost:
                 _cookie = {
@@ -44,7 +41,6 @@ async def main():
                 }
                 request.update(cookies=_cookie)
                 request_object[request.get("url")] = primaryPost.status
-
         for url in urls:
             async with session.get(f"{base_url}{url}") as useFetch:
                 request_object[url] = useFetch.status
@@ -57,6 +53,3 @@ loop.run_until_complete(main())
 def requests():
     request_object.update(secondary=secondary)
     return request_object
-
-
-print(request_object)

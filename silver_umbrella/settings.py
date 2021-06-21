@@ -10,9 +10,9 @@ from dotenv import find_dotenv, load_dotenv
 # =================================================================================
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(find_dotenv())
-DEBUG = getenv("DEBUG", True)
+DEBUG = getenv("DEBUG", False)
 SECRET_KEY = getenv("SECRET_KEY", "abcdefg12345678")
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ('silver-umbrella-2019.herokuapp.com', 'localhost')
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 # =================================================================================
 # DEBUGGING WHILE DEPLOYED
@@ -28,7 +28,7 @@ LOGGING = {
     "loggers": {
         "django": {
             "handlers": ["console"],
-            "level": getenv("DJANGO_LOG_LEVEL", "DEBUG"),
+            "level": getenv("DJANGO_LOG_LEVEL", DEBUG),
         },
     },
 }
@@ -136,7 +136,7 @@ def get_cache():
 CACHES = get_cache()
 DATABASES = {
     "default": {
-        "ENGINE":"django.db.backends.sqlite3",
+        "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
         "TEST": {
             "NAME": BASE_DIR / "db_test.sqlite3",
