@@ -83,10 +83,9 @@ class User(AbstractUser):
     # def clean_fields(self):
     #     super().clean_fields()
 
-    def clean(self, *args, **kwargs):
+    def normalizer(self):
         validate_date_of_birth(self.is_patient, self.date_of_birth)
         self.handle_deceased()
-
         if self.first_name is not None:
             self.first_name.strip().capitalize()
         if self.middle_name is not None:
@@ -95,8 +94,6 @@ class User(AbstractUser):
             self.last_name.strip().capitalize()
         if self.suffix is not None:
             self.suffix.strip().capitalize()
-        super().clean(*args, **kwargs)
-
     class Meta:
         constraints = [
             CheckConstraint(
