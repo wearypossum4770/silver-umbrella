@@ -136,7 +136,7 @@ def get_cache():
 CACHES = get_cache()
 DATABASES = {
     "default": {
-        "ENGINE":"django.db.backends.sqlite3",
+        "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
         "TEST": {
             "NAME": BASE_DIR / "db_test.sqlite3",

@@ -94,6 +94,7 @@ class User(AbstractUser):
             self.last_name.strip().capitalize()
         if self.suffix is not None:
             self.suffix.strip().capitalize()
+
     class Meta:
         constraints = [
             CheckConstraint(
