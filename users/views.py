@@ -24,7 +24,7 @@ def about(request):
 
 
 
-def register(request):
+def registration(request):
     if request.method == 'POST':
         form = UserRegisterForm(request.POST)
         if form.is_valid():
