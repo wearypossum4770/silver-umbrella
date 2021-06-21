@@ -2,7 +2,7 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 from django.forms import EmailField, ModelForm
 
-from .models import Profile
+from users.models import Profile
 
 User = get_user_model()
 

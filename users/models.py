@@ -47,12 +47,10 @@ class User(AbstractUser):
         SIS = "Sis", _("Sister (nun or other female religious leader)")
         REV = "Rev", _("Reverand (Religious leader")
         RAB = "Rab", _("Rabbi (religious leader usually of jewish faith)")
-        __empty__ = _("No Selection, Declined To Answer")
 
     class Suffix(TextChoices):
         PHD = "PhD", _("Doctoralily Educated")
         ESQ = "Esq", _("Esquire, Lawyer")
-        __empty__ = _("No Selection, Declined To Answer")
 
     madien_name = CharField(max_length=100, blank=True, null=True)
     nickname = CharField(max_length=100, blank=True, null=True)
@@ -63,14 +61,14 @@ class User(AbstractUser):
     honorific_prefix = CharField(
         max_length=4,
         choices=Prefix.choices,
-        default=Prefix.__empty__,
+        default="",
         blank=True,
         null=True,
     )
     honorific_suffix = CharField(
         max_length=4,
         choices=Suffix.choices,
-        default=Suffix.__empty__,
+        default="",
         blank=True,
         null=True,
     )
@@ -85,10 +83,9 @@ class User(AbstractUser):
     # def clean_fields(self):
     #     super().clean_fields()
 
-    def clean(self, *args, **kwargs):
+    def normalizer(self):
         validate_date_of_birth(self.is_patient, self.date_of_birth)
         self.handle_deceased()
-
         if self.first_name is not None:
             self.first_name.strip().capitalize()
         if self.middle_name is not None:
@@ -97,7 +94,6 @@ class User(AbstractUser):
             self.last_name.strip().capitalize()
         if self.suffix is not None:
             self.suffix.strip().capitalize()
-        super().clean(*args, **kwargs)
 
     class Meta:
         constraints = [
