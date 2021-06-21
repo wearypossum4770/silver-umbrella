@@ -47,12 +47,10 @@ class User(AbstractUser):
         SIS = "Sis", _("Sister (nun or other female religious leader)")
         REV = "Rev", _("Reverand (Religious leader")
         RAB = "Rab", _("Rabbi (religious leader usually of jewish faith)")
-        __empty__ = _("No Selection, Declined To Answer")
 
     class Suffix(TextChoices):
         PHD = "PhD", _("Doctoralily Educated")
         ESQ = "Esq", _("Esquire, Lawyer")
-        __empty__ = _("No Selection, Declined To Answer")
 
     madien_name = CharField(max_length=100, blank=True, null=True)
     nickname = CharField(max_length=100, blank=True, null=True)
@@ -63,14 +61,14 @@ class User(AbstractUser):
     honorific_prefix = CharField(
         max_length=4,
         choices=Prefix.choices,
-        default=Prefix.__empty__,
+        default="",
         blank=True,
         null=True,
     )
     honorific_suffix = CharField(
         max_length=4,
         choices=Suffix.choices,
-        default=Suffix.__empty__,
+        default="",
         blank=True,
         null=True,
     )
