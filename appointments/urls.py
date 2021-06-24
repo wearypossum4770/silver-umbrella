@@ -4,7 +4,7 @@ from appointments.views import (
     api_edit_or_create_appointment_by_patient_id,
     appointment_details,
     cancel_appointment_by_appointment_id,
-    edit_or_create_appointment_by_patient_id,
+    edit_or_create_appointment_by_patient,
     view_appointments,
     view_archived_appointments,
 )
@@ -12,7 +12,7 @@ from appointments.views import (
 urlpatterns = [
     path(
         "appointments/schedule-appointment/",
-        edit_or_create_appointment_by_patient_id,
+        edit_or_create_appointment_by_patient,
         name="create-appointment",
     ),
     path(

@@ -48,6 +48,51 @@ __relationship__ = {
 }
 
 
+class Patient(Model):
+    """
+    United States Census Beurau Ethnicity Information. https://www.census.gov/topics/population/race/about.html
+    Improved Ethinicity Information. https://www2.census.gov/cac/nac/meetings/2016-10/2016-nac-jones.pdf
+    """
+
+    class Gender(TextChoices):
+        MALE = "M", _(f"{__gender__.get('M')}")
+        FEMALE = "F", _(f"{__gender__.get('F')}")
+        TRANSGENDER_FEMALE = "MTF", _(f"{__gender__.get('MTF')}")
+        TRANSGENDER_MALE = "FTM", _(f"{__gender__.get('FTM')}")
+        NON_BINARY = "NBN", _(f"{__gender__.get('NBN')}")
+        __empty__ = _(f"{__gender__.get('none')}")
+
+    class Ethnicity(TextChoices):
+        ASIAN = "ASN", _(f"{__ethnicity__.get('ASN')}")
+        BLACK = "BLK", _(f"{__ethnicity__.get('BLK')}")
+        Native = "NAT", _(f"{__ethnicity__.get('NAT')}")
+        HISPANIC = "HPN", _(f"{__ethnicity__.get('HPN')}")
+        MIDDLE_EASTERN = "MDE", _(f"{__ethnicity__.get('MDE')}")
+        HAWAIIAN = "HWN", _(f"{__ethnicity__.get('HWN')}")
+        OTHER = "OTH", _(f"{__ethnicity__.get('OTH')}")
+        WHITE = "WHT", _(f"{__ethnicity__.get('WHT')}")
+        __empty__ = _(f"{__ethnicity__.get('none') }")
+
+    owner = ForeignKey(User, on_delete=CASCADE, related_name="patient")
+    authorized_party = ManyToManyField(User, related_name="authorized_party")
+    sponsor = ForeignKey(User, on_delete=CASCADE, related_name="guarantor")
+    gender = CharField(
+        max_length=3,
+        choices=Gender.choices,
+        default=Gender.__empty__,
+    )
+    ethnicity = CharField(
+        max_length=3, choices=Ethnicity.choices, default=Ethnicity.__empty__
+    )
+    internal_notes = TextField(null=True, blank=True)
+
+    def __str__(self):
+        return self.owner.username
+
+    def user_can_manage_me(self, owner):
+        return owner == self.owner or owner.has_perm("your_app.manage_object")
+
+
 class Appointment(Model):
     class Action(TextChoices):
         COMPLETE = "CMPL", _("Completed")
@@ -56,7 +101,7 @@ class Appointment(Model):
         IN_PROGRESS = "INPR", _("In Progress")
         __empty__ = "('UNKNOWN')"
 
-    patient = ForeignKey(User, on_delete=CASCADE, related_name="appointment_for")
+    patient = ForeignKey(Patient, on_delete=CASCADE, related_name="appointment_for")
     scheduler = ForeignKey(User, on_delete=CASCADE, related_name="created_by")
     scheduled_time = DateTimeField(auto_now_add=True, null=True, blank=True)
     date_modified = DateTimeField(auto_now=True, null=True, blank=True)
@@ -131,51 +176,6 @@ class AuthorizedParty(Model):
         EMERGENCY = "KIN", _(f"{__relationship__.get('KIN')}")
 
     owner = ForeignKey(User, on_delete=CASCADE)
-
-
-class Patient(Model):
-    """
-    United States Census Beurau Ethnicity Information. https://www.census.gov/topics/population/race/about.html
-    Improved Ethinicity Information. https://www2.census.gov/cac/nac/meetings/2016-10/2016-nac-jones.pdf
-    """
-
-    class Gender(TextChoices):
-        MALE = "M", _(f"{__gender__.get('M')}")
-        FEMALE = "F", _(f"{__gender__.get('F')}")
-        TRANSGENDER_FEMALE = "MTF", _(f"{__gender__.get('MTF')}")
-        TRANSGENDER_MALE = "FTM", _(f"{__gender__.get('FTM')}")
-        NON_BINARY = "NBN", _(f"{__gender__.get('NBN')}")
-        __empty__ = _(f"{__gender__.get('none')}")
-
-    class Ethnicity(TextChoices):
-        ASIAN = "ASN", _(f"{__ethnicity__.get('ASN')}")
-        BLACK = "BLK", _(f"{__ethnicity__.get('BLK')}")
-        Native = "NAT", _(f"{__ethnicity__.get('NAT')}")
-        HISPANIC = "HPN", _(f"{__ethnicity__.get('HPN')}")
-        MIDDLE_EASTERN = "MDE", _(f"{__ethnicity__.get('MDE')}")
-        HAWAIIAN = "HWN", _(f"{__ethnicity__.get('HWN')}")
-        OTHER = "OTH", _(f"{__ethnicity__.get('OTH')}")
-        WHITE = "WHT", _(f"{__ethnicity__.get('WHT')}")
-        __empty__ = _(f"{__ethnicity__.get('none') }")
-
-    owner = ForeignKey(User, on_delete=CASCADE, related_name="patient")
-    authorized_party = ManyToManyField(User, related_name="authorized_party")
-    sponsor = ForeignKey(User, on_delete=CASCADE, related_name="guarantor")
-    gender = CharField(
-        max_length=3,
-        choices=Gender.choices,
-        default=Gender.__empty__,
-    )
-    ethnicity = CharField(
-        max_length=3, choices=Ethnicity.choices, default=Ethnicity.__empty__
-    )
-    internal_notes = TextField(null=True, blank=True)
-
-    def __str__(self):
-        return self.owner.username
-
-    def user_can_manage_me(self, owner):
-        return owner == self.owner or owner.has_perm("your_app.manage_object")
 
 
 class MedicalCondition(Model):

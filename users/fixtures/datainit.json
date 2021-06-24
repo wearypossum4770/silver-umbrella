@@ -2664,10 +2664,21 @@
     }
   },
   {
+    "model": "appointments.patient",
+    "pk": 4,
+    "fields": {
+      "owner": 50,
+      "sponsor": 47,
+      "gender": "F",
+      "ethnicity": "WHT",
+      "authorized_party": [47,50,56,57,58,60]
+    }
+  },
+  {
     "model": "appointments.appointment",
     "pk": 1,
     "fields": {
-      "patient": 1,
+      "patient": 2,
       "scheduler": 50,
       "external_identifier": "6fb11e37-4ba5-46d1-88b7-2b944ab6468f_ckq3wjcl30000qqveqfm3v3gs",
       "visit_identifier": "e90b5689-3eca-4260-9561-6de2dc5c4a38",
@@ -2696,7 +2707,7 @@
       "location": "Health Department",
       "is_archived": false,
       "action_status": "SCHD",
-      "patient": 59,
+      "patient": 1,
       "scheduler": 50,
       "date_modified": "2021-06-19T15:14:31.672Z",
       "soft_delete": false,
@@ -2708,7 +2719,7 @@
     "model": "appointments.appointment",
     "pk": 4,
     "fields": {
-      "patient": 46,
+      "patient": 3,
       "scheduler": 50,
       "scheduled_time": "2021-06-08T06:00:00Z",
       "date_modified": "2021-06-19T15:14:31.672Z",
@@ -2736,7 +2747,7 @@
       "location": "Health Department",
       "is_archived": false,
       "action_status": "SCHD",
-      "patient": 46,
+      "patient": 3,
       "scheduler": 44
     }
   }

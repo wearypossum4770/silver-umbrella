@@ -46,29 +46,28 @@ def user_is_clinic_staff(user):
 
 @login_required
 @user_passes_test(user_is_authenticated)
-def edit_or_create_appointment_by_patient_id(request):
-    _u = get_user_model().objects.get(pk=request.user.id)
-    patient = Patient.objects.get(owner=_u)
+def edit_or_create_appointment_by_patient(request):
+    _user = get_user_model().objects.get(pk=request.user.id)
+    patient = Patient.objects.get(owner=_user)
     # addresses = _u
     user_is_authorized_party = (
         patient.authorized_party.all().filter(username=request.user.username).exists()
     )
-    if request.method == "POST" and user_is_authorized_party:
-
+    if request.method == "POST":
         form = AppointmentForm(request.POST)
+        if form.is_valid:
+            form.save()
     else:
         form = AppointmentForm()
-    return render(
-        request, "appointments/create_appointment.html", {"form": form, "min": datetime}
-    )
+    return render(request, "appointments/create_appointment.html", {"form": form})
 
 
 @login_required
 @user_passes_test(user_is_authenticated)
 def api_edit_or_create_appointment_by_patient_id(request, patient_id):
     context = {}
-    _u = get_user_model().objects.get(pk=patient_id)
-    patient = Patient.objects.get(owner=_u)
+    _user = get_user_model().objects.get(pk=patient_id)
+    patient = Patient.objects.get(owner=_user)
     user_is_authorized_party = (
         patient.authorized_party.all().filter(username=request.user.username).exists()
     )
@@ -106,18 +105,18 @@ def api_edit_or_create_appointment_by_patient_id(request, patient_id):
 @user_passes_test(user_is_authenticated)
 def appointment_details(request, appointment_id):
     appointment = get_object_or_404(Appointment, pk=appointment_id, is_archived=False)
-    if appointment.patient.username == request.user.username:
-        return JsonResponse(
-            {
-                "patient": appointment.patient.username,
-                "scheduler": appointment.scheduler.username,
-                "scheduled_time": appointment.scheduled_time,
-                "start_time": appointment.start_time,
-                "end_time": appointment.end_time,
-                "location": appointment.location,
-                "action_status": appointment.action_status,
-            }
-        )
+    # if appointment.patient == patient:
+    return JsonResponse(
+        {
+            "patient": appointment.patient.username,
+            "scheduler": appointment.scheduler.username,
+            "scheduled_time": appointment.scheduled_time,
+            "start_time": appointment.start_time,
+            "end_time": appointment.end_time,
+            "location": appointment.location,
+            "action_status": appointment.action_status,
+        }
+    )
 
 
 @login_required
@@ -128,7 +127,7 @@ def view_archived(request):
     )
     archived_appointments = [
         {
-            "patient": appt.patient.username,
+            "patient": appt.patient.id,
             "scheduler": appt.scheduler.username,
             "scheduled_time": appt.scheduled_time,
             "start_time": appt.start_time,
@@ -196,7 +195,8 @@ def view_appointments(request):
     Allows a patient or authorized user to view appointments
     """
     context = {}
-    appt = Appointment.objects.filter(patient=request.user.id, is_archived=False)
+    patient = Patient.objects.get(owner=request.user.id)
+    appt = Appointment.objects.filter(patient=patient, is_archived=False)
     if request.user.is_authenticated:
         context["appointment_list"] = [
             {

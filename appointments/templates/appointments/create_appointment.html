@@ -41,13 +41,6 @@
   <button onclick="handleClick(event)" type="submit">Submit</button>
 </form>
 <script>
-  var importObject = {
-    imports: { imported_func: (arg) => console.log(arg) },
-  };
-  WebAssembly.instantiateStreaming(
-    fetch('{% static "simple.wasm" %}'),
-    importObject
-  ).then((obj) => obj.instance.exports.exported_func());
   function submitform() {}
   function handleClick(event) {
     event.preventDefault();

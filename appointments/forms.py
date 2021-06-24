@@ -10,8 +10,10 @@ class AppointmentForm(ModelForm):
             "start_time",
             "end_time",
             "location",
+            "patient",
+            "scheduler",
         )
 
-    def form_valid(self, form):
-        form.instance.scheduler = self.request.user
-        return super().form_valid(form)
+    # def form_valid(self, form):
+    #     form.instance.scheduler = self.request.user
+    #     return super().form_valid(form)

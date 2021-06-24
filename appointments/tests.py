@@ -12,6 +12,7 @@ from appointments.views import (
     api_edit_or_create_appointment_by_patient_id,
     appointment_details,
     cancel_appointment_by_appointment_id,
+    edit_or_create_appointment_by_patient,
     make_appointment,
     view_appointments,
     view_archived_appointments,
@@ -39,6 +40,11 @@ create_appointment_mapping = {
 
 description = "Contact with and (suspected) exposure to COVID-19"
 
+ssr_appointment = {
+    "start_time": "2021-06-24T18:00:00.000Z",
+    "end_time": "2021-06-24T18:30:00.000Z",
+    "location": "Health Department",
+}
 
 new_appointment = {
     "visit_identifier": "72f7024f-58e8-48b7-a9be-a44bb7165b53",
@@ -79,12 +85,27 @@ class TestAppointment(TestCase):
         cls.theon = get_user("theon.greyjoy")
         cls.catelyn = get_user("catelyn.stark")
         cls.washington = get_user("george.washington")
+        cls.catelyn_as_patient = Patient.objects.get(owner=cls.catelyn)
         cls.clinic_appointments = Appointment.objects.all()
         cls.primo = Appointment.objects.get(pk=2)
 
     @classmethod
     def tearDownClass(cls):
         super().tearDownClass()
+
+    def test_edit_or_create_appointment_by_patient(self):
+        request = self.factory.get("appointments/schedule-appointment/")
+        request.user = self.catelyn
+        ssr_appointment.update(
+            scheduler=self.catelyn,
+            patient=self.catelyn_as_patient,
+        )
+        request.POST = ssr_appointment
+        response = edit_or_create_appointment_by_patient(request)
+        assert response.status_code == 200
+        catelyn_appointments = Appointment.objects.filter(
+            patient=self.catelyn_as_patient
+        )
 
     def test_view_archived_appointments_appointments(self):
         request = self.factory.get("appointments/1/archive/")
@@ -105,7 +126,7 @@ class TestAppointment(TestCase):
         assert gw.get("action_status") == archived_appointments["action_status"]
 
     def test_theon_appointment_patient(self):
-        assert self.primo.patient.id == 59
+        assert self.primo.patient.id == 1
 
     def test_theon_appointment_scheduler(self):
         assert self.primo.scheduler.id == 50
@@ -179,7 +200,7 @@ class TestAppointment(TestCase):
 
     def test_user_is_authenticated_appointment_details_view(self):
         request = self.factory.get("/appointments/2/")
-        request.user = self.theon
+        request.user = self.washington
         response = appointment_details(request, 2)
         details = json_reader(response.content)
         assert details.get("action_status") == "SCHD"
