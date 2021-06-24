@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from asgiref.sync import sync_to_async
 from django.contrib.auth import authenticate, get_user_model
 from django.contrib.auth.decorators import login_required, user_passes_test
@@ -40,6 +42,25 @@ def user_is_patient(user):
 
 def user_is_clinic_staff(user):
     return user.is_clinic_staff
+
+
+@login_required
+@user_passes_test(user_is_authenticated)
+def edit_or_create_appointment_by_patient_id(request):
+    _u = get_user_model().objects.get(pk=request.user.id)
+    patient = Patient.objects.get(owner=_u)
+    # addresses = _u
+    user_is_authorized_party = (
+        patient.authorized_party.all().filter(username=request.user.username).exists()
+    )
+    if request.method == "POST" and user_is_authorized_party:
+
+        form = AppointmentForm(request.POST)
+    else:
+        form = AppointmentForm()
+    return render(
+        request, "appointments/create_appointment.html", {"form": form, "min": datetime}
+    )
 
 
 @login_required

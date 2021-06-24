@@ -82,18 +82,26 @@ class User(AbstractUser):
     # internal_notes = TextField(default="", null=True, blank=True)
     # def clean_fields(self):
     #     super().clean_fields()
+    @property
+    def full_name(self):
+        self.normalizer()
+        return self.get_full_name()
 
     def normalizer(self):
-        validate_date_of_birth(self.is_patient, self.date_of_birth)
-        self.handle_deceased()
+        if self.date_of_birth:
+            validate_date_of_birth(self.is_patient, self.date_of_birth)
+            self.handle_deceased()
+
         if self.first_name is not None:
-            self.first_name.strip().capitalize()
+            self.first_name = self.first_name.strip().capitalize()
+
         if self.middle_name is not None:
-            self.middle_name.strip().capitalize()
+            self.middle_name = self.middle_name.strip().capitalize()
         if self.last_name is not None:
-            self.last_name.strip().capitalize()
+            self.last_name = self.last_name.strip().capitalize()
         if self.suffix is not None:
-            self.suffix.strip().capitalize()
+            self.suffix = self.suffix.strip().capitalize()
+        self.save()
 
     class Meta:
         constraints = [

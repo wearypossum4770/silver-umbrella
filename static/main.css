@@ -1,8 +1,60 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 1s;
+}
+.darkcontainer{
+  position: relative;
+}
+label {
+  display: flex;
+  align-items: center;
 }
 
+span::after {
+  padding-left: 5px;
+}
+
+input:invalid + span::after {
+  content: '✖';
+}
+
+input:valid+span::after {
+  content: '✓';
+}
+.dark{
+  background-color: black;
+}
+.moon-logo{
+  opacity: 0;
+  transform: translateY(20%) rotateZ(50deg);
+  transition: all 1s ease-out;
+}
+.sun-logo{
+  opacity: 1;
+  transform: translateY(0) rotateZ(0deg);
+  transition: all 1s ease-out;
+}
+.animate-sun{
+  opacity: 0;
+  transform: translateY(20%) rotateZ(100deg);
+  color: aliceblue;
+}
+.animate-moon{
+  opacity: 1;
+  transform: translateY(0%) rotateZ(0deg);
+  color: aliceblue;
+}
+.sun, .moon{
+  font-size: 10rem;
+  width: fit-content;
+  height: fit-content;
+}
+
+.moon{
+  position: absolute;
+  inset: 0;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;

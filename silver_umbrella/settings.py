@@ -12,26 +12,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(find_dotenv())
 DEBUG = getenv("DEBUG", False)
 SECRET_KEY = getenv("SECRET_KEY", "abcdefg12345678")
-ALLOWED_HOSTS = ('silver-umbrella-2019.herokuapp.com', 'localhost')
+ALLOWED_HOSTS = (
+    "silver-umbrella-2019.herokuapp.com",
+    "localhost",
+    "127.0.0.1",
+)
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
-# =================================================================================
-# DEBUGGING WHILE DEPLOYED
-# =================================================================================
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "handlers": {
-        "console": {
-            "class": "logging.StreamHandler",
-        },
-    },
-    "loggers": {
-        "django": {
-            "handlers": ["console"],
-            "level": getenv("DJANGO_LOG_LEVEL", DEBUG),
-        },
-    },
-}
+
 # =================================================================================
 # ADMINISTRATIVE
 # =================================================================================
@@ -139,7 +126,7 @@ DATABASES = {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
         "TEST": {
-            "NAME": BASE_DIR / "db_test.sqlite3",
+            "NAME": BASE_DIR / "db_testDB.sqlite3",
         },
     }
 }
@@ -247,5 +234,4 @@ AXES_LOCK_OUT_BY_COMBINATION_USER_AND_IP = True
 # =================================================================================
 # HEROKU / LINODE / DEPLOYMENT SETTINGS
 # =================================================================================
-TEST_RUNNER = "django_heroku.HerokuDiscoverRunner"
-django_heroku.settings(locals())
+# django_heroku.settings(locals())

@@ -10,8 +10,6 @@ User = get_user_model()
 @receiver(post_save, sender=User)
 def create_profile(sender, instance, created, *args, **kwargs):
     if created:
-        profile = Profile.objects.create(user=instance)
-        profile.normalizer()
-        profile.save()
+        Profile.objects.create(user=instance)
     else:
         instance.profile.save()

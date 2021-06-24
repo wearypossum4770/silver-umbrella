@@ -15,6 +15,8 @@ from users.models import Address, Profile
 # /https://www.twilio.com/blog/asynchronous-http-requests-in-python-with-aiohttp
 # file:///C:/Users/BidDaddy/Downloads/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-en.pdf
 
+User = get_user_model()
+
 
 def genryusai_shigekuni_yamamoto_data():
     with open(f"{settings.BASE_DIR}/users/fixtures/new_registrant.json") as _d:
@@ -22,11 +24,17 @@ def genryusai_shigekuni_yamamoto_data():
     return __data__
 
 
+@pytest.mark.django_db
+def john_doe():
+    with open(f"{settings.BASE_DIR}/users/fixtures//new_registrant2.json") as person:
+        user_obj = json.load(person)
+    user = User.objects.create_user(**user_obj)
+    user.normalizer()
+
+
 email = {"subject": "Test Message", "body": "This is a new Message"}
 raw_password = "🚫😎💡PASSword123!@#"
 hashed = "pbkdf2_sha256$260000$D1SAgiii3dwy8YyKMsnKFA$22c8aUvcUGW+8z7TWCq8VFWCYfsJg6Pv0y1AJqj6aHU="
-
-User = get_user_model()
 
 
 @pytest.mark.asyncio
@@ -49,6 +57,8 @@ class TestProfile(TestCase):
     def setUpClass(cls):
         super().setUpClass()
         cls.staff_user = User.objects.get(pk=46)
+        john_doe()
+        cls.john = User.objects.get(username="john.daniel.doe")
         cls.trump = User.objects.get(pk=45)
         cls.reagan = User.objects.get(last_name="Reagan")
         cls.clinton = User.objects.get(pk=42)
@@ -70,6 +80,11 @@ class TestProfile(TestCase):
         assert len(mail.outbox) == 0
 
         # assert example ==True
+
+    def test_user_instance_normalizer(self):
+        assert self.john.first_name == "John"
+        assert self.john.middle_name == "Daniel"
+        assert self.john.last_name == "Doe"
 
     def test_clinton_madien_name(self):
         assert self.clinton.madien_name == "Blythe III"
