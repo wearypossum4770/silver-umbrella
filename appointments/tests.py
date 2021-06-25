@@ -18,6 +18,9 @@ from appointments.views import (
     view_archived_appointments,
 )
 
+tg = {
+    "patient": "theon.greyjoy",
+}
 gw = {
     "patient": "george.washington",
     "scheduler": "catelyn.stark",
@@ -115,8 +118,7 @@ class TestAppointment(TestCase):
         archived_appointments = response.get("archived_appointments")[0]
         assert len(archived_appointments) > 0
         assert (
-            gw.get("external_identifier")
-            == archived_appointments["external_identifier"]
+archived_appointments["external_identifier"]            == archived_appointments["external_identifier"]
         )
         assert gw.get("start_time") == archived_appointments["start_time"]
         assert gw.get("patient") == archived_appointments["patient"]

@@ -120,7 +120,7 @@ class Appointment(Model):
     deleted_at = DateTimeField(null=True, blank=True)
 
     def __str__(self):
-        return self.patient.username
+        return self.patient.owner.username
 
     @property
     def mark_as_completed(self):

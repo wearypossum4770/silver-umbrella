@@ -108,7 +108,7 @@ def appointment_details(request, appointment_id):
     # if appointment.patient == patient:
     return JsonResponse(
         {
-            "patient": appointment.patient.username,
+            "patient": appointment.patient.owner.username,
             "scheduler": appointment.scheduler.username,
             "scheduled_time": appointment.scheduled_time,
             "start_time": appointment.start_time,
@@ -153,10 +153,10 @@ def view_archived_appointments(request, patient_id):
         user_is_authorized_party=user_is_authorized_party,
     )
     if user_is_authorized_party:
-        appointments = get_list_or_404(Appointment, patient_id=patient_id)
+        appointments = get_list_or_404(Appointment,is_archived=True,  patient_id=patient_id)
         archived_appointments = [
             {
-                "patient": appt.patient.username,
+                "patient": appt.patient.owner.username,
                 "scheduler": appt.scheduler.username,
                 "start_time": appt.start_time,
                 "end_time": appt.end_time,
