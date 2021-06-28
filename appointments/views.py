@@ -211,11 +211,9 @@ def view_appointments(request):
 
 @login_required
 @user_passes_test(user_is_authenticated)
-def cancel_appointment_by_appointment_id(
-    request, appointment_id, cancel_appointment=False
-):
-    if cancel_appointment:
-        appointment = get_object_or_404(Appointment, external_identifier=appointment_id)
+def cancel_appointment_by_appointment_id(request, _id, cancel=False):
+    if cancel:
+        appointment = get_object_or_404(Appointment, external_identifier=_id)
         appointment.action_status = Appointment.Action.CANCELLED
         appointment.save()
     return appointment.action_status == Appointment.Action.CANCELLED
@@ -224,7 +222,7 @@ def cancel_appointment_by_appointment_id(
 @login_required
 @user_passes_test(user_is_authenticated)
 def make_appointment(request, patient_id, *args, **kwargs):
-    _user=request.user.id
+    _user = request.user.id
     context = {}
     patient = Patient.objects.get(owner=patient_id)
     is_authorized = patient.authorized_party.all().filter(pk=id).exists()

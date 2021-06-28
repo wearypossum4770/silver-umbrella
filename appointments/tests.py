@@ -161,6 +161,8 @@ class TestAppointment(TestCase):
         assert logged_in == True
 
     def test_patient_apppointment_list(self):
+        visit_identifier = new_appointment.get("visit_identifier")
+        external_identifier=new_appointment.get("external_identifier")
         request = self.factory.get("/appointments/")
         request.user = self.theon
         response = view_appointments(request)
@@ -171,12 +173,8 @@ class TestAppointment(TestCase):
         assert appointment_list["location"] == new_appointment.get("location")
         assert appointment_list["scheduled_time"] == appointment_list["scheduled_time"]
         assert appointment_list["start_time"] == new_appointment.get("start_time")
-        assert new_appointment.get("visit_identifier") == new_appointment.get(
-            "visit_identifier"
-        )
-        assert appointment_list["external_identifier"] == new_appointment.get(
-            "external_identifier"
-        )
+        assert visit_identifier == visit_identifier
+        assert appointment_list["external_identifier"] == external_identifier
 
     def setup_api_edit_or_create_appointment_by_patient_id(
         self, appt_id, user=AnonymousUser()
