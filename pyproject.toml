@@ -14,7 +14,7 @@ automock_unlocked = true
 DJANGO_SETTINGS_MODULE = "silver_umbrella.settings"
 minversion = "6.0"
 fail_fast = true
-addopts = "-ra -vv --emoji  -p no:warnings"
+addopts = "-ra -vv --emoji  -p no:warnings --reuse-db"
 python_files = [
   "test.py",
   "tests.py",

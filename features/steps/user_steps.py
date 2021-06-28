@@ -5,9 +5,12 @@ from behave import given, step, then, when
 def step_impl(context):
     ...
 
+
 @when("user accesses profile")
 def step_impl(context):
     ...
+
+
 @then("user can view profile.")
 def step_impl(context):
     ...

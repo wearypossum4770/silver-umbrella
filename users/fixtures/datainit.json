@@ -2717,6 +2717,22 @@
   },
   {
     "model": "appointments.appointment",
+    "pk": 3,
+    "fields": {
+      "external_identifier": "ca6bb4b5-2aff-48f9-9b01-72dc7d82421f_ckpxb29iy0000anveffz3ktbu",
+      "visit_identifier": "33840855-e78a-4054-98c5-5e72e63f09d9",
+      "scheduled_time": "2021-06-08T06:00:00Z",
+      "start_time": "2021-06-08T20:00:40Z",
+      "end_time": "2021-06-08T21:30:00Z",
+      "location": "Health Department",
+      "is_archived": false,
+      "action_status": "SCHD",
+      "patient": 3,
+      "scheduler": 44
+    }
+  },
+  {
+    "model": "appointments.appointment",
     "pk": 4,
     "fields": {
       "patient": 3,
@@ -2733,22 +2749,6 @@
       "soft_delete": false,
       "is_deleted": false,
       "deleted_at": null
-    }
-  },
-  {
-    "model": "appointments.appointment",
-    "pk": 3,
-    "fields": {
-      "external_identifier": "ca6bb4b5-2aff-48f9-9b01-72dc7d82421f_ckpxb29iy0000anveffz3ktbu",
-      "visit_identifier": "33840855-e78a-4054-98c5-5e72e63f09d9",
-      "scheduled_time": "2021-06-08T06:00:00Z",
-      "start_time": "2021-06-08T20:00:40Z",
-      "end_time": "2021-06-08T21:30:00Z",
-      "location": "Health Department",
-      "is_archived": false,
-      "action_status": "SCHD",
-      "patient": 3,
-      "scheduler": 44
     }
   }
 ]

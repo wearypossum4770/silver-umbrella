@@ -4,7 +4,7 @@ owasp = {
         "maxLength": 128,
         "minLength": 10,
         "minPhraseLength": 20,
-        "minOptionalTestsToPass":4,
+        "minOptionalTestsToPass": 4,
     }
 }
 

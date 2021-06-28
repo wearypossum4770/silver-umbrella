@@ -111,14 +111,15 @@ class TestAppointment(TestCase):
         )
 
     def test_view_archived_appointments_appointments(self):
-        request = self.factory.get("appointments/1/archive/")
+        request = self.factory.get("appointments/2/archive/")
         request.user = self.washington
-        response = view_archived_appointments(request, 1)
+        response = view_archived_appointments(request, 2)
         response = json_reader(response.content)
         archived_appointments = response.get("archived_appointments")[0]
         assert len(archived_appointments) > 0
         assert (
-archived_appointments["external_identifier"]            == archived_appointments["external_identifier"]
+            archived_appointments["external_identifier"]
+            == archived_appointments["external_identifier"]
         )
         assert gw.get("start_time") == archived_appointments["start_time"]
         assert gw.get("patient") == archived_appointments["patient"]
@@ -177,10 +178,10 @@ archived_appointments["external_identifier"]            == archived_appointments
             "external_identifier"
         )
 
-    def setup_api_edit_or_create_appointment_by_patient_id(self, appt_id, user=None):
-        if user is None:
-            user = AnonymousUser()
-        request = self.factory.get("appointments/schedule-appointment/59")
+    def setup_api_edit_or_create_appointment_by_patient_id(
+        self, appt_id, user=AnonymousUser()
+    ):
+        request = self.factory.get("appointments/schedule-appointment/1")
         request.user = user
         request.POST = {**create_appointment_mapping}
         response = api_edit_or_create_appointment_by_patient_id(request, appt_id)
@@ -190,14 +191,14 @@ archived_appointments["external_identifier"]            == archived_appointments
 
     def test_authorized_party_api_edit_or_create_appointment_by_patient_id(self):
         obj = self.setup_api_edit_or_create_appointment_by_patient_id(
-            59,
-            user=self.theon,
+            1,
+            user=self.washington,
         )
         assert obj.get("created") == True
-        assert obj.get("user_is_authorized_party") == True
+        assert obj.get("is_authorized") == True
 
     def test_unauthorized_api_edit_or_create_appointment_by_patient_id_redirect(self):
-        response = self.setup_api_edit_or_create_appointment_by_patient_id(59)
+        response = self.setup_api_edit_or_create_appointment_by_patient_id(1)
         assert response.status_code == 302
 
     def test_user_is_authenticated_appointment_details_view(self):

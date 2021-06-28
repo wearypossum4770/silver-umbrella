@@ -49,10 +49,9 @@ def user_is_clinic_staff(user):
 def edit_or_create_appointment_by_patient(request):
     _user = get_user_model().objects.get(pk=request.user.id)
     patient = Patient.objects.get(owner=_user)
+    username = request.user.username
     # addresses = _u
-    user_is_authorized_party = (
-        patient.authorized_party.all().filter(username=request.user.username).exists()
-    )
+    is_authorized = patient.authorized_party.all().filter(username=username).exists()
     if request.method == "POST":
         form = AppointmentForm(request.POST)
         if form.is_valid:
@@ -66,15 +65,14 @@ def edit_or_create_appointment_by_patient(request):
 @user_passes_test(user_is_authenticated)
 def api_edit_or_create_appointment_by_patient_id(request, patient_id):
     context = {}
+    username = request.user.username
     _user = get_user_model().objects.get(pk=patient_id)
     patient = Patient.objects.get(owner=_user)
-    user_is_authorized_party = (
-        patient.authorized_party.all().filter(username=request.user.username).exists()
-    )
+    is_authorized = patient.authorized_party.all().filter(username=username).exists()
     context.update(
-        user_is_authorized_party=user_is_authorized_party,
+        is_authorized=is_authorized,
     )
-    if user_is_authorized_party:
+    if is_authorized:
         obj, created = Appointment.objects.get_or_create(
             patient_id=patient_id,
             scheduler_id=request.user.id,
@@ -97,7 +95,6 @@ def api_edit_or_create_appointment_by_patient_id(request, patient_id):
                 "action_status": obj.action_status,
             },
         )
-        # if not obj.user_can_manage_me(request.user):
     return JsonResponse(context)
 
 
@@ -105,7 +102,7 @@ def api_edit_or_create_appointment_by_patient_id(request, patient_id):
 @user_passes_test(user_is_authenticated)
 def appointment_details(request, appointment_id):
     appointment = get_object_or_404(Appointment, pk=appointment_id, is_archived=False)
-    # if appointment.patient == patient:
+    # if appointment.patient == patient: # to ensure only patient can see details
     return JsonResponse(
         {
             "patient": appointment.patient.owner.username,
@@ -144,16 +141,16 @@ def view_archived(request):
 @user_passes_test(user_is_authenticated)
 def view_archived_appointments(request, patient_id):
     context = {}
-
-    patient = Patient.objects.get(owner_id=patient_id)
-    user_is_authorized_party = (
-        patient.authorized_party.all().filter(username=request.user.username).exists()
-    )
+    username = request.user.username
+    patient = Patient.objects.get(pk=patient_id)
+    is_authorized = patient.authorized_party.all().filter(username=username).exists()
     context.update(
-        user_is_authorized_party=user_is_authorized_party,
+        is_authorized=is_authorized,
     )
-    if user_is_authorized_party:
-        appointments = get_list_or_404(Appointment,is_archived=True,  patient_id=patient_id)
+    if is_authorized:
+        appointments = Appointment.objects.filter(
+            is_archived=True, patient_id=patient.id
+        )
         archived_appointments = [
             {
                 "patient": appt.patient.owner.username,
@@ -227,16 +224,21 @@ def cancel_appointment_by_appointment_id(
 @login_required
 @user_passes_test(user_is_authenticated)
 def make_appointment(request, patient_id, *args, **kwargs):
+    _user=request.user.id
     context = {}
     patient = Patient.objects.get(owner=patient_id)
-    user_is_authorized_party = len(
-        [
-            user.username
-            for user in patient.authorized_party.all()
-            if user.username == request.user.username
-        ]
-    )
-
+    is_authorized = patient.authorized_party.all().filter(pk=id).exists()
+    if is_authorized:
+        obj, created = Appointment.objects.get_or_create(
+            patient_id=patient_id,
+            scheduler_id=_user,
+            is_archived=False,
+            location=request.POST.get("location"),
+            start_time=request.POST.get("start_time"),
+            end_time=request.POST.get("end_time"),
+            visit_identifier=request.POST.get("visit_identifier"),
+            action_status=Appointment.Action.SCHEDULED,
+        )
     return JsonResponse(context)
 
 

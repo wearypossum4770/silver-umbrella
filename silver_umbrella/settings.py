@@ -42,7 +42,7 @@ THIRD_PARTY_APPS = (
     "corsheaders",
     "rest_framework",
 )
-DEVELOPMENT_APPS = ("whitenoise.runserver_nostatic",)
+DEVELOPMENT_APPS = ("whitenoise.runserver_nostatic", "django_extensions")
 PROJECT_APPS = (
     "users.apps.UsersConfig",
     "blog.apps.BlogConfig",
