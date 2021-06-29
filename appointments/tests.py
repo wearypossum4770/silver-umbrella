@@ -18,9 +18,6 @@ from appointments.views import (
     view_archived_appointments,
 )
 
-tg = {
-    "patient": "theon.greyjoy",
-}
 gw = {
     "patient": "george.washington",
     "scheduler": "catelyn.stark",
@@ -162,7 +159,7 @@ class TestAppointment(TestCase):
 
     def test_patient_apppointment_list(self):
         visit_identifier = new_appointment.get("visit_identifier")
-        external_identifier=new_appointment.get("external_identifier")
+        external_identifier = new_appointment.get("external_identifier")
         request = self.factory.get("/appointments/")
         request.user = self.theon
         response = view_appointments(request)
@@ -231,7 +228,7 @@ class TestAppointment(TestCase):
         completed = cancel_appointment_by_appointment_id(
             request,
             "ca6bb4b5-2aff-48f9-9b01-72dc7d82421f_ckpxb29iy0000anveffz3ktbu",
-            cancel_appointment=True,
+            cancel=True,
         )
         cancelled_appointment = Appointment.objects.get(
             external_identifier="ca6bb4b5-2aff-48f9-9b01-72dc7d82421f_ckpxb29iy0000anveffz3ktbu"

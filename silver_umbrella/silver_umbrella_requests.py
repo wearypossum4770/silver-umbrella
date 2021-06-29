@@ -23,16 +23,16 @@ async def main():
         "/appointments/1/",
     ]
     async with aiohttp.ClientSession(cookies=jar) as session:
-        async with session.get(
-            "https://silver-umbrella-2019.herokuapp.com/"
-        ) as herokuapp:
-            request_object["herokuapp"] = herokuapp.headers
         for request in reqs:
             async with session.get(**request) as primaryPost:
                 request_object[request.get("url")] = primaryPost.status
         for url in urls:
             async with session.get(f"{base_url}{url}") as useFetch:
                 request_object[url] = useFetch.status
+        async with session.get(
+            "https://silver-umbrella-2019.herokuapp.com/"
+        ) as herokuapp:
+            request_object["herokuapp"] = herokuapp.headers
 
 
 loop = asyncio.get_event_loop()

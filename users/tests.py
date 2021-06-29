@@ -9,13 +9,16 @@ from django.core import mail
 from django.test import TestCase
 from django.urls import reverse
 
-from users.forms import UserRegisterForm
+from users.forms import UserRegisterForm, handle_save_address
 from users.models import Address, Profile
+from users.views import handle_get_addresses
 
 # /https://www.twilio.com/blog/asynchronous-http-requests-in-python-with-aiohttp
 # file:///C:/Users/BidDaddy/Downloads/OWASP%20Application%20Security%20Verification%20Standard%204.0.2-en.pdf
 
-User = get_user_model()
+
+def get_user(_username):
+    return get_user_model().objects.get(username=_username)
 
 
 def genryusai_shigekuni_yamamoto_data():
@@ -28,14 +31,14 @@ def genryusai_shigekuni_yamamoto_data():
 def john_doe():
     with open(f"{settings.BASE_DIR}/users/fixtures//new_registrant2.json") as person:
         user_obj = json.load(person)
-    user = User.objects.create_user(**user_obj)
+    user = get_user_model().objects.create_user(**user_obj)
     user.normalizer()
 
 
 email = {"subject": "Test Message", "body": "This is a new Message"}
 raw_password = "🚫😎💡PASSword123!@#"
 hashed = "pbkdf2_sha256$260000$D1SAgiii3dwy8YyKMsnKFA$22c8aUvcUGW+8z7TWCq8VFWCYfsJg6Pv0y1AJqj6aHU="
-
+changeable_address = {"idempotent_key": "ckqib0rxk0000hsveixloydmx", "zipcode": "92688-2014"}
 
 @pytest.mark.asyncio
 @pytest.mark.django_db
@@ -44,7 +47,7 @@ def test_user_registered():
     is_valid = form.is_valid()
     form.save()
     assert is_valid == True
-    new_registrant = User.objects.get(username="genryusai.shigekuni.yamamoto")
+    new_registrant = get_user("genryusai.shigekuni.yamamoto")
     assert new_registrant is not None
     assert form.instance.username == "genryusai.shigekuni.yamamoto"
 
@@ -56,14 +59,18 @@ class TestProfile(TestCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
-        cls.staff_user = User.objects.get(pk=46)
+        cls.staff_user = get_user("joseph.robinette.biden.jr")
         john_doe()
-        cls.john = User.objects.get(username="john.daniel.doe")
-        cls.trump = User.objects.get(pk=45)
-        cls.reagan = User.objects.get(last_name="Reagan")
-        cls.clinton = User.objects.get(pk=42)
+        cls.theon = get_user("theon.greyjoy")
+        cls.john = get_user("john.daniel.doe")
+        cls.trump = get_user("donald.john.trump.sr")
+        cls.reagan = get_user("ronald.wilson.reagan")
+        cls.clinton = get_user("william.jefferson.clinton")
         cls.profile = Profile.objects.get(user=cls.staff_user)
         cls.address = Address.objects.get(idempotent_key="ckpfzqd7l0000nbve3vq1hfgl")
+        cls.unvalidated_address = Address.objects.get(
+            idempotent_key="ckqib0rxk0000hsveixloydmx"
+        )
         cls.trump.set_password(raw_password)
         cls.trump.save()
         cls.reagan.handle_deceased()
@@ -72,6 +79,15 @@ class TestProfile(TestCase):
     @classmethod
     def tearDownClass(cls):
         super().tearDownClass()
+
+    def test_theon_greyjoy_unvalidated_address_form(self):
+        changed = handle_save_address(
+            self.theon,
+            **changeable_address,
+        )
+        addresses = handle_get_addresses(self.theon)[0]
+        assert addresses.idempotent_key == "ckqib0rxk0000hsveixloydmx"
+        assert addresses.zipcode == "92688-2014"
 
     def test_send_email_to_user(self):
         assert self.staff_user.email_user(**email) == "No Error"

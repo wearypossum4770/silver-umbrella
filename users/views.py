@@ -4,7 +4,7 @@ from django.contrib.auth import authenticate, get_user_model, login
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import redirect, render
 
-from users.forms import ProfileUpdateForm, UserRegisterForm, UserUpdateForm
+from users.forms import AddressForm, ProfileUpdateForm, UserRegisterForm, UserUpdateForm
 from users.models import Address, Profile
 
 address_switcher = {
@@ -37,30 +37,39 @@ def registration(request):
     return render(request, "users/register.html", {"form": form})
 
 
-def handle_addresses(user, *args, **kwargs):
-    addr = Profile.objects.get(user=user)
-    print(user)
-    print(addr)
+def handle_get_addresses(user, idempotent_key=None):
+    addresses = user.profile.addresses.all()
+    return addresses.get(idempotent_key=idempotent_key) if idempotent_key else addresses
 
 
 @login_required
 def profile(request):
-
+    _user = request.user
+    addresses = handle_get_addresses(_user)
     if request.method == "POST":
-        user_form = UserUpdateForm(request.POST, instance=request.user)
-        profile_form = ProfileUpdateForm(
-            request.POST, request.FILES, instance=request.user.profile
-        )
-        if user_form.is_valid() and profile_form.is_valid():
+        _files = request.FILES
+        _data = request.POST
+        user_form = UserUpdateForm(_data, instance=_user)
+        profile_form = ProfileUpdateForm(_data, _files, instance=_user.profile)
+        address_form = AddressForm(_data)
+        if user_form.is_valid():
             user_form.save()
+        if profile_form.is_valid():
             profile_form.save()
-            messages.success(request, f"Your account has been updated!")
-            return redirect("profile")
-
+        messages.success(request, f"Your account has been updated!")
+        return redirect("profile")
     else:
-        user_form = UserUpdateForm(instance=request.user)
-        profile_form = ProfileUpdateForm(instance=request.user.profile)
-
-    context = {"user_form": user_form, "profile_form": profile_form}
-
-    return render(request, "users/profile.html", context)
+        address_form = AddressForm(instance=_user.profile)
+        user_form = UserUpdateForm(instance=_user)
+        profile_form = ProfileUpdateForm(instance=_user.profile)
+    print(addresses)
+    return render(
+        request,
+        "users/profile.html",
+        {
+            "user_form": user_form,
+            "profile_form": profile_form,
+            "address_form": address_form,
+            "addresses": addresses,
+        },
+    )

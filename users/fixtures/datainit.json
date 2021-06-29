@@ -1717,6 +1717,19 @@
     }
   },
   {
+    "model": "users.address",
+    "pk": 2,
+    "fields": {
+      "idempotent_key": "ckqib0rxk0000hsveixloydmx",
+      "street1": "STE K",
+      "street2": "29851 AVENTURA",
+      "city": "RANCHO SANTA MARGARITA",
+      "state": "CA",
+      "zipcode": "92688",
+      "address_type": "RESD"
+    }
+  },
+  {
     "model": "users.profile",
     "pk": 1,
     "fields": {
@@ -2241,7 +2254,7 @@
       "image": "default.webp",
       "mobile_number": null,
       "internal_notes": "",
-      "addresses": []
+      "addresses": [2]
     }
   },
   {
@@ -2362,7 +2375,7 @@
       "image": "default.webp",
       "mobile_number": null,
       "internal_notes": "",
-      "addresses": []
+      "addresses": [2]
     }
   },
   {
