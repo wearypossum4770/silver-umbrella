@@ -79,6 +79,8 @@ class User(AbstractUser):
     date_of_death = DateField(null=True, blank=True)
     retention_only = BooleanField(default=False)
     do_not_contact = BooleanField(default=False)
+    owasp_safe_password = BooleanField(default=False)
+    prompt_password_change = BooleanField(default=False)
     # internal_notes = TextField(default="", null=True, blank=True)
     # def clean_fields(self):
     #     super().clean_fields()
@@ -86,6 +88,12 @@ class User(AbstractUser):
     def full_name(self):
         self.normalizer()
         return self.get_full_name()
+
+    @property
+    def set_owasp_unsafe_password(self):
+        self.owasp_safe_password = False
+        self.prompt_password_change = True
+        self.save()
 
     def normalizer(self):
         if self.date_of_birth:
@@ -232,7 +240,7 @@ class Address(Model):
         BUSINESS = "BUSN", _("Business")
 
     idempotent_key = CharField(max_length=50, default=cuid)
-    address_type = CharField(max_length=4, choices=Type.choices)
+    address_type = CharField(max_length=4, null=True, blank=True, choices=Type.choices)
     street1 = CharField(max_length=100)
     street2 = CharField(max_length=100, null=True, blank=True)
     state = CharField(max_length=2, choices=State.choices, default=State.TN)

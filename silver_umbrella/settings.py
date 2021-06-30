@@ -18,7 +18,6 @@ ALLOWED_HOSTS = (
     "127.0.0.1",
 )
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
-
 # =================================================================================
 # ADMINISTRATIVE
 # =================================================================================
@@ -42,7 +41,11 @@ THIRD_PARTY_APPS = (
     "corsheaders",
     "rest_framework",
 )
-DEVELOPMENT_APPS = ("whitenoise.runserver_nostatic", "django_extensions")
+DEVELOPMENT_APPS = (
+    "debug_toolbar",
+    "whitenoise.runserver_nostatic",
+    "django_extensions",
+)
 PROJECT_APPS = (
     "users.apps.UsersConfig",
     "blog.apps.BlogConfig",
@@ -57,8 +60,7 @@ DJANGO_APPS = (
     "django.contrib.staticfiles",
 )
 INSTALLED_APPS = THIRD_PARTY_APPS + PROJECT_APPS + DJANGO_APPS
-if DEBUG:
-    INSTALLED_APPS += DEVELOPMENT_APPS
+
 # if "channels" in THIRD_PARTY_APPS:
 #     ASGI_APPLICATION = "silver_umbrella.asgi.application"
 # else:
@@ -82,7 +84,6 @@ CHANNEL_LAYERS = {
 # DATABASE / CACHE
 # =================================================================================
 def get_cache():
-
     try:
         return {
             "default": {
@@ -156,17 +157,21 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
     ),
 }
-
-# CORS_ORIGIN_WHITELIST = ('localhost')
-CORS_ALLOW_ALL_ORIGINS = True
-# ACCOUNT_AUTHENTICATION_METHOD = "username"
-# ACCOUNT_EMAIL_VERIFICATION = "none"
-CSRF_COOKIE_NAME = "csrftoken"
 # =================================================================================
 # SECURITY
 # =================================================================================
 validator = "django.contrib.auth.password_validation"
-MIDDLEWARE = (
+AXES_FAILURE_LIMIT = 3
+AXES_ENABLED = False
+AXES_COOLOFF_TIME = timedelta(hours=24)
+AXES_LOCK_OUT_BY_COMBINATION_USER_AND_IP = True
+# AXES_LOCKOUT_TEMPLATE
+# MIDDLEWARE += ("axes.middleware.AxesMiddleware",)
+# AUTHENTICATION_BACKENDS = (
+#     "axes.backends.AxesBackend",
+#     "django.contrib.auth.backends.ModelBackend",
+# )
+PRODUCTION_MIDDLEWARE = (
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
@@ -191,6 +196,20 @@ AUTH_PASSWORD_VALIDATORS = (
         "NAME": f"{validator}.NumericPasswordValidator",
     },
 )
+# CORS_ORIGIN_WHITELIST = ('localhost')
+CORS_ALLOW_ALL_ORIGINS = True
+# ACCOUNT_AUTHENTICATION_METHOD = "username"
+# ACCOUNT_EMAIL_VERIFICATION = "none"
+CSRF_COOKIE_NAME = "csrftoken"
+CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_HTTPONLY = True
+SECURE_HSTS_SECONDS = 60 * 60 * 24 * 7 * 52  # one year
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+# SECURE_SSL_REDIRECT = True
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+SESSION_COOKIE_SECURE = True
 # =================================================================================
 # TEMPLATES / STATIC FILES / MEDIA FILES
 # =================================================================================
@@ -216,22 +235,17 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
-
 LOGIN_REDIRECT_URL = "homepage"
 LOGIN_URL = "login"
-
-AXES_FAILURE_LIMIT = 3
-AXES_ENABLED = False
-
-AXES_COOLOFF_TIME = timedelta(hours=24)
-AXES_LOCK_OUT_BY_COMBINATION_USER_AND_IP = True
-# AXES_LOCKOUT_TEMPLATE
-# MIDDLEWARE += ("axes.middleware.AxesMiddleware",)
-# AUTHENTICATION_BACKENDS = (
-#     "axes.backends.AxesBackend",
-#     "django.contrib.auth.backends.ModelBackend",
-# )
 # =================================================================================
-# HEROKU / LINODE / DEPLOYMENT SETTINGS
+# HEROKU / LINODE / DEPLOYMENT or DEBUG SETTINGS
 # =================================================================================
-# django_heroku.settings(locals())
+INTERNAL_IPS = ("127.0.0.1",)
+if DEBUG:
+    INSTALLED_APPS += DEVELOPMENT_APPS
+    MIDDLEWARE = (
+        "debug_toolbar.middleware.DebugToolbarMiddleware",
+    ) + PRODUCTION_MIDDLEWARE
+else:
+    MIDDLEWARE = PRODUCTION_MIDDLEWARE
+    django_heroku.settings(locals())

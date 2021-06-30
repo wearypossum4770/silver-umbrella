@@ -29,10 +29,10 @@ async def main():
         for url in urls:
             async with session.get(f"{base_url}{url}") as useFetch:
                 request_object[url] = useFetch.status
-        async with session.get(
-            "https://silver-umbrella-2019.herokuapp.com/"
-        ) as herokuapp:
-            request_object["herokuapp"] = herokuapp.headers
+        # async with session.get(
+        #     "https://silver-umbrella-2019.herokuapp.com/"
+        # ) as herokuapp:
+        #     request_object["herokuapp"] = herokuapp.headers
 
 
 loop = asyncio.get_event_loop()

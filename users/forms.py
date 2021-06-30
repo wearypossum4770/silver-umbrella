@@ -11,12 +11,24 @@ def handle_save_address(user, **kwargs):
     address = user.profile.addresses.all().filter(
         idempotent_key=kwargs.get("idempotent_key")
     )[0]
-    address.address_type = kwargs.get("address_type")
-    address.street1 = kwargs.get("street1")
-    address.street2 = kwargs.get("street2")
-    address.state = kwargs.get("state")
-    address.city = kwargs.get("city")
-    address.zipcode = kwargs.get("zipcode")
+    address_type = kwargs.get("address_type")
+    street1 = kwargs.get("street1")
+    street2 = kwargs.get("street2")
+    state = kwargs.get("state")
+    city = kwargs.get("city")
+    zipcode = kwargs.get("zipcode")
+    if address_type is not None:
+        address.address_type = address_type
+    if street1 is not None:
+        address.street1 = street1
+    if street2 is not None:
+        address.street2 = street2
+    if state is not None:
+        address.state = state
+    if city is not None:
+        address.city = city
+    if zipcode is not None:
+        address.zipcode = zipcode
     address.save()
 
 

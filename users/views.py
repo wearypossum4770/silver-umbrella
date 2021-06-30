@@ -14,6 +14,10 @@ address_switcher = {
 }
 
 
+def user_unsafe_password(user):
+    return user.prompt_password_change
+
+
 def homepage(request):
     return render(request, "users/home.html")
 

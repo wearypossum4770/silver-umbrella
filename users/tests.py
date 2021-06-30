@@ -38,7 +38,11 @@ def john_doe():
 email = {"subject": "Test Message", "body": "This is a new Message"}
 raw_password = "🚫😎💡PASSword123!@#"
 hashed = "pbkdf2_sha256$260000$D1SAgiii3dwy8YyKMsnKFA$22c8aUvcUGW+8z7TWCq8VFWCYfsJg6Pv0y1AJqj6aHU="
-changeable_address = {"idempotent_key": "ckqib0rxk0000hsveixloydmx", "zipcode": "92688-2014"}
+changeable_address = {
+    "idempotent_key": "ckqib0rxk0000hsveixloydmx",
+    "zipcode": "92688-2014",
+}
+
 
 @pytest.mark.asyncio
 @pytest.mark.django_db

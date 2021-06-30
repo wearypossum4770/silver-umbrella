@@ -36,6 +36,7 @@ pytest-clarity = "*"
 pytest-asyncio = "*"
 black = "*"
 pytest-aiohttp = "*"
+django-debug-toolbar = "*"
 
 [requires]
 python_version = "3.8"

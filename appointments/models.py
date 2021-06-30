@@ -124,7 +124,7 @@ class Appointment(Model):
 
     @property
     def mark_as_completed(self):
-        ...
+        self.action_status = Appointment.Action.COMPLETE
 
     @property
     def mark_as_missed(self):
@@ -144,7 +144,7 @@ class Appointment(Model):
         ...
 
     @property
-    def mark_as_inprogress(self):
+    def mark_as_in_progress(self):
         ...
 
     @property
