@@ -1,6 +1,6 @@
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
-from django.forms import EmailField, ModelForm
+from django.forms import EmailField, ModelForm, ModelMultipleChoiceField
 
 from users.models import Address, Profile
 
@@ -73,15 +73,15 @@ class UserUpdateForm(ModelForm):
     class Meta:
         model = User
         fields = (
-            "nickname",
-            "first_name",
-            "last_name",
-            "middle_name",
             "title",
+            "first_name",
+            "middle_name",
+            "last_name",
+            "suffix",
+            "email",
+            "nickname",
             "honorific_prefix",
             "honorific_suffix",
-            "suffix",
-            "password",
         )
 
 

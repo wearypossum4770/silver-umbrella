@@ -26,6 +26,11 @@ def about(request):
     return render(request, "users/about.html")
 
 
+def handle_get_addresses(user, idempotent_key=None):
+    addresses = user.profile.addresses.all()
+    return addresses.get(idempotent_key=idempotent_key) if idempotent_key else addresses
+
+
 def registration(request):
     if request.method == "POST":
         form = UserRegisterForm(request.POST)
@@ -41,21 +46,27 @@ def registration(request):
     return render(request, "users/register.html", {"form": form})
 
 
-def handle_get_addresses(user, idempotent_key=None):
-    addresses = user.profile.addresses.all()
-    return addresses.get(idempotent_key=idempotent_key) if idempotent_key else addresses
+@login_required
+def change_addresses(request):
+    _user = request.user
+    addresses = handle_get_addresses(_user)
+    # address_form = AddressForm(_data)
+    # if address_form.is_valid():
+    # address_form.save()
+    # context.update(address_form=address_form)
+    ...
 
 
 @login_required
 def profile(request):
     _user = request.user
-    addresses = handle_get_addresses(_user)
+    context = {}
+
     if request.method == "POST":
-        _files = request.FILES
-        _data = request.POST
-        user_form = UserUpdateForm(_data, instance=_user)
-        profile_form = ProfileUpdateForm(_data, _files, instance=_user.profile)
-        address_form = AddressForm(_data)
+        _files, _data = request.FILES, request.POST
+        user_form, profile_form = UserUpdateForm(
+            _data, instance=_user
+        ), ProfileUpdateForm(_data, _files, instance=_user.profile)
         if user_form.is_valid():
             user_form.save()
         if profile_form.is_valid():
@@ -63,17 +74,11 @@ def profile(request):
         messages.success(request, f"Your account has been updated!")
         return redirect("profile")
     else:
-        address_form = AddressForm(instance=_user.profile)
         user_form = UserUpdateForm(instance=_user)
         profile_form = ProfileUpdateForm(instance=_user.profile)
-    print(addresses)
-    return render(
-        request,
-        "users/profile.html",
-        {
-            "user_form": user_form,
-            "profile_form": profile_form,
-            "address_form": address_form,
-            "addresses": addresses,
-        },
+    context.update(
+        user_form=user_form,
+        profile_form=profile_form,
+        addresses=handle_get_addresses(_user),
     )
+    return render(request, "users/profile.html", context)

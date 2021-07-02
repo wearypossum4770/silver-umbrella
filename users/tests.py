@@ -65,6 +65,7 @@ class TestProfile(TestCase):
         super().setUpClass()
         cls.staff_user = get_user("joseph.robinette.biden.jr")
         john_doe()
+        # cls.mike_jones = get_user("mike.jones")
         cls.theon = get_user("theon.greyjoy")
         cls.john = get_user("john.daniel.doe")
         cls.trump = get_user("donald.john.trump.sr")
@@ -72,9 +73,6 @@ class TestProfile(TestCase):
         cls.clinton = get_user("william.jefferson.clinton")
         cls.profile = Profile.objects.get(user=cls.staff_user)
         cls.address = Address.objects.get(idempotent_key="ckpfzqd7l0000nbve3vq1hfgl")
-        cls.unvalidated_address = Address.objects.get(
-            idempotent_key="ckqib0rxk0000hsveixloydmx"
-        )
         cls.trump.set_password(raw_password)
         cls.trump.save()
         cls.reagan.handle_deceased()

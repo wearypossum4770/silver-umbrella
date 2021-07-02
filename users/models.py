@@ -251,9 +251,17 @@ class Address(Model):
         return f" {self.street1}  {self.city},  {self.state}  {self.zipcode}"
 
 
+def user_directory_path(instance, filename):
+    return f"user_{instance.user.id}/profile_pics/{filename}"
+
+
 class Profile(Model):
     user = OneToOneField(User, on_delete=CASCADE)
     image = ImageField(upload_to="raw_profile_pictures", default="default.webp")
+    date_created = DateTimeField(auto_now_add=True, null=True, blank=True)
+    date_modified = DateTimeField(auto_now=True, null=True, blank=True)
+    is_public = BooleanField(default=False)
+    is_active = BooleanField(default=True)
     addresses = ManyToManyField(Address, blank=True)
     mobile_number = CharField(
         max_length=15,

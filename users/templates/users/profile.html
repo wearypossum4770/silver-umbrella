@@ -10,31 +10,15 @@
       <p class="text-secondary">{{ user.email }}</p>
     </div>
     <form method="POST" enctype="multipart/form-data">
-     {% csrf_token %}
-    {{address_form}}
-              <div class="form-group">
-              <button class="btn btn-outline-info" type="submit">Update</button>
-          </div>
+      {% csrf_token %}
+      <fieldset class="form-group">
+        <legend class="border-bottom mb-4">Personal Profile Information</legend>
+        <div>{{user_form}}</div>
+        <div class="form-group">
+          <button class="btn btn-outline-info" type="submit">Update</button>
+        </div>
+      </fieldset>
     </form>
-    {% for address in addresses %}
-
-    <button
-      class="w3-button w3-block w3-left-align"
-      onclick="handleCollapse('{{address.idempotent_key}}')"
-    >
-      {{ address.address_type }} Address
-    </button>
-    <div class="w3-container w3-hide" id="{{address.idempotent_key}}">
-      <address>
-        <p>Street 1: {{ address.street1 }}</p>
-        <p>Street 2: {{ address.street2 }}</p>
-        <p>
-          City, State, Zip: {{ address.state }} {{ address.city }} , {{
-          address.zipcode }}
-        </p>
-      </address>
-    </div>
-    {% endfor %}
   </div>
-  {% endblock content %}
 </div>
+{% endblock content %}

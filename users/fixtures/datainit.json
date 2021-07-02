@@ -7,7 +7,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "George",
       "middle_name": "",
@@ -26,7 +25,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "John",
       "middle_name": "",
@@ -45,7 +43,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Thomas",
       "middle_name": "",
@@ -64,7 +61,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "James",
       "middle_name": "",
@@ -83,7 +79,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "James",
       "middle_name": "",
@@ -102,7 +97,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "John",
       "middle_name": "Quincy",
@@ -121,7 +115,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Andrew",
       "middle_name": "",
@@ -140,7 +133,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Martin",
       "middle_name": "",
@@ -159,7 +151,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "William",
       "middle_name": "Henry",
@@ -178,7 +169,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "John",
       "middle_name": "",
@@ -197,7 +187,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "James",
       "middle_name": "Knox",
@@ -216,7 +205,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Zachary",
       "middle_name": "",
@@ -235,7 +223,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Millard",
       "middle_name": "",
@@ -254,7 +241,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Franklin",
       "middle_name": "",
@@ -273,7 +259,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "James",
       "middle_name": "",
@@ -292,7 +277,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Abraham",
       "middle_name": "",
@@ -311,7 +295,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Andrew",
       "middle_name": "",
@@ -330,7 +313,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Hiram",
       "middle_name": "Ulysses",
@@ -349,7 +331,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Rutherford",
       "middle_name": "Birchard",
@@ -368,7 +349,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "James",
       "middle_name": "Abram",
@@ -387,7 +367,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Chester",
       "middle_name": "Alan",
@@ -406,7 +385,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Stephen",
       "middle_name": "Grover",
@@ -425,7 +403,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Benjamin",
       "middle_name": "",
@@ -444,7 +421,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "William",
       "middle_name": "",
@@ -463,7 +439,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Stephen",
       "middle_name": "Grover",
@@ -482,7 +457,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Theodore",
       "middle_name": "",
@@ -501,7 +475,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "William",
       "middle_name": "Howard",
@@ -520,7 +493,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Thomas",
       "middle_name": "Woodrow",
@@ -539,7 +511,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Warren",
       "middle_name": "Gamaliel",
@@ -558,7 +529,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "John",
       "middle_name": "Calvin",
@@ -577,7 +547,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Herbert",
       "middle_name": "Clark",
@@ -596,7 +565,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Franklin",
       "middle_name": "Delano",
@@ -615,7 +583,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Harry",
       "middle_name": "S",
@@ -634,7 +601,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Dwight",
       "middle_name": "David",
@@ -655,7 +621,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "John",
       "middle_name": "Fitzgerald",
@@ -676,7 +641,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Lyndon",
       "middle_name": "Baines",
@@ -697,7 +661,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Richard",
       "middle_name": "Milhous",
@@ -718,7 +681,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Leslie",
       "middle_name": "Lynch",
@@ -740,7 +702,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "James",
       "middle_name": "Earl",
@@ -760,7 +721,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Ronald",
       "date_of_birth": "1911-02-06",
@@ -781,7 +741,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "George",
       "middle_name": "Herbert Walker",
@@ -802,7 +761,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "William",
       "middle_name": "Jefferson",
@@ -823,7 +781,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "George",
       "middle_name": "Walker",
@@ -843,7 +800,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Barack",
       "middle_name": "Hussein",
@@ -863,7 +819,6 @@
       "is_active": true,
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": false,
-
       "is_clinic_staff": false,
       "first_name": "Donald",
       "middle_name": "John",
@@ -884,7 +839,6 @@
       "date_joined": "2021-05-30T12:34:34.709Z",
       "is_patient": true,
       "date_of_birth": "1942-11-20",
-
       "is_clinic_staff": false,
       "first_name": "Joseph",
       "middle_name": "Robinette",
@@ -910,7 +864,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -930,7 +883,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -950,7 +902,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -970,7 +921,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -990,7 +940,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1010,7 +959,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1030,7 +978,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1050,7 +997,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1070,7 +1016,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1090,7 +1035,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1110,7 +1054,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1130,7 +1073,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1151,7 +1093,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1171,7 +1112,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1191,7 +1131,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1211,7 +1150,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1231,7 +1169,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1251,7 +1188,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1271,7 +1207,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1291,7 +1226,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1311,7 +1245,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1331,7 +1264,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1351,7 +1283,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1371,7 +1302,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1391,7 +1321,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1411,7 +1340,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1431,7 +1359,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1451,7 +1378,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1471,7 +1397,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1491,7 +1416,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1511,7 +1435,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1531,7 +1454,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1551,7 +1473,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1571,7 +1492,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1591,7 +1511,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1611,7 +1530,6 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
@@ -1632,12 +1550,35 @@
       "suffix": null,
       "date_of_birth": null,
       "is_patient": false,
-
       "is_clinic_staff": false,
       "date_of_death": null
     }
   },
-
+  {
+    "model": "users.user",
+    "pk": 84,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$AsKMZDn273f9pNDnvYbqZT$hAsLR1c1OcxmmLantPfVKkIuFGhmDHOiZZNnGhwk+7Q=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mike.jones",
+      "email": "mike.jones@american.rapper.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-06-30T15:32:37.385Z",
+      "nickname": "mike jones",
+      "first_name": "Michael ",
+      "last_name": "Jones ",
+      "middle_name": "Allen ",
+      "date_of_birth": "1981-11-18",
+      "is_patient": false,
+      "is_clinic_staff": false,
+      "retention_only": false,
+      "do_not_contact": true,
+      "owasp_safe_password": false,
+      "prompt_password_change": false
+    }
+  },
   {
     "model": "appointments.medicalcondition",
     "pk": 1,
@@ -1727,6 +1668,19 @@
       "state": "CA",
       "zipcode": "92688",
       "address_type": "RESD"
+    }
+  },
+  {
+    "model": "users.address",
+    "pk": 3,
+    "fields": {
+      "idempotent_key": "ckqjnbd560000j3veqjbl2utf",
+      "address_type": "BUSN",
+      "street1": "1100 Congress Ave",
+      "street2": null,
+      "state": "TX",
+      "city": "Austin",
+      "zipcode": "78701"
     }
   },
   {
@@ -2642,7 +2596,17 @@
       "addresses": []
     }
   },
-
+  {
+    "model": "users.profile",
+    "pk": 84,
+    "fields": {
+      "user": 84,
+      "image": "default.webp",
+      "mobile_number": null,
+      "internal_notes": "",
+      "addresses": [3]
+    }
+  },
   {
     "model": "appointments.patient",
     "pk": 1,
@@ -2684,7 +2648,7 @@
       "sponsor": 47,
       "gender": "F",
       "ethnicity": "WHT",
-      "authorized_party": [47,50,56,57,58,60]
+      "authorized_party": [47, 50, 56, 57, 58, 60]
     }
   },
   {
@@ -2762,6 +2726,162 @@
       "soft_delete": false,
       "is_deleted": false,
       "deleted_at": null
+    }
+  },
+  {
+    "external_id": "5a80a48a-7d7f-4ac3-84eb-0026653c9c01",
+    "pk": 1,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "You",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.195Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "e268cde4-26c7-4428-94c5-0f3cae191829",
+    "pk": 2,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "Make a Todo List",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.195Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "4f4deeec-57ac-49ef-8405-74ea98f204de",
+    "pk": 3,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "Cross off Item #2",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "0b6a43f8-4c89-4792-85d4-5b2934636c81",
+    "pk": 4,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "Steal steno pad from job",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "e0b9a9bc-7c2f-4714-845b-ebb73eb16c30",
+    "pk": 5,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "0cc98bab-a375-4195-8898-9c748db53216",
+    "pk": 6,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "Brainstorm to create a #5 task",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "bd69bc75-97a1-44f8-8cc4-250707412b5e",
+    "pk": 7,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "Surf the Internet",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "cd4788f5-659e-433f-9702-51a21ad4e2cb",
+    "pk": 8,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "Tell husband I sent out 10 resumes",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "baa1e6a8-5125-4f4d-a041-3c6f01a5af13",
+    "pk": 9,
+    "model": "tasks.task",
+    "fields": {
+      "title": "personal list",
+      "content": "Post 'unemployed stuff to do list' on the internet",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": false
+    }
+  },
+  {
+    "external_id": "56d21973-d5db-4dbb-aa92-21e9e3463c21",
+    "pk": 10,
+    "model": "tasks.task",
+    "fields": {
+      "title": "ITM304",
+      "content": "Quiz 6 SQL, Database Redesign",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": true
+    }
+  },
+  {
+    "external_id": "e6ea731e-d6fe-42f0-adf6-6c768d36f837",
+    "pk": 11,
+    "model": "tasks.task",
+    "fields": {
+      "title": "ITM304",
+      "content": "Week 9 Problem Set # 4: Convert VARCHAR() string date to data type DATE",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": true
+    }
+  },
+  {
+    "external_id": "f99e1e53-2720-4511-97d0-0c7d62ea4aca",
+    "pk": 12,
+    "model": "tasks.task",
+    "fields": {
+      "title": "ITM304",
+      "content": "Week 9 Problem Set # 4: Convert VARCHAR() string date to data type DATE",
+      "date_modified": null,
+      "date_created": "2021-07-02T16:21:07.196Z",
+      "date_due": null,
+      "completed": true
     }
   }
 ]

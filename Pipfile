@@ -21,6 +21,7 @@ uvicorn = "*"
 gunicorn = "*"
 aiohttp = "*"
 whitenoise = "*"
+django-debug-toolbar = "*"
 
 [dev-packages]
 django-extensions = "*"
