@@ -1,8 +1,12 @@
-import pytest
 from datetime import datetime
+
+import pytest
 from django.test import TestCase
 from django.utils import timezone
+
 from tasks.models import Task
+
+
 # https://devcenter.heroku.com/articles/heroku-redis#upgrading-a-heroku-redis-version
 # Create your tests here.
 class TestTasks(TestCase):
