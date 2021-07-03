@@ -1,0 +1,39 @@
+<!-- @format -->
+
+{% extends "blog/base.html" %} {% block content %} {% load static %} {% if lead_list %}
+<table class="w3-table w3-striped w3-border" id="application-table">
+<tr>
+<th>Company</th>
+<th>Postition</th>
+<th>Salary (min)</th>
+<th>Salary (max)</th>
+<th>Remote?</th>
+<th>Status</th>
+</tr>
+{% for lead in lead_list %}
+<tr>
+<td>
+<a href="/leads/{{ lead.id }}/"> {{ lead.company }} </a>
+</td>
+<td>{{ lead.role_name }}</td>
+<td>$ {{ lead.min_salary | floatformat:"2g" }}</td>
+<td>$ {{ lead.max_salary | floatformat:"2g" }}</td>
+<td>
+<input checked="lead.remote_position" type="checkbox" />
+</td>
+<td class="lead-{{ lead.application_status }}">
+{{ lead.application_status }}
+</td>
+</tr>
+{% endfor %}
+</table>
+{% else %}
+<p>No polls are available.</p>
+{% endif %}
+<script>
+let table = document.getElementById("application-table");
+let status = document.getElementsByClassName("lead-APP");
+console.log(status);
+console.log(table);
+</script>
+{% endblock content %}

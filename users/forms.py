@@ -1,3 +1,4 @@
+from crispy_forms.helper import FormHelper
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import UserCreationForm
 from django.forms import EmailField, ModelForm, ModelMultipleChoiceField
@@ -33,6 +34,10 @@ def handle_save_address(user, **kwargs):
 
 
 class AddressForm(ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper(self)
+
     class Meta:
         model = Address
         fields = (
@@ -46,6 +51,10 @@ class AddressForm(ModelForm):
 
 
 class UserRegisterForm(UserCreationForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper(self)
+
     email = EmailField()
 
     class Meta:
@@ -68,6 +77,10 @@ class UserRegisterForm(UserCreationForm):
 
 
 class UserUpdateForm(ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper(self)
+
     email = EmailField()
 
     class Meta:
@@ -86,6 +99,10 @@ class UserUpdateForm(ModelForm):
 
 
 class ProfileUpdateForm(ModelForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.helper = FormHelper(self)
+
     class Meta:
         model = Profile
         fields = (

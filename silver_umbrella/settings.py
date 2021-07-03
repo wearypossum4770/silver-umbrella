@@ -40,6 +40,8 @@ THIRD_PARTY_APPS = (
     "whitenoise",
     "corsheaders",
     "rest_framework",
+    "rest_framework.authtoken",
+    "crispy_forms",
 )
 DEVELOPMENT_APPS = (
     "debug_toolbar",
@@ -68,6 +70,10 @@ INSTALLED_APPS = THIRD_PARTY_APPS + PROJECT_APPS + DJANGO_APPS
 WSGI_APPLICATION = "silver_umbrella.wsgi.application"
 ROOT_URLCONF = "silver_umbrella.urls"
 AUTH_USER_MODEL = "users.User"
+# =================================================================================
+# CELERY / CRON-JOBS / ASYNC SETTINGS
+# =================================================================================
+CELERY_BROKER_URL = "amqp://myuser:mypassword@localhost:5672/myvhost"
 # =================================================================================
 # CHANNELS / CHAT / WEBSOCKETS
 # =================================================================================
@@ -238,6 +244,8 @@ MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
 LOGIN_REDIRECT_URL = "homepage"
 LOGIN_URL = "login"
+
+
 # =================================================================================
 # HEROKU / LINODE / DEPLOYMENT or DEBUG SETTINGS
 # =================================================================================

@@ -263,6 +263,8 @@ class Profile(Model):
     is_public = BooleanField(default=False)
     is_active = BooleanField(default=True)
     addresses = ManyToManyField(Address, blank=True)
+    birth_city = CharField(max_length=100, null=True, blank=True)
+    birth_state = CharField(max_length=2, null=True, blank=True)
     mobile_number = CharField(
         max_length=15,
         null=True,

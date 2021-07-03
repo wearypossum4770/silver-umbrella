@@ -1,0 +1,58 @@
+<!-- @format -->
+
+{% extends "blog/base.html" %} {% block content %} {% load static %} {% if error_message %}
+<p>
+  <strong> {{ error_message }} </strong>
+</p>
+{% endif %}
+<form
+  action="{% url  'lead-detail' lead.id %}"
+  method="post"
+  onsubmit="event.preventDefault()"
+>
+  {% csrf_token %}
+  <div class="w3-card-4 w3-dark-white">
+    <div class="w3-container w3-center">
+      <div><h3>{{ lead.role_name }}</h3></div>
+      <div>
+        Remote Position: {% if lead.remote_position %} Yes {% else %} NO {% endif %}
+      </div>
+      <div>Comapny Name: {{ lead.company }}</div>
+      <div>Location: {{ lead.location }}</div>
+      <div>Offer Minimum: ${{ lead.min_salary | floatformat:"2g" }}</div>
+      <div>Offer Maximum: ${{ lead.max_salary | floatformat:"2g" }}</div>
+      <div>I will Accept: ${{ lead.base_salary | floatformat:"2g" }}</div>
+      <div>
+        <br />
+        {{ lead.employment_type }}
+      </div>
+      <div>
+        Employer Overview:<br />
+        {{ lead.employer_overview }}
+      </div>
+      <div>Required Experience: {{ lead.experience_requirements }}</div>
+      <div>Preferred Expereience: {{ lead.experience_preferred }}</div>
+      <div>
+        <label for="application image">
+          <a href="{{ lead.application_submission.url }} ">
+            <img src="{% static 'pdf_solid.svg' %}" alt="application pdf" />
+          </a>
+        </label>
+        <small>{{ lead.application_submission | filesizeformat}}</small>
+      </div>
+      <div>{{ lead.application_status }}</div>
+      <div>{{ lead.notes }}</div>
+      <button id="acceptOffer" class="w3-button w3-green">Accept</button>
+      <button id="declineOffer" class="w3-button w3-red">Decline</button>
+    </div>
+  </div>
+</form>
+<script>
+  const acceptOffer = document
+    .getElementById("acceptOffer")
+    .onclick(() => console.log("declineOffer"));
+  const declineOffer = document
+    .getElementById("declineOffer")
+    .onclick(() => console.log("declineOffer"));
+</script>
+{% endblock content %}

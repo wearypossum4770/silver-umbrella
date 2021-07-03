@@ -11,5 +11,7 @@ User = get_user_model()
 def create_profile(sender, instance, created, *args, **kwargs):
     if created:
         Profile.objects.create(user=instance)
+        # Token.objects.create(user=instance)
+
     else:
         instance.profile.save()
