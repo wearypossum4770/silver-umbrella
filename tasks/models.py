@@ -1,15 +1,26 @@
-from datetime import date
+from datetime import date, timezone
 from uuid import uuid4
 
+from django.conf import settings
+from django.contrib.auth import get_user_model
 from django.db.models import (
+    CASCADE,
     SET_NULL,
     BooleanField,
     CharField,
     DateField,
     DateTimeField,
+    DecimalField,
+    FileField,
+    ForeignKey,
+    ManyToManyField,
     Model,
+    PositiveIntegerField,
+    TextField,
     UUIDField,
 )
+
+User = get_user_model()
 
 
 def get_attachment_upload_dir(instance, filename):
@@ -76,7 +87,7 @@ class Comment(Model):
 class Attachment(Model):
     task = ForeignKey(Task, on_delete=CASCADE)
     added_by = ForeignKey(settings.AUTH_USER_MODEL, on_delete=CASCADE)
-    timestamp = DateTimeField(default=timezone.now)
+    timestamp = DateTimeField(auto_now_add=True, null=True, blank=True)
     file_location = FileField(upload_to=get_attachment_upload_dir, max_length=255)
 
     def __str__(self):

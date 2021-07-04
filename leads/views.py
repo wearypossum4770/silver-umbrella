@@ -25,17 +25,28 @@ def lead_list_view(request):
     leads_list = Lead.objects.all()
     return render(request, "leads/index.html", {"leads_list": leads_list})
 
+
 def lead_list(request):
     leads = Lead.objects.all()
     return render(request, "leads/index.html", {"leads": leads})
+
+
 def lead_view(request, lead_id):
     ...
+
+
 def lead_create(request):
     ...
+
+
 def lead_update(request, lead_id):
     ...
+
+
 def lead_delete(request, lead_id):
     ...
+
+
 class IndexView(ListView):
     model = Lead
     template_name = "leads/index.html"

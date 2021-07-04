@@ -1,22 +1,20 @@
 import asyncio
-from unittest import TestCase
-from django.test import TestCase
 import importlib
-
-import pytest
-
-
+from unittest import TestCase
 
 import aiohttp
 import pytest
 from django.conf import settings
 from django.core.cache import cache
+from django.test import TestCase
 
 from silver_umbrella.silver_umbrella_requests import requests
 from users.views import registration
 
 response_object = requests()
 owasp_object = response_object.get("herokuapp")
+
+
 def channels_import():
     channels = importlib.import_module("channels")
     major, minor, patch = [int(val) for val in channels.__version__.split(".")]
@@ -36,6 +34,7 @@ def test_channels_installation_minor():
 
 def test_channels_installation_patch():
     assert channels.get("patch") >= 2
+
 
 # def test_memcache_functionality():
 #     cache.get("foo")

@@ -45,5 +45,8 @@ python_version = "3.8"
 [pipenv]
 allow_prereleases = true
 
+[packages.celery]
+extras = [ "rabbitmq", "redis", "couchdb",]
+
 [dev-packages.coverage]
 extras = [ "toml",]
