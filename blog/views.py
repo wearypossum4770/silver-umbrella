@@ -10,10 +10,11 @@ from django.views.generic import (
     UpdateView,
 )
 
-from .models import Post
+from blog.models import Post
 
 
 def serialize_announcements(queryset=None):
+
     return [{"title": post.title, "content": post.content} for post in queryset]
 
 
@@ -26,6 +27,12 @@ def list_announcements(request):
     post_list = Post.objects.filter(
         publication_type="CONCMNT",
         is_public=False,
+    )
+    announcements_list = serialize_announcements(post_list)
+    return render(
+        request,
+        "blog/announcements.html",
+        {"title": "Current Announcements", "announcements_list": announcements_list},
     )
 
 

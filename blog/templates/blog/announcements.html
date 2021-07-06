@@ -1,0 +1,17 @@
+{% extends "users/base.html" %} {% block title %} 
+{% endblock %} 
+{% block content %}
+<div class="w3-container">
+    {% for announcement in announcements_list %}
+    <div class="w3-card-4" style="width:50%;">
+        <header class="w3-container w3-blue">
+          <h1>{{ announcement.title }}</h1>
+        </header>
+    
+        <div class="w3-container">
+          <p>{{ announcement.content }}</p>
+        </div>
+      </div>
+    {% endfor %}
+</div>
+{% endblock content %}

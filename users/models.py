@@ -49,7 +49,7 @@ class User(AbstractUser):
         RAB = "Rab", _("Rabbi (religious leader usually of jewish faith)")
 
     class Suffix(TextChoices):
-        PHD = "PhD", _("Doctoralily Educated")
+        PHD = "PhD", _("PhD, Doctorally Educated")
         ESQ = "Esq", _("Esquire, Lawyer")
 
     madien_name = CharField(max_length=100, blank=True, null=True)
