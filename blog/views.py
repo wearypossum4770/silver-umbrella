@@ -1,5 +1,6 @@
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
+from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, render
 from django.views.generic import (
     CreateView,
@@ -12,9 +13,29 @@ from django.views.generic import (
 from .models import Post
 
 
+def serialize_announcements(queryset=None):
+    return [{"title": post.title, "content": post.content} for post in queryset]
+
+
 def home(request):
     context = {"posts": Post.objects.all()}
     return render(request, "blog/home.html", context)
+
+
+def list_announcements(request):
+    post_list = Post.objects.filter(
+        publication_type="CONCMNT",
+        is_public=False,
+    )
+
+
+def api_list_announcements(request):
+    queryset = Post.objects.filter(
+        publication_type="CONCMNT",
+        is_public=False,
+    )
+    announcements = serialize_announcements(queryset=queryset)
+    return JsonResponse({"announcements": announcements})
 
 
 class PostListView(ListView):

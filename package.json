@@ -1,6 +1,7 @@
 {
   "name": "silver_umbrella",
   "version": "0.1.0",
+  "type":"module",
   "browserslist": {
     "production": [
       ">0.2%",

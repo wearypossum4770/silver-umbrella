@@ -7,11 +7,15 @@ from blog.views import (
     PostListView,
     PostUpdateView,
     UserPostListView,
+    api_list_announcements,
+    list_announcements,
 )
 
 from . import views
 
 urlpatterns = [
+    path("announcements/", list_announcements, name="list-announcements"),
+    path("api/announcements/", api_list_announcements, name="api-announcements"),
     path("", PostListView.as_view(), name="blog-home"),
     path("user/<str:username>", UserPostListView.as_view(), name="user-posts"),
     path("post/<int:pk>/", PostDetailView.as_view(), name="post-detail"),

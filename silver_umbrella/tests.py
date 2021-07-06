@@ -147,3 +147,17 @@ class TestSiteOperation(TestCase):
     def test_new_user_registration(self):
         """TODO"""
         assert response_object.get("http://127.0.0.1:8000/register/") == 200
+
+    def test_post_post_does_not_show_expired_announcements(self):
+        response = response_object.get("/api/announcements/").get("announcements")
+        first = response[0]
+        second = response[1]
+        assert first.get("title") == "The First Kempachi"
+        assert (
+            first.get("content")
+            == "I found... A way to heal myself, so that I could enjoy fighting forever."
+        )
+        assert second.get("title") == "The Real Kempachi"
+        assert (
+            second.get("content") == "Feeling cute might kill Retsu Unohana later. IDK"
+        )
