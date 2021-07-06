@@ -67,7 +67,8 @@ INSTALLED_APPS = THIRD_PARTY_APPS + PROJECT_APPS + DJANGO_APPS
 # if "channels" in THIRD_PARTY_APPS:
 #     ASGI_APPLICATION = "silver_umbrella.asgi.application"
 # else:
-WSGI_APPLICATION = "silver_umbrella.wsgi.application"
+ASGI_APPLICATION = "silver_umbrella.asgi.application"
+# WSGI_APPLICATION = "silver_umbrella.wsgi.application"
 ROOT_URLCONF = "silver_umbrella.urls"
 AUTH_USER_MODEL = "users.User"
 # =================================================================================
