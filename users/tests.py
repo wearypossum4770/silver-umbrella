@@ -22,14 +22,15 @@ def get_user(_username):
 
 
 def genryusai_shigekuni_yamamoto_data():
-    with open(f"{settings.BASE_DIR}/users/fixtures/new_registrant.json") as _d:
-        __data__ = json.load(_d)
-    return __data__
+    with open(
+        f"{settings.BASE_DIR}/users/fixtures/genryusai_shigekuni_yamamoto.json"
+    ) as _data:
+        return json.load(_data)
 
 
 @pytest.mark.django_db
 def john_doe():
-    with open(f"{settings.BASE_DIR}/users/fixtures//new_registrant2.json") as person:
+    with open(f"{settings.BASE_DIR}/users/fixtures/john.daniel.doe.json") as person:
         user_obj = json.load(person)
     user = get_user_model().objects.create_user(**user_obj)
     user.normalizer()
