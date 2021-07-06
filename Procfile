@@ -1,1 +1,1 @@
-web: gunicorn silver_umbrella.asgi:application   -k uvicorn.workers.UvicornWorker
+web: gunicorn silver_umbrella.asgi   -k uvicorn.workers.UvicornWorker
