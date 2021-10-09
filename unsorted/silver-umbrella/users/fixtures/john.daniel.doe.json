@@ -1,0 +1,14 @@
+{
+  "madien_name": null,
+  "nickname": "jonnie",
+  "first_name": "john ",
+  "last_name": "doe",
+  "middle_name": "daniel ",
+  "username": "john.daniel.doe",
+  "email": "john.daniel.doe@example.com",
+  "honorific_prefix": "mr",
+  "date_of_birth": "1999-06-11",
+  "is_patient": true,
+  "is_clinic_staff": false,
+  "do_not_contact": false
+}

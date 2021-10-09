@@ -1,0 +1,43 @@
+{% extends "users/base.html" %}
+{% block content %}
+  {% load static %}
+  <h1>
+    Friends
+  </h1>
+  <p>
+    <button class="w3-btn w3-black">
+      friends
+      <span class="w3-badge w3-margin-left w3-white">
+        {{ friend_list.count }}
+      </span>
+    </button>
+  </p>
+  <ul type="none">
+    {% for user in friend_list %}
+      <li class="user">
+        <div class="w3-card-4">
+          <header class="w3-container w3-light-grey">
+            <h3>
+              {{ user.get_full_name }}
+            </h3>
+          </header>
+          <div class="w3-container">
+            <p>
+              1 new message
+            </p>
+            <hr>
+
+              <img
+                alt="Avatar"
+                class="w3-left w3-circle"
+                src="{{ user.profile.image.url}}"
+              />
+              <p/>
+              {{ user.headline }}
+            </p>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock content %}

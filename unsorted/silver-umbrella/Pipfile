@@ -1,0 +1,52 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+python-dotenv = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+channels = "*"
+channels-redis = "*"
+pillow = "*"
+cuid = "*"
+django-crispy-forms = "*"
+django-heroku = "*"
+django-pylibmc = "*"
+djoser = "*"
+hypercorn = "*"
+uvicorn = "*"
+gunicorn = "*"
+aiohttp = "*"
+whitenoise = "*"
+django-debug-toolbar = "*"
+
+[dev-packages]
+django-extensions = "*"
+pytest = "*"
+pytest-cov = "*"
+isort = "*"
+lark = "*"
+pytest-xdist = "*"
+pytest-watch = "*"
+pytest-emoji = "*"
+pytest-django = "*"
+pytest-clarity = "*"
+pytest-asyncio = "*"
+black = "*"
+pytest-aiohttp = "*"
+django-debug-toolbar = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
+
+[packages.celery]
+extras = [ "rabbitmq", "redis", "couchdb",]
+
+[dev-packages.coverage]
+extras = [ "toml",]

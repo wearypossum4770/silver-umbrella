@@ -1,0 +1,57 @@
+{% extends "users/base.html" %} {% block title %} {% endblock %} 
+{% load static %} {% block content %}
+{% comment %} <script src="{% static 'cuid.js' %}"> {% endcomment %}
+
+</script>
+<h2>Scheduling Appointment for {{user.full_name}}</h2>
+<form name="create-appointment" >
+  {% csrf_token %}
+  <br /><label
+    >Start Time
+    <input
+      name="start_time"
+      class="w3-input"
+      type="datetime-local"
+      value="2021-06-24T14:00"
+      pattern="\d{4}-\d{2}-\d{2}"
+    />
+    <span class="validity"></span>
+  </label>
+  <br /><label
+    >End Time
+    <input
+      name="end_time"
+      class="w3-input"
+      type="datetime-local"
+      value="2021-06-24T14:30"
+      pattern="\d{4}-\d{2}-\d{2}"
+    />
+    <span class="validity"></span>
+  </label>
+  <br /><label
+    >Location
+    <input
+      name="location"
+      value="Health Department"
+      class="w3-input"
+      type="text"
+    />
+    <span class="validity"></span>
+  </label>
+  <button onclick="handleClick(event)" type="submit">Submit</button>
+</form>
+<script>
+  function submitform() {}
+  function handleClick(event) {
+    event.preventDefault();
+    let form = document.forms[0];
+    let validated_data = JSON.stringify({
+      start_time: new Date(form.elements.start_time.value),
+      end_time: new Date(form.elements.end_time.value),
+      location: form.elements.location.value,
+    });
+
+    console.log(validated_data);
+  }
+</script>
+{% endblock content %}

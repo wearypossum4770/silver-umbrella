@@ -1,0 +1,102 @@
+{% extends "users/base.html" %} {% block content %}
+<div class="content-section">
+  <form class="w3-container w3-card-4 w3-light-grey" method="POST">
+    {% csrf_token %}
+    <p>
+      <label> First Name </label>
+
+      <input
+        autocomplete="firstName"
+        class="w3-input"
+        id="firstName"
+        name="firstName"
+        type="text"
+        value="john"
+      />
+    </p>
+    <p>
+      <label> Middle Name </label>
+
+      <input
+        autocomplete="middleName"
+        class="w3-input"
+        id="middleName"
+        name="middleName"
+        value="daniel"
+        type="text"
+      />
+    </p>
+    <p>
+      <label> Last Name </label>
+
+      <input
+        autocomplete="lastName"
+        class="w3-input"
+        id="lastName"
+        name="lastName"
+        value="doe"
+        type="text"
+      />
+    </p>
+    <p>
+      <label> Email: </label>
+
+      <input
+        autocomplete="email"
+        class="w3-input"
+        id="email"
+        name="email"
+        value="john.daniel.doe@example.com"
+        type="email"
+      />
+    </p>
+    <p>
+      <label> Username: </label>
+      <input
+        autocomplete="username"
+        class="w3-input"
+        id="username"
+        name="username"
+        value="john.daniel.doe"
+      />
+    </p>
+    <p>
+      <label> Password: </label>
+
+      <input
+        autocomplete="new-password"
+        class="w3-input"
+        id="password1"
+        name="password1"
+        type="password"
+        value="jjq4dSj4nDYQnFS"
+      />
+    </p>
+    <p>
+      <label> Confirm Password: </label>
+
+      <input
+        autocomplete="new-password"
+        class="w3-input"
+        id="password2"
+        name="password2"
+        type="password"
+        value="jjq4dSj4nDYQnFS"
+      />
+    </p>
+    <button type="submit">Join Now!!</button>
+    <button type="reset">Cancel</button>
+    <div>
+      <small>
+        <a href="{% url 'password_reset' %}"> Forgot Password? </a>
+      </small>
+    </div>
+    <div>
+      <small>
+        Already have an account?
+        <a href="{% url 'login' %}"> Login </a>
+      </small>
+    </div>
+  </form>
+</div>
+{% endblock content %}

@@ -1,0 +1,89 @@
+[
+  {
+    "description": "20 cu. ft. Frost Free Upright Freezer in White with Reversible Door",
+    "unit": "each",
+    "storeName": "Home Depot",
+    "image": "@/assets/appliances/standing_freezer.webp",
+    "url": "https://www.homedepot.com/p/Frigidaire-20-cu-ft-Frost-Free-Upright-Freezer-in-White-with-Reversible-Door-FFFU20F2VW/311641751?#product-section-overview",
+    "unitPrice": 899,
+    "purchaseDiscount": {
+      "value": 10,
+      "unit": "percentage"
+    }
+  },
+  {
+    "description": "Rose Gold HeartBeat Ring",
+    "unit": "each",
+    "storeName": "Home Depot",
+    "image": "@/assets/apparel/roseamarillo_heartbeat_ring.jpeg",
+    "unitPrice": 699,
+    "purchaseDiscount": {
+      "value": 0,
+      "unit": "percentage"
+    },
+    "url": "https://thetouchx.com/hbring-rosegold-amarillo.html"
+  },
+  {
+    "description": "The Apollo Billfold w/ ID & Money Clip",
+    "unit": "each",
+    "storeName": "Home Depot",
+    "image": "@/assets/apparel/wallet.jpeg",
+    "url": "https://www.bespokepost.com/store/andar-the-apollo-billfold-w-id-money-clip",
+    "unitPrice": 59,
+    "purchaseDiscount": {
+      "value": 0,
+      "unit": "percentage"
+    }
+  },
+
+  {
+    "description": "REGULAR MOUTH LIDS & GASKETS – 50 EACH",
+    "unit": "package",
+    "storeName": "Canning Lids",
+    "image": "@/assets/kitchen_supplies/regular_lids.jpeg",
+    "url": "https://canninglids.com/#homestead",
+    "unitPrice": 34,
+    "purchaseDiscount": {
+      "value": 0,
+      "unit": "percentage"
+    }
+  },
+
+  {
+    "description": "WIDE MOUTH LIDS & GASKETS – 50 EACH",
+    "unit": "package",
+    "storeName": "Canning Lids",
+    "image": "@/assets/kitchen_supplies/wide_mouth_lids.jpeg",
+    "url": "https://canninglids.com/#homestead",
+    "unitPrice": 38,
+    "purchaseDiscount": {
+      "value": 0,
+      "unit": "percentage"
+    }
+  },
+  {
+    "description": "REGULAR REPLACEMENT GASKETS (100 EACH)",
+    "unit": "package",
+    "storeName": "Canning Lids",
+    "image": "@/assets/kitchen_supplies/regular_replacement_rings.jpeg",
+    "url": "https://canninglids.com/#homestead",
+    "unitPrice": 20,
+    "purchaseDiscount": {
+      "value": 0,
+      "unit": "percentage"
+    }
+  },
+
+  {
+    "description": "WIDE MOUTH REPLACEMENT GASKETS (100 EACH)",
+    "unit": "package",
+    "storeName": "Canning Lids",
+    "image": "@/assets/kitchen_supplies/wide_mouth_replacement_rings.jpeg",
+    "url": "https://canninglids.com/#homestead",
+    "unitPrice": 22.5,
+    "purchaseDiscount": {
+      "value": 0,
+      "unit": "percentage"
+    }
+  }
+]

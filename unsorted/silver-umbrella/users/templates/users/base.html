@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="shortcut" href="{% static 'favicon.ico' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="{% static 'app.js' %}"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link defer rel="stylesheet" href="{% static 'main.css' %}" />
+    <script async href="{% static 'app.js' %}"></script>
+    {% if title %}
+    <title>Healthcare Organization - {{ title }}</title>
+    {% else %}
+    <title>Healthcare Organization</title>
+    {% endif %}
+  </head>
+  <div class="topnav" id="myTopnav">
+    <a href="/" class="active">Home</a>
+    <a href="{% url 'about' %}">About</a>
+    
+     {% if user.is_authenticated %}
+    <a href="{% url 'logout' %}">Logout</a>
+    <a href="{% url 'create-appointment' %}">Create Appointment</a>
+    {% else %}
+    <a href="{% url 'login' %}">Login</a>
+    <a href="{% url 'register' %}">Register</a>
+    {% endif %}
+    <a href="javascript:void(0)" class="icon"></a>
+    <!-- javascript:void(0); -->
+    <i class="fa fa-bars"></i>
+  </div>
+  <body>
+    <div class="w3-mobile w3-twothird w3-card-4">
+      <main role="main" class="container">
+       <div class="darkcontainer">
+         <div class="sun sun-logo">
+      <i class="fas fa-sun">  <svg viewBox="0 0 512 512" width="100" title="sun">
+  <path d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z" />
+</svg></i>
+   </div>
+   <div class="moon moon-logo">
+      <i class="fas fa-moon"> <svg viewBox="0 0 512 512" width="100" title="moon">
+  <path d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z" />
+</svg></i>
+   </div>
+</div>
+        <div class="row">
+          <div class="col-md-8">
+         
+            {% if messages %} {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+            {% endfor %} {% endif %} {% block content %} {% endblock %}
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="w3-mobile w3-third w3-card-4">
+      <header class="w3-container">
+        <h1>Sidebar</h1>
+        <ul>
+          <li><a href="{% url 'profile' %}">Profile</a></li>
+          
+        </ul>
+      </header>
+      <div class="col-md-4">
+        <div class="content-section">
+          <p class="text-muted">You can put any information here you'd like.</p>
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-light"><a href="{% url 'list-announcements' %}">Announcements</a></li>
+            <li class="list-group-item list-group-item-light">Calendars</li>
+            <li class="list-group-item list-group-item-light">etc</li>
+          </ul>
+        </div>
+      </div>
+      <footer class="w3-container">
+        <h5>Something</h5>
+      </footer>
+    </div>
+  <script>
+  document.querySelector(".darkcontainer").addEventListener("click", () => {
+  document.querySelector(".sun-logo").classList.toggle("animate-sun");
+  document.querySelector(".moon-logo").classList.toggle("animate-moon");
+  document.querySelector("body").classList.toggle("dark");
+})
+  </script>
+  </body>
+</html>

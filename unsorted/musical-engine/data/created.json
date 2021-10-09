@@ -1,0 +1,15 @@
+{
+  "dataValues": { "id": null },
+  "_previousDataValues": {},
+  "_changed": {},
+  "_options": { "isNewRecord": true, "_schema": null, "_schemaDelimiter": "" },
+  "isNewRecord": true,
+  "id": null,
+  "username": "genryusai.shigekuni.yamamoto",
+  "email": "genryusai.shigekuni.yamamoto@soul.society.com",
+  "firstName": "Genryūsai",
+  "lastName": "Yamamoto",
+  "middleName": "Shigekuni",
+  "password": {},
+  "created": true
+}

@@ -1,0 +1,10 @@
+[
+  { "id": "todo-1", "label": "Learn Vue", "done": false },
+  {
+    "id": "todo-2",
+    "label": "Create a Vue project with the CLI",
+    "done": true
+  },
+  { "id": "todo-3", "label": "Have fun", "done": true },
+  { "id": "todo-4", "label": "Create a to-do list", "done": false }
+]

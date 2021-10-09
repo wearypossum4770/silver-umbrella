@@ -1,0 +1,46 @@
+{% extends "users/base.html" %} {% block content %}
+<div class="content-section">
+  <form class="w3-container w3-card-4 w3-light-grey" method="POST">
+    {% csrf_token %}
+    <h2>Account Login</h2>
+    <p>Please enter the information below to login. Thank you.</p>
+    <p>
+      <label for="username"> Username: </label>
+
+      <input
+        autocomplete="username"
+        class="w3-input w3-border w3-round"
+        name="username"
+        value="john.daniel.doe"
+      />
+    </p>
+    <p>
+      <label for="password"> Password: </label>
+
+      <input
+        autocomplete="current-password"
+        class="w3-input w3-border w3-round-large"
+        name="password"
+        type="password"
+        alt ="BWJfWGc5iYPG5TH"
+        value="jjq4dSj4nDYQnFS"
+      />
+    </p>
+    <p>
+      <button type="submit">Login</button>
+      <button type="reset">Clear</button>
+    </p>
+    <div>
+      <small>
+        <a href="{% url 'password_reset' %}"> Forgot Password? </a>
+      </small>
+    </div>
+    <div>
+      <small>
+        Need an Account?
+        <a href="{% url 'register' %}"> Sign Up Now!! </a>
+      </small>
+    </div>
+  </form>
+</div>
+{% endblock content %}

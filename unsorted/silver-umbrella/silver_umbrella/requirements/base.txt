@@ -1,0 +1,17 @@
+django 
+python-dotenv 
+djangorestframework 
+django-cors-headers 
+channels 
+channels-redis 
+pillow 
+cuid 
+django-crispy-forms 
+django-pylibmc 
+djoser 
+hypercorn 
+uvicorn 
+gunicorn 
+aiohttp 
+whitenoise 
+coverage[toml]

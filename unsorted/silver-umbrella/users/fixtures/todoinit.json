@@ -1,0 +1,200 @@
+[
+  
+  {
+    "isLocal": false,
+    "id": 1,
+    "isDeleted": true,
+    "title": "Learn React",
+    "content": "Learn React",
+    "isArchived": true,
+    "completed": true
+  },
+  {
+    "isLocal": false,
+    "id": 2,
+    "isDeleted": false,
+    "title": "Learn Redux",
+    "content": "Learn Redux",
+    "isArchived": true,
+    "completed": false,
+    "color": "purple"
+  },
+  {
+    "isLocal": false,
+    "id": 3,
+    "isDeleted": false,
+    "title": "Build something fun!",
+    "content": "Build something fun!",
+    "isArchived": true,
+    "completed": false,
+    "color": "blue"
+  },
+  {
+    "isLocal": false,
+    "id": 4,
+    "isDeleted": false,
+    "title": "Do the dishes",
+    "content": "Do the dishes",
+    "isArchived": true,
+    "completed": true
+  },
+  {
+    "isLocal": false,
+    "id": 5,
+    "isDeleted": false,
+    "title": "take out the trash",
+    "content": "take out the trash",
+    "isArchived": true,
+    "completed": true
+  },
+  {
+    "isLocal": false,
+    "id": 6,
+    "isDeleted": false,
+    "title": "Finish doing laundry",
+    "content": "Finish doing laundry",
+    "isArchived": true,
+    "completed": true
+  },
+  {
+    "isLocal": false,
+    "id": 7,
+    "isDeleted": false,
+    "title": "Check Facebook",
+    "content": "Check Facebook",
+    "isArchived": true,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 8,
+    "isDeleted": false,
+    "title": "Watch the news",
+    "content": "Watch the news",
+    "isArchived": false,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 9,
+    "isDeleted": false,
+    "title": "Do hood shit with my peeps",
+    "content": "Do hood shit with my peeps",
+    "isArchived": false,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 10,
+    "isDeleted": false,
+    "title": "Go to Store",
+    "content": "Go to Store",
+    "isArchived": false,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 11,
+    "isDeleted": false,
+    "title": "Do the dishes",
+    "content": "Do the dishes",
+    "isArchived": false,
+    "completed": true
+  },
+  {
+    "isLocal": false,
+    "id": 12,
+    "isDeleted": false,
+    "title": "take out the trash",
+    "content": "take out the trash",
+    "isArchived": false,
+    "completed": true
+  },
+  {
+    "isLocal": false,
+    "id": 13,
+    "isDeleted": false,
+    "title": "Finish doing laundry",
+    "content": "Finish doing laundry",
+    "isArchived": false,
+    "completed": true
+  },
+  {
+    "isLocal": false,
+    "id": 14,
+    "isDeleted": false,
+    "title": "Check Facebook",
+    "content": "Check Facebook",
+    "isArchived": false,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 15,
+    "isDeleted": false,
+    "title": "Watch the news",
+    "content": "Watch the news",
+    "isArchived": false,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 16,
+    "isDeleted": false,
+    "title": "Do hood shit with my peeps",
+    "content": "Do hood shit with my peeps",
+    "isArchived": false,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 17,
+    "isDeleted": false,
+    "title": "Go to Store",
+    "content": "Go to Store",
+    "isArchived": false,
+    "completed": false
+  },
+  {
+    "isLocal": false,
+    "id": 18,
+    "isArchived": false,
+    "completed": false,
+    "title": "note title 1",
+    "isDeleted": false,
+    "content": "Send an email update to the team: 9am today"
+  },
+  {
+    "isLocal": false,
+    "id": 19,
+    "isArchived": false,
+    "completed": false,
+    "title": "note title 2",
+    "isDeleted": false,
+    "content": "Call the design agency to finalize mockups: 1:00pm today"
+  },
+  {
+    "isLocal": false,
+    "id": 20,
+    "isArchived": false,
+    "completed": false,
+    "title": "note title 3",
+    "isDeleted": false,
+    "content": "Touch base with recruiters about new role: Tuesday"
+  },
+  {
+    "isLocal": false,
+    "id": 21,
+    "isArchived": false,
+    "completed": false,
+    "title": "note title 4",
+    "isDeleted": true,
+    "content": "Meet with the engineering team: Thursday"
+  },
+  {
+    "id": 22,
+    "title": "ReactJS",
+    "content": "Create ReactJS API",
+    "completed": true
+  }
+]

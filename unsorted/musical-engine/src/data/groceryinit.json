@@ -1,0 +1,8895 @@
+[
+  {
+    "code": 3000,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Pink Lady",
+    "prices": [{ "store": "walmart", "price": 0.98, "unit": "weight" }]
+  },
+  {
+    "code": 3000,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Envy Apple",
+    "prices": [{ "store": "walmart", "price": 1.6, "unit": "weight" }]
+  },
+  {
+    "code": 3000,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Alkmene"
+  },
+  {
+    "code": 3001,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Aurora/Southern Rose"
+  },
+  {
+    "code": 3002,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cantared"
+  },
+  {
+    "code": 3003,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "D'Estivale"
+  },
+  {
+    "code": 3004,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Discovery"
+  },
+  {
+    "code": 3005,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Golden Delicious Blush"
+  },
+  {
+    "code": 3006,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Ingrid Marie"
+  },
+  {
+    "code": 3007,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Lochbuie"
+  },
+  {
+    "code": 3008,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Rubinette"
+  },
+  {
+    "code": 3009,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Russet"
+  },
+  {
+    "code": 3010,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cripps Red"
+  },
+  {
+    "code": 3011,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Worcester"
+  },
+  {
+    "code": 3012,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Abate Fetel"
+  },
+  {
+    "code": 3013,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Beurre Hardy"
+  },
+  {
+    "code": 3014,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bon Rouge"
+  },
+  {
+    "code": 3015,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Clara Friis"
+  },
+  {
+    "code": 3016,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Concorde"
+  },
+  {
+    "code": 3017,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Conference"
+  },
+  {
+    "code": 3018,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Durondeau"
+  },
+  {
+    "code": 3019,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Flamingo"
+  },
+  {
+    "code": 3020,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "General Leclerc"
+  },
+  {
+    "code": 3021,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Guyot"
+  },
+  {
+    "code": 3022,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Josephine"
+  },
+  {
+    "code": 3023,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Passe Crassane"
+  },
+  {
+    "code": 3024,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Rocha"
+  },
+  {
+    "code": 3025,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Rosemarie"
+  },
+  {
+    "code": 3026,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Triumph de Vienne"
+  },
+  {
+    "code": 3027,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Shamouti"
+  },
+  {
+    "code": 3028,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Delta Seedless"
+  },
+  {
+    "code": 3029,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Satsuma"
+  },
+  {
+    "code": 3030,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Nova (includes Clemenvilla, Suntina)"
+  },
+  {
+    "code": 3031,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Jamaican Tangor (includes Ortanique, Mandor, Mandora, Tambor, Topaz, Ortanline)"
+  },
+  {
+    "code": 3032,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Ellendale"
+  },
+  {
+    "code": 3033,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Charentais"
+  },
+  {
+    "code": 3034,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Charentais"
+  },
+  {
+    "code": 3035,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "White Flesh, Tree Ripened, Ready-to-eat"
+  },
+  {
+    "code": 3036,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Midknight"
+  },
+  {
+    "code": 3037,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": "Queen"
+  },
+  {
+    "code": 3038,
+    "category": "Fruits",
+    "commodity": "passion fruit",
+    "variety": "Granadilla, Orange"
+  },
+  {
+    "code": 3039,
+    "category": "Fruits",
+    "commodity": "physalis/cape gooseberry/ground cherry",
+    "variety": ""
+  },
+  {
+    "code": 3040,
+    "category": "Fruits",
+    "commodity": "pitahaya",
+    "variety": "Red (skin color)"
+  },
+  {
+    "code": 3041,
+    "category": "Fruits",
+    "commodity": "rambutan",
+    "variety": ""
+  },
+  {
+    "code": 3042,
+    "category": "Fruits",
+    "commodity": "mangosteen",
+    "variety": ""
+  },
+  {
+    "code": 3043,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Italia, Seeded"
+  },
+  {
+    "code": 3044,
+    "category": "Fruits",
+    "commodity": "apricots",
+    "variety": "Black Velvet"
+  },
+  {
+    "code": 3045,
+    "category": "Fruits",
+    "commodity": "dates",
+    "variety": "Fresh, On Branch"
+  },
+  {
+    "code": 3046,
+    "category": "Fruits",
+    "commodity": "dates",
+    "variety": "Fresh, Frozen"
+  },
+  {
+    "code": 3047,
+    "category": "Fruits",
+    "commodity": "dates",
+    "variety": "Medjool"
+  },
+  {
+    "code": 3048,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Helda/Flat"
+  },
+  {
+    "code": 3049,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Fine"
+  },
+  {
+    "code": 3050,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Dutch White/Winter White"
+  },
+  {
+    "code": 3051,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Spring Cabbage/Spring Greens"
+  },
+  {
+    "code": 3052,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "String"
+  },
+  {
+    "code": 3053,
+    "category": "Vegetables",
+    "commodity": "parsnip",
+    "variety": "Baby"
+  },
+  {
+    "code": 3054,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Elongated (Clovis Red/Lamuyo Red)"
+  },
+  {
+    "code": 3055,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Elongated (Clovis Green/Lamuyo Green)"
+  },
+  {
+    "code": 3056,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Elongated (Clovis Yellow/Lamuyo Yellow)"
+  },
+  {
+    "code": 3057,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Elongated (Clovis Orange/Lamuyo Orange)"
+  },
+  {
+    "code": 3058,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Elongated (Clovis White/Lamuyo White)"
+  },
+  {
+    "code": 3059,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Crown Prince"
+  },
+  {
+    "code": 3060,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Vegetable Marrow"
+  },
+  {
+    "code": 3061,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Beef/Beefsteak"
+  },
+  {
+    "code": 3062,
+    "category": "Herbs",
+    "commodity": "bay leaves",
+    "variety": ""
+  },
+  {
+    "code": 3063,
+    "category": "Herbs",
+    "commodity": "fennel leaves",
+    "variety": ""
+  },
+  {
+    "code": 3064,
+    "category": "Herbs",
+    "commodity": "aloe vera leaves",
+    "variety": ""
+  },
+  {
+    "code": 3065,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cameo"
+  },
+  {
+    "code": 3066,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cameo"
+  },
+  {
+    "code": 3067,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Swiss Gourmet"
+  },
+  {
+    "code": 3068,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Swiss Gourmet"
+  },
+  {
+    "code": 3069,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gravenstein, Red"
+  },
+  {
+    "code": 3070,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gravenstein, Red"
+  },
+  {
+    "code": 3071,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Granny Smith, Red"
+  },
+  {
+    "code": 3071.5,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Organic Granny Smith, Green",
+    "prices": [{ "store": "walmart", "price": 1.6, "unit": "weight" }]
+  },
+  {
+    "code": 3072,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Lady"
+  },
+  {
+    "code": 3073,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Macoun"
+  },
+  {
+    "code": 3074,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Greening (RI)"
+  },
+  {
+    "code": 3075,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Baldwin"
+  },
+  {
+    "code": 3076,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Melrose"
+  },
+  {
+    "code": 3077,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Northern Spy"
+  },
+  {
+    "code": 3078,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Liberty"
+  },
+  {
+    "code": 3079,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Purple"
+  },
+  {
+    "code": 3080,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Pinkerton"
+  },
+  {
+    "code": 3081,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Saskatoon"
+  },
+  {
+    "code": 3082,
+    "category": "Vegetables",
+    "commodity": "broccoli",
+    "variety": "Crowns"
+  },
+  {
+    "code": 3083,
+    "category": "Vegetables",
+    "commodity": "brussels sprouts",
+    "variety": "Stalk"
+  },
+  { "code": 3084, "category": "Herbs", "commodity": "chervil", "variety": "" },
+  {
+    "code": 3085,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Indian, Decorative"
+  },
+  {
+    "code": 3086,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Indian. Decorative"
+  },
+  {
+    "code": 3087,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Indian, Strawberry"
+  },
+  {
+    "code": 3088,
+    "category": "Fruits",
+    "commodity": "currants",
+    "variety": "Red"
+  },
+  {
+    "code": 3089,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "Chinese"
+  },
+  {
+    "code": 3090,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "Thai"
+  },
+  {
+    "code": 3091,
+    "category": "Vegetables",
+    "commodity": "gobo root/burdock",
+    "variety": ""
+  },
+  {
+    "code": 3092,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "OroBlanco/Sweetie"
+  },
+  {
+    "code": 3093,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3094,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3095,
+    "category": "Vegetables",
+    "commodity": "kale",
+    "variety": "Multicolor"
+  },
+  {
+    "code": 3096,
+    "category": "Vegetables",
+    "commodity": "kohlrabi",
+    "variety": "Purple/Red/All Other Colors"
+  },
+  {
+    "code": 3097,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Romaine, Red"
+  },
+  {
+    "code": 3098,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Boston, Red"
+  },
+  {
+    "code": 3099,
+    "category": "Vegetables",
+    "commodity": "lotus root",
+    "variety": ""
+  },
+  {
+    "code": 3100,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Gold Honeydew"
+  },
+  {
+    "code": 3101,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Piel de Sapo"
+  },
+  {
+    "code": 3102,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Morel"
+  },
+  {
+    "code": 3103,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Enoki"
+  },
+  {
+    "code": 3104,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "RoHo 3615"
+  },
+  { "code": 3105, "category": "Nuts", "commodity": "cashews", "variety": "" },
+  { "code": 3106, "category": "Nuts", "commodity": "macadamia", "variety": "" },
+  {
+    "code": 3107,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navel"
+  },
+  {
+    "code": 3108,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Valencia"
+  },
+  {
+    "code": 3109,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Seville (Marmalade type)"
+  },
+  {
+    "code": 3110,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navel, Cara Cara (Red)"
+  },
+  {
+    "code": 3111,
+    "category": "Fruits",
+    "commodity": "papaya/pawpaw",
+    "variety": "Red-Fleshed (Solo Sunrise)"
+  },
+  {
+    "code": 3112,
+    "category": "Fruits",
+    "commodity": "papaya/pawpaw",
+    "variety": "Meridol"
+  },
+  {
+    "code": 3113,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Flat White Flesh (Saturn type)"
+  },
+  {
+    "code": 3114,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Green"
+  },
+  {
+    "code": 3115,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Flat Yellow Flesh"
+  },
+  {
+    "code": 3116,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh (Tree Ripened/Ready-to-eat)"
+  },
+  {
+    "code": 3117,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh (Tree Ripened/Ready-to-eat)"
+  },
+  {
+    "code": 3118,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Starkrimson"
+  },
+  {
+    "code": 3119,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - Green"
+  },
+  {
+    "code": 3120,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - Green"
+  },
+  {
+    "code": 3121,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - Orange"
+  },
+  {
+    "code": 3122,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - White"
+  },
+  {
+    "code": 3123,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - Brown"
+  },
+  {
+    "code": 3124,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - Purple"
+  },
+  {
+    "code": 3125,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Habanero"
+  },
+  {
+    "code": 3126,
+    "category": "Fruits",
+    "commodity": "plumcot (interspecific plum)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3127,
+    "category": "Fruits",
+    "commodity": "pomegranate",
+    "variety": ""
+  },
+  {
+    "code": 3128,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Purple"
+  },
+  {
+    "code": 3129,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Pummelo - Red"
+  },
+  {
+    "code": 3130,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Jumbo"
+  },
+  {
+    "code": 3131,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Decorative (Painted)"
+  },
+  {
+    "code": 3132,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "White"
+  },
+  {
+    "code": 3133,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "White - Mini"
+  },
+  {
+    "code": 3134,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Pie Pumpkin"
+  },
+  {
+    "code": 3135,
+    "category": "Vegetables",
+    "commodity": "gourd",
+    "variety": "Ornamental"
+  },
+  {
+    "code": 3136,
+    "category": "Fruits",
+    "commodity": "sapodillo/nispero",
+    "variety": ""
+  },
+  {
+    "code": 3137,
+    "category": "Fruits",
+    "commodity": "sapote",
+    "variety": "White"
+  },
+  {
+    "code": 3138,
+    "category": "Fruits",
+    "commodity": "sapote",
+    "variety": "Black"
+  },
+  { "code": 3139, "category": "Herbs", "commodity": "savory", "variety": "" },
+  {
+    "code": 3140,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Cucuzza"
+  },
+  {
+    "code": 3141,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Opo"
+  },
+  {
+    "code": 3142,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Carnival"
+  },
+  {
+    "code": 3143,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Acorn - baby"
+  },
+  {
+    "code": 3144,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Fall Glo"
+  },
+  {
+    "code": 3145,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Plum/Italian/Saladette/Roma (Yellow)"
+  },
+  {
+    "code": 3146,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cherry - Red, On the Vine"
+  },
+  {
+    "code": 3147,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cherry - Yellow, On the Vine"
+  },
+  {
+    "code": 3148,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Regular - Yelllow, On the Vine (Truss)"
+  },
+  {
+    "code": 3149,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Regular - Orange, On the Vine"
+  },
+  {
+    "code": 3150,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cocktail/Intermediate - Red"
+  },
+  {
+    "code": 3151,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Vine Ripe, Regular - Red"
+  },
+  {
+    "code": 3152,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Melogold"
+  },
+  {
+    "code": 3153,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Delta Seedless"
+  },
+  {
+    "code": 3154,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Delta Seedless"
+  },
+  {
+    "code": 3155,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Midknight"
+  },
+  {
+    "code": 3156,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Midknight"
+  },
+  {
+    "code": 3157,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 3158,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 3159,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 3160,
+    "category": "Vegetables",
+    "commodity": "gai lan",
+    "variety": "Synonymous with Chinese Broccoli"
+  },
+  {
+    "code": 3161,
+    "category": "Vegetables",
+    "commodity": "gai (gui) choy (chinese or indian mustard)",
+    "variety": "Baby - Chinese or Indian Mustard"
+  },
+  {
+    "code": 3162,
+    "category": "Vegetables",
+    "commodity": "ong choy",
+    "variety": "Synonymous with Water Spinach"
+  },
+  {
+    "code": 3163,
+    "category": "Vegetables",
+    "commodity": "bok choy (pak choi)",
+    "variety": "Shanghai"
+  },
+  {
+    "code": 3164,
+    "category": "Vegetables",
+    "commodity": "yu choy",
+    "variety": ""
+  },
+  {
+    "code": 3165,
+    "category": "Vegetables",
+    "commodity": "radicchio",
+    "variety": "Treviso"
+  },
+  {
+    "code": 3166,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Tuscan"
+  },
+  {
+    "code": 3167,
+    "category": "Vegetables",
+    "commodity": "frisee",
+    "variety": ""
+  },
+  {
+    "code": 3168,
+    "category": "Vegetables",
+    "commodity": "radicchio",
+    "variety": "Castlefranco"
+  },
+  {
+    "code": 3169,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Catalogna"
+  },
+  {
+    "code": 3170,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3171,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3172,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3173,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3174,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3175,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3176,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3177,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3178,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3179,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3180,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3181,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3182,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3183,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3184,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3185,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3186,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3187,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3188,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3189,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3190,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3191,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3192,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3193,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3194,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3195,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3196,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3197,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3198,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3199,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3200,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3201,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3202,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3203,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3204,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3205,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3206,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3207,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3208,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3209,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3210,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3211,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3212,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3213,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3214,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3215,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3216,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3217,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3218,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3219,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3220,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3221,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3222,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3223,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3224,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3225,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3226,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3227,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3228,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3229,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3230,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3231,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3232,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3233,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3234,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3235,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3236,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3237,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3238,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3239,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3240,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3241,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3242,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3243,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3244,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3245,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3246,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3247,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3248,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3249,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3250,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3251,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3252,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3253,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3254,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3255,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3256,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3257,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3258,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3259,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3260,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3261,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3262,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3263,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3264,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3265,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3266,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3267,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3268,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3269,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3270,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3271,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Virginia Gold"
+  },
+  {
+    "code": 3272,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sommerfeld"
+  },
+  {
+    "code": 3273,
+    "category": "Vegetables",
+    "commodity": "beets",
+    "variety": "Golden"
+  },
+  {
+    "code": 3274,
+    "category": "Fruits",
+    "commodity": "prunes",
+    "variety": "Fresh"
+  },
+  {
+    "code": 3275,
+    "category": "Vegetables",
+    "commodity": "name",
+    "variety": "Yellow (nyAH-may)"
+  },
+  {
+    "code": 3276,
+    "category": "Vegetables",
+    "commodity": "name",
+    "variety": "White (nyAH-may)"
+  },
+  {
+    "code": 3277,
+    "category": "Vegetables",
+    "commodity": "broccoli",
+    "variety": "Baby"
+  },
+  {
+    "code": 3278,
+    "category": "Fruits",
+    "commodity": "plumcot (interspecific plum)",
+    "variety": ""
+  },
+  {
+    "code": 3279,
+    "category": "Fruits",
+    "commodity": "kiwifruit",
+    "variety": "Golden"
+  },
+  {
+    "code": 3280,
+    "category": "Fruits",
+    "commodity": "kiwifruit",
+    "variety": "Regular"
+  },
+  {
+    "code": 3281,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Orange, Seedless"
+  },
+  {
+    "code": 3282,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Plum/Italian/Saladette/Roma on the vine - Red"
+  },
+  {
+    "code": 3283,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Honeycrisp"
+  },
+  {
+    "code": 3284,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Red Delicious"
+  },
+  {
+    "code": 3285,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Golden Delicious"
+  },
+  {
+    "code": 3286,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Sweet red Italian - flat"
+  },
+  {
+    "code": 3287,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Hawaiian plantain"
+  },
+  {
+    "code": 3288,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 3289,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Sprite"
+  },
+  {
+    "code": 3290,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Aurora/Southern Rose"
+  },
+  {
+    "code": 3291,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Boskoop/Belle de Boskoop"
+  },
+  {
+    "code": 3292,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Boskoop/Belle de Boskoop"
+  },
+  {
+    "code": 3293,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Scifresh"
+  },
+  {
+    "code": 3294,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Scifresh"
+  },
+  {
+    "code": 3295,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sciearly"
+  },
+  {
+    "code": 3296,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sciearly"
+  },
+  {
+    "code": 3297,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Scired"
+  },
+  {
+    "code": 3298,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Redfield"
+  },
+  {
+    "code": 3299,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sonya"
+  },
+  {
+    "code": 3300,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sonya"
+  },
+  {
+    "code": 3301,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cripps Red"
+  },
+  {
+    "code": 3302,
+    "category": "Fruits",
+    "commodity": "apricots",
+    "variety": "Regular"
+  },
+  { "code": 3303, "category": "Fruits", "commodity": "babaco", "variety": "" },
+  {
+    "code": 3304,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Loganberries"
+  },
+  {
+    "code": 3305,
+    "category": "Fruits",
+    "commodity": "currants",
+    "variety": "Black"
+  },
+  {
+    "code": 3306,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Charentais"
+  },
+  {
+    "code": 3307,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Charentais"
+  },
+  {
+    "code": 3308,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Orange, Seedless"
+  },
+  {
+    "code": 3309,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Lima"
+  },
+  {
+    "code": 3310,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Pera"
+  },
+  {
+    "code": 3311,
+    "category": "Fruits",
+    "commodity": "passion fruit",
+    "variety": "Curuba/Banana"
+  },
+  {
+    "code": 3312,
+    "category": "Fruits",
+    "commodity": "passion fruit",
+    "variety": "Granadilla - Yellow/Maracuja"
+  },
+  {
+    "code": 3313,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "White Flesh - Tree Ripened/ Ready-to-eat"
+  },
+  {
+    "code": 3314,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "White Flesh - Tree Ripened/ Ready-to-eat"
+  },
+  {
+    "code": 3315,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Scilate"
+  },
+  {
+    "code": 3316,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Carmen"
+  },
+  {
+    "code": 3317,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Angelys"
+  },
+  {
+    "code": 3318,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Passe Crassane"
+  },
+  {
+    "code": 3319,
+    "category": "Fruits",
+    "commodity": "pitahaya",
+    "variety": "Yellow (skin color)"
+  },
+  {
+    "code": 3320,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Romanesco/Broccoflower/Caulibroc"
+  },
+  {
+    "code": 3321,
+    "category": "Vegetables",
+    "commodity": "celery root/celeriac",
+    "variety": "With leaves attached"
+  },
+  {
+    "code": 3322,
+    "category": "Vegetables",
+    "commodity": "choy sum/pak choi sum",
+    "variety": ""
+  },
+  {
+    "code": 3323,
+    "category": "Vegetables",
+    "commodity": "choy sum/pak choi sum",
+    "variety": "Baby"
+  },
+  {
+    "code": 3324,
+    "category": "Vegetables",
+    "commodity": "escarole/batavian chicory",
+    "variety": "Red"
+  },
+  {
+    "code": 3325,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Lollo Bionda/Coral - Green"
+  },
+  {
+    "code": 3326,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Lollo Rossa/Coral - Red"
+  },
+  {
+    "code": 3327,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Mignonette (Compact red-tinged butterhead varieties)"
+  },
+  {
+    "code": 3328,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Mixed small-leaf salad (eg Sucrine, Mesclun, Rocket/Arugula)"
+  },
+  {
+    "code": 3329,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Oak Leaf - Green"
+  },
+  {
+    "code": 3330,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Oak Leaf - Reg"
+  },
+  {
+    "code": 3331,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Red Fresh - Bunch"
+  },
+  {
+    "code": 3332,
+    "category": "Vegetables",
+    "commodity": "spinach",
+    "variety": "Baby"
+  },
+  {
+    "code": 3333,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "Red/Orangy White Flesh"
+  },
+  {
+    "code": 3334,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "Red/Orangy White Flesh"
+  },
+  {
+    "code": 3335,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cocktail/Intermediate - Red/On the Vine (Truss)"
+  },
+  {
+    "code": 3336,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cocktail/Intermediate - Red/Plum/Italian/Saladette/Roma/On the Vine (Truss)"
+  },
+  {
+    "code": 3337,
+    "category": "Dried Fruits",
+    "commodity": "figs",
+    "variety": "(Dried Fruit)"
+  },
+  { "code": 3338, "category": "Herbs", "commodity": "anise", "variety": "" },
+  {
+    "code": 3339,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Belchard - Chantecler"
+  },
+  {
+    "code": 3340,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Bertanne/Golden Russet"
+  },
+  {
+    "code": 3341,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Charles Ross"
+  },
+  {
+    "code": 3342,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Delblush"
+  },
+  {
+    "code": 3343,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Dessert"
+  },
+  {
+    "code": 3344,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gloster"
+  },
+  {
+    "code": 3345,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gloster"
+  },
+  {
+    "code": 3346,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Holstein"
+  },
+  {
+    "code": 3347,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Laxtons Fortune"
+  },
+  {
+    "code": 3348,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Lord Lambourne"
+  },
+  {
+    "code": 3349,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Michaelmas Red"
+  },
+  {
+    "code": 3350,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Reine des Reinettes/King of the Pippins"
+  },
+  {
+    "code": 3351,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Reine des Reinettes/King of the Pippins"
+  },
+  {
+    "code": 3352,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Reinettes and Heritage varieties - (incl Canada blanc Reinette du Mans, Armorique/du Vigan/Calville"
+  },
+  {
+    "code": 3353,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "St Edmunds Pippin"
+  },
+  {
+    "code": 3354,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Ripe/Ready-to-Eat"
+  },
+  {
+    "code": 3355,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries - Nominal 500g/1 litre"
+  },
+  {
+    "code": 3356,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries - Nominal250g/1/2 litre"
+  },
+  {
+    "code": 3357,
+    "category": "Fruits",
+    "commodity": "cherries",
+    "variety": "Regular/Red/Black"
+  },
+  {
+    "code": 3358,
+    "category": "Fruits",
+    "commodity": "cherries",
+    "variety": "Regular/Red/Black"
+  },
+  {
+    "code": 3359,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Chasselas"
+  },
+  {
+    "code": 3360,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Muscat de Hambourg"
+  },
+  {
+    "code": 3361,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Without p/harvest treatment"
+  },
+  {
+    "code": 3362,
+    "category": "Fruits",
+    "commodity": "lemons",
+    "variety": "Without postharvest treatment"
+  },
+  {
+    "code": 3363,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Kensington Pride"
+  },
+  {
+    "code": 3364,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "R2E2 (ArtwoEetwo)"
+  },
+  {
+    "code": 3365,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Ripe/Ready-to-Eat"
+  },
+  {
+    "code": 3366,
+    "category": "Fruits",
+    "commodity": "madro√ëa",
+    "variety": ""
+  },
+  {
+    "code": 3367,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Glasshouse - Netted varieties"
+  },
+  {
+    "code": 3368,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Ogen"
+  },
+  {
+    "code": 3369,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Nectavigne (Red Flesh)"
+  },
+  {
+    "code": 3370,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Maltaise"
+  },
+  {
+    "code": 3371,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Salustiana"
+  },
+  {
+    "code": 3372,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navelate (and other late Navel varieties)"
+  },
+  {
+    "code": 3373,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navelina (incl. Newhall)"
+  },
+  {
+    "code": 3374,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Without postharvest treatment"
+  },
+  {
+    "code": 3375,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "de Vigne & Sanguine (Red Flesh)"
+  },
+  {
+    "code": 3376,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Alexander Lucas"
+  },
+  {
+    "code": 3377,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Louise Bonne"
+  },
+  {
+    "code": 3378,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Santa Maria"
+  },
+  {
+    "code": 3379,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": "Mini"
+  },
+  {
+    "code": 3380,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": "Perola"
+  },
+  { "code": 3381, "category": "Fruits", "commodity": "soursop", "variety": "" },
+  {
+    "code": 3382,
+    "category": "Fruits",
+    "commodity": "sugar apple",
+    "variety": ""
+  },
+  {
+    "code": 3383,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Clementine"
+  },
+  {
+    "code": 3384,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Clementine"
+  },
+  {
+    "code": 3385,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Clementine"
+  },
+  {
+    "code": 3386,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Clementine (With leaves attached)"
+  },
+  {
+    "code": 3387,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Clementine (Without p/harvest treatment)"
+  },
+  {
+    "code": 3388,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Satsuma -Clauselina"
+  },
+  {
+    "code": 3389,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Satsuma"
+  },
+  {
+    "code": 3390,
+    "category": "Vegetables",
+    "commodity": "arracach",
+    "variety": ""
+  },
+  {
+    "code": 3391,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": "Rouge Salambo (Red)"
+  },
+  {
+    "code": 3392,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Green - Bunch"
+  },
+  {
+    "code": 3393,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "White - Bunch"
+  },
+  {
+    "code": 3394,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Purple - Bunch"
+  },
+  {
+    "code": 3395,
+    "category": "Vegetables",
+    "commodity": "belgian endive (witloof chicory)",
+    "variety": "Red"
+  },
+  {
+    "code": 3396,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Savoy, Red"
+  },
+  {
+    "code": 3397,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Summer Cabbage - Pointed type"
+  },
+  {
+    "code": 3398,
+    "category": "Vegetables",
+    "commodity": "chickpeas",
+    "variety": "Chickpeas/Garbanzo"
+  },
+  {
+    "code": 3399,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "Regular - Fresh/Semi-dried with leaves attached"
+  },
+  {
+    "code": 3400,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "Regular - Smoked"
+  },
+  {
+    "code": 3401,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "One-clove types"
+  },
+  {
+    "code": 3402,
+    "category": "Vegetables",
+    "commodity": "leeks",
+    "variety": "Regular - Bunch"
+  },
+  {
+    "code": 3403,
+    "category": "Vegetables",
+    "commodity": "leeks",
+    "variety": "Baby - Bunch"
+  },
+  {
+    "code": 3404,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Cep"
+  },
+  {
+    "code": 3405,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Fairy Ring Champignon"
+  },
+  {
+    "code": 3406,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Grey - Tricholoma"
+  },
+  {
+    "code": 3407,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Grisette"
+  },
+  {
+    "code": 3408,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Horn of Plenty/Black Trumpet"
+  },
+  {
+    "code": 3409,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Pioppino"
+  },
+  {
+    "code": 3410,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Saffron Milk-Cap"
+  },
+  {
+    "code": 3411,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Sheep Polypore"
+  },
+  {
+    "code": 3412,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Yellow/Brown Fresh - Bunch"
+  },
+  {
+    "code": 3413,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Tabasco"
+  },
+  {
+    "code": 3414,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Baking - White"
+  },
+  {
+    "code": 3415,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Baking - Red and Red Eye varieties"
+  },
+  {
+    "code": 3416,
+    "category": "Vegetables",
+    "commodity": "rhubarb",
+    "variety": "Bunch"
+  },
+  {
+    "code": 3417,
+    "category": "Vegetables",
+    "commodity": "spinach",
+    "variety": "New Zealand Spinach"
+  },
+  {
+    "code": 3418,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Zucchini/Courgette - Round"
+  },
+  { "code": 3419, "category": "Herbs", "commodity": "borage", "variety": "" },
+  {
+    "code": 3420,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Belle du Jumet"
+  },
+  {
+    "code": 3421,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Mini Seedless"
+  },
+  {
+    "code": 3422,
+    "category": "Fruits",
+    "commodity": "apricots",
+    "variety": "InterSpecific"
+  },
+  {
+    "code": 3423,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Heirloom "
+  },
+  {
+    "code": 3424,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "Purple/Red - Beta Sweet"
+  },
+  {
+    "code": 3425,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Ellendale"
+  },
+  {
+    "code": 3426,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Ellendale"
+  },
+  {
+    "code": 3427,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Ellendale"
+  },
+  {
+    "code": 3428,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Honey/Murcott"
+  },
+  {
+    "code": 3429,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Honey/Murcott"
+  },
+  {
+    "code": 3430,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Honey/Murcott"
+  },
+  {
+    "code": 3431,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Imperial"
+  },
+  {
+    "code": 3432,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Imperial"
+  },
+  {
+    "code": 3433,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Imperial"
+  },
+  {
+    "code": 3434,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Tosca"
+  },
+  {
+    "code": 3435,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Pinova"
+  },
+  {
+    "code": 3436,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Orange"
+  },
+  {
+    "code": 3437,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Flat Yellow"
+  },
+  {
+    "code": 3438,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Ambrosia",
+    "prices": [{ "store": "walmart", "price": 1.36, "unit": "weight" }]
+  },
+  {
+    "code": 3439,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "White Flesh Flat"
+  },
+  {
+    "code": 3440,
+    "category": "Fruits",
+    "commodity": "pomegranate",
+    "variety": ""
+  },
+  {
+    "code": 3441,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Butterkin"
+  },
+  {
+    "code": 3442,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "New York 1"
+  },
+  {
+    "code": 3443,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "New York 2"
+  },
+  {
+    "code": 3444,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Green Dragon"
+  },
+  {
+    "code": 3445,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "DS 3"
+  },
+  {
+    "code": 3446,
+    "category": "Vegetables",
+    "commodity": "kale sprouts",
+    "variety": ""
+  },
+  {
+    "code": 3447,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "DS 22"
+  },
+  {
+    "code": 3448,
+    "category": "Fruits",
+    "commodity": "cherries",
+    "variety": "Tip Top"
+  },
+  {
+    "code": 3449,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Sugrathirteen"
+  },
+  {
+    "code": 3450,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Sugranineteen"
+  },
+  {
+    "code": 3451,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Sugrathirtyfour"
+  },
+  {
+    "code": 3452,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Sugrathirtyfive"
+  },
+  {
+    "code": 3453,
+    "category": "Vegetables",
+    "commodity": "galangal root",
+    "variety": ""
+  },
+  {
+    "code": 3454,
+    "category": "Fruits",
+    "commodity": "jackfruit",
+    "variety": "Green"
+  },
+  {
+    "code": 3455,
+    "category": "Fruits",
+    "commodity": "jackfruit",
+    "variety": "Yellow"
+  },
+  {
+    "code": 3456,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Winter"
+  },
+  {
+    "code": 3457,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "President"
+  },
+  {
+    "code": 3458,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cherry - Orange"
+  },
+  {
+    "code": 3459,
+    "category": "Fruits",
+    "commodity": "persimmon",
+    "variety": "Shiny Red"
+  },
+  {
+    "code": 3460,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Red Jonaprince"
+  },
+  {
+    "code": 3461,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Lady Williams"
+  },
+  {
+    "code": 3462,
+    "category": "Herbs",
+    "commodity": "chives",
+    "variety": "Garlic/Chinese"
+  },
+  {
+    "code": 3463,
+    "category": "Vegetables",
+    "commodity": "amaranth/callaloo/een choy",
+    "variety": ""
+  },
+  {
+    "code": 3464,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "B-74"
+  },
+  {
+    "code": 3465,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Stripy Bell"
+  },
+  {
+    "code": 3466,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Cape Rose"
+  },
+  {
+    "code": 3467,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Regal 13-82"
+  },
+  {
+    "code": 3468,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Honeycrisp"
+  },
+  {
+    "code": 3469,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Sugrasixteen"
+  },
+  {
+    "code": 3470,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Red, Small Seeds"
+  },
+  {
+    "code": 3471,
+    "category": "Vegetables",
+    "commodity": "cactus leaves (nopales/cactus pads)",
+    "variety": "Baby"
+  },
+  {
+    "code": 3472,
+    "category": "Herbs",
+    "commodity": "sacred pepper",
+    "variety": ""
+  },
+  { "code": 3473, "category": "Herbs", "commodity": "epazote", "variety": "" },
+  {
+    "code": 3474,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "Saffron"
+  },
+  {
+    "code": 3475,
+    "category": "Herbs",
+    "commodity": "mint",
+    "variety": "Peppermint"
+  },
+  {
+    "code": 3476,
+    "category": "Herbs",
+    "commodity": "orange tree leaf",
+    "variety": ""
+  },
+  { "code": 3477, "category": "Herbs", "commodity": "papalo", "variety": "" },
+  {
+    "code": 3478,
+    "category": "Vegetables",
+    "commodity": "quelites",
+    "variety": ""
+  },
+  {
+    "code": 3479,
+    "category": "Vegetables",
+    "commodity": "chipilin leaf",
+    "variety": ""
+  },
+  {
+    "code": 3480,
+    "category": "Vegetables",
+    "commodity": "pumpkin vine",
+    "variety": ""
+  },
+  {
+    "code": 3481,
+    "category": "Vegetables",
+    "commodity": "xpelon",
+    "variety": ""
+  },
+  {
+    "code": 3482,
+    "category": "Herbs",
+    "commodity": "rabbit herb",
+    "variety": ""
+  },
+  {
+    "code": 3483,
+    "category": "Herbs",
+    "commodity": "purple herb",
+    "variety": ""
+  },
+  {
+    "code": 3484,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Dalinette"
+  },
+  {
+    "code": 3485,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Harovin Sundown"
+  },
+  {
+    "code": 3486,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "CN121"
+  },
+  {
+    "code": 3487,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "MN 55"
+  },
+  {
+    "code": 3488,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Red"
+  },
+  {
+    "code": 3489,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Cepuna"
+  },
+  {
+    "code": 3490,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "MAIA 1"
+  },
+  {
+    "code": 3491,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "ARRA FIFTEEN"
+  },
+  {
+    "code": 3492,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "ARRA TWENTYNINE"
+  },
+  {
+    "code": 3493,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Tearless Sweet"
+  },
+  {
+    "code": 3494,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Yellow Mini Seedless"
+  },
+  {
+    "code": 3495,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Celina"
+  },
+  {
+    "code": 3496,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "IFG Core Red Seedless"
+  },
+  {
+    "code": 3497,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "IFG Core Black Seedless "
+  },
+  {
+    "code": 3498,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "IFG Core Green Seedless"
+  },
+  {
+    "code": 3499,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "IFG Novelty Red Seedless"
+  },
+  {
+    "code": 3500,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "IFG Novelty Black Seedless"
+  },
+  {
+    "code": 3501,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "IFG Novelty Green Seedless"
+  },
+  {
+    "code": 3502,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "ARRA TWENTYSEVEN"
+  },
+  {
+    "code": 3503,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "ARRA TWENTYEIGHT"
+  },
+  {
+    "code": 3504,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "ARRA THIRTY"
+  },
+  {
+    "code": 3505,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "ARRA THIRTYTWO"
+  },
+  {
+    "code": 3506,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Sweet Scarlet"
+  },
+  {
+    "code": 3507,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "WA 38"
+  },
+  {
+    "code": 3508,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Thomcord"
+  },
+  {
+    "code": 3509,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "GEM"
+  },
+  {
+    "code": 3510,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Ambrosia"
+  },
+  {
+    "code": 3511,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "WA 2"
+  },
+  {
+    "code": 3512,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Round"
+  },
+  {
+    "code": 3513,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Shinano Gold"
+  },
+  {
+    "code": 3514,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Fengapi"
+  },
+  {
+    "code": 3515,
+    "category": "ALL",
+    "commodity": "apples",
+    "variety": "PremA 153"
+  },
+  {
+    "code": 3516,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "PremA 153"
+  },
+  {
+    "code": 3517,
+    "category": "Fruits",
+    "commodity": "kiwifruit",
+    "variety": "Retailer Assigned - Gold Derivative Varieties"
+  },
+  {
+    "code": 3518,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Oksana"
+  },
+  {
+    "code": 3519,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "R10-45"
+  },
+  {
+    "code": 3520,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "SK-20"
+  },
+  {
+    "code": 3521,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Regal D5-100"
+  },
+  {
+    "code": 3522,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "HW624"
+  },
+  {
+    "code": 3523,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "SQ 159"
+  },
+  {
+    "code": 3524,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "C37"
+  },
+  {
+    "code": 3525,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "CN121"
+  },
+  {
+    "code": 3526,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Howell TC2"
+  },
+  {
+    "code": 3527,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Howell TC3"
+  },
+  {
+    "code": 3600,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Antares"
+  },
+  {
+    "code": 3601,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Huaguan"
+  },
+  {
+    "code": 3602,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Belgica"
+  },
+  {
+    "code": 3603,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Minneiska"
+  },
+  {
+    "code": 3604,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Emmons"
+  },
+  {
+    "code": 3605,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Nicoter"
+  },
+  {
+    "code": 3606,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Sweet Sensation"
+  },
+  {
+    "code": 3607,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Mariri Red"
+  },
+  {
+    "code": 3608,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sciros"
+  },
+  {
+    "code": 3609,
+    "category": "Fruits",
+    "commodity": "plumcot (interspecific plum)",
+    "variety": "Red"
+  },
+  {
+    "code": 3610,
+    "category": "Fruits",
+    "commodity": "plumcot (interspecific plum)",
+    "variety": "Green"
+  },
+  {
+    "code": 3611,
+    "category": "Fruits",
+    "commodity": "plumcot (interspecific plum)",
+    "variety": "Black"
+  },
+  {
+    "code": 3612,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Nicogreen"
+  },
+  {
+    "code": 3613,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Fuji Brak"
+  },
+  {
+    "code": 3614,
+    "category": "Fruits",
+    "commodity": "apricots",
+    "variety": "Red"
+  },
+  {
+    "code": 3615,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Civni"
+  },
+  {
+    "code": 3616,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Scilate"
+  },
+  {
+    "code": 3617,
+    "category": "Fruits",
+    "commodity": "lemons",
+    "variety": "Seedless"
+  },
+  {
+    "code": 3618,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Opal"
+  },
+  {
+    "code": 3619,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Milwa"
+  },
+  {
+    "code": 3620,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Plumac"
+  },
+  {
+    "code": 3621,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Francis"
+  },
+  {
+    "code": 3622,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Honey Green"
+  },
+  {
+    "code": 3623,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Hami"
+  },
+  {
+    "code": 3624,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Korean"
+  },
+  {
+    "code": 3625,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Minnewashta"
+  },
+  {
+    "code": 3626,
+    "category": "Fruits",
+    "commodity": "lemons",
+    "variety": "Meyer"
+  },
+  {
+    "code": 3627,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "PremA17"
+  },
+  {
+    "code": 3628,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "PremA280"
+  },
+  {
+    "code": 3629,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "CIVG198"
+  },
+  {
+    "code": 3630,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Co-op 43"
+  },
+  {
+    "code": 3631,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Pink"
+  },
+  {
+    "code": 3632,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Dekopon"
+  },
+  {
+    "code": 4011,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Yellow (includes Cavendish)"
+  },
+  {
+    "code": 4012,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navel"
+  },
+  {
+    "code": 4013,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navel"
+  },
+  {
+    "code": 4014,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Valencia"
+  },
+  {
+    "code": 4014,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Valencia"
+  },
+  {
+    "code": 4015,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Red Delicious"
+  },
+  {
+    "code": 94016,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Organic Red Delicious",
+    "prices": [{ "store": "walmart", "price": 4.68, "unit": "weight" }]
+  },
+  {
+    "code": 4016,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Red Delicious"
+  },
+  {
+    "code": 4017,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Granny Smith"
+  },
+  {
+    "code": 4018,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Granny Smith"
+  },
+  {
+    "code": 4019,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "McIntosh"
+  },
+  {
+    "code": 4020,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Golden Delicious"
+  },
+  {
+    "code": 4021,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Golden Delicious"
+  },
+  {
+    "code": 4022,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "White/Green Seedless - Peerlette Seedless/Thompson Seedless"
+  },
+  {
+    "code": 4023,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Red Seedless - Flame/Ruby/Emperatriz"
+  },
+  {
+    "code": 4024,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bartlett/Williams/WBC"
+  },
+  {
+    "code": 4025,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Anjou"
+  },
+  {
+    "code": 4026,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bosc/Beurre Bosc"
+  },
+  {
+    "code": 4027,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (includes Ray Ruby, Ruby, Ruby Red)"
+  },
+  {
+    "code": 4028,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries"
+  },
+  {
+    "code": 4029,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": ""
+  },
+  {
+    "code": 4030,
+    "category": "Fruits",
+    "commodity": "kiwifruit",
+    "variety": "Regular"
+  },
+  {
+    "code": 4031,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Red   "
+  },
+  {
+    "code": 4032,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Red, Seedless"
+  },
+  { "code": 4033, "category": "Fruits", "commodity": "lemons", "variety": "" },
+  {
+    "code": 4034,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Honeydew/White Honeydew"
+  },
+  {
+    "code": 4035,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Yellow Flesh"
+  },
+  {
+    "code": 4036,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Yellow Flesh"
+  },
+  {
+    "code": 4037,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh"
+  },
+  {
+    "code": 4038,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh"
+  },
+  {
+    "code": 4039,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Black (Includes Ambra, Black Beaut, Prima Black, Blackamber, Black Torch, Catalina, Challenger, Black Diamond, Friar, Royal Diamond, Black Knight, Freedom, Black Flame, Howard Sun, Angeleno)"
+  },
+  {
+    "code": 4040,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Black (Includes Ambra, Black Beaut, Prima Black, Blackamber, Black Torch, Catalina, Challenger, Black Diamond, Friar, Royal Diamond, Black Knight, Freedom, Black Flame, Howard Sun, Angeleno)"
+  },
+  {
+    "code": 4041,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Red (Includes Santa Rosa, Late Santa Rosa, Red Beaut, Rich Red, Spring Beaut, First Beaut, Royal Red, Red Jewel, Rose Zee, Royal Zee, Ace, Aleta Rose, Burgandy, July Santa Rosa, Frontier, Fortune, Grand Rosa, Red Lane, Red Rosa, Casselman, Autumn Rosa, Mi"
+  },
+  {
+    "code": 4042,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Red (Includes Santa Rosa, Late Santa Rosa, Red Beaut, Rich Red, Spring Beaut, First Beaut, Royal Red, Red Jewel, Rose Zee, Royal Zee, Ace, Aleta Rose, Burgandy, July Santa Rosa, Frontier, Fortune, Grand Rosa, Red Lane, Red Rosa, Casselman, Autumn Rosa, Mi"
+  },
+  {
+    "code": 4043,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh - Tree Ripened/Ready-to-eat"
+  },
+  {
+    "code": 4044,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh - Tree Ripened/Ready-to-eat"
+  },
+  {
+    "code": 4045,
+    "category": "Fruits",
+    "commodity": "cherries",
+    "variety": "Regular/Red/Black"
+  },
+  {
+    "code": 4046,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Hass"
+  },
+  {
+    "code": 4047,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (Includes Ray Ruby, Ruby, Ruby Red)"
+  },
+  {
+    "code": 4048,
+    "category": "Fruits",
+    "commodity": "limes",
+    "variety": "Regular (incl. Persian, Tahiti & Bearss)"
+  },
+  {
+    "code": 4049,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Cantaloupe/Rockmelon"
+  },
+  {
+    "code": 4050,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Cantaloupe/Rockmelon"
+  },
+  {
+    "code": 4051,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Red (Includes Tommy Atkins, Kent, Palmer, Vandyke, Edward,Hayden)"
+  },
+  {
+    "code": 4052,
+    "category": "Fruits",
+    "commodity": "papaya/pawpaw",
+    "variety": "Regular"
+  },
+  { "code": 4053, "category": "Fruits", "commodity": "lemons", "variety": "" },
+  {
+    "code": 4054,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Raspberries - Red"
+  },
+  {
+    "code": 4055,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": ""
+  },
+  {
+    "code": 4056,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Blue/Black Seedless (All other varieties not listed above including Beauty and Autumn Royal)"
+  },
+  {
+    "code": 4057,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Haralson"
+  },
+  {
+    "code": 4058,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Haralson"
+  },
+  {
+    "code": 4060,
+    "category": "Vegetables",
+    "commodity": "broccoli",
+    "variety": ""
+  },
+  {
+    "code": 4061,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Iceberg"
+  },
+  {
+    "code": 4062,
+    "category": "Vegetables",
+    "commodity": "cucumber",
+    "variety": "Green/Ridge/Short"
+  },
+  {
+    "code": 4063,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Regular - Red"
+  },
+  {
+    "code": 4064,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Regular - Red"
+  },
+  {
+    "code": 4065,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - Green"
+  },
+  {
+    "code": 4066,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Green/French"
+  },
+  {
+    "code": 4067,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Zucchini/Courgette"
+  },
+  {
+    "code": 4068,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Green (Scallions)/Spring"
+  },
+  {
+    "code": 4069,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Green"
+  },
+  {
+    "code": 4070,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Bunch"
+  },
+  {
+    "code": 4071,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Bunch"
+  },
+  {
+    "code": 4072,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Russet"
+  },
+  {
+    "code": 4073,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Red"
+  },
+  {
+    "code": 4074,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "Red/Orangy Red Flesh"
+  },
+  {
+    "code": 4075,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Red Leaf"
+  },
+  {
+    "code": 4076,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Green Leaf"
+  },
+  {
+    "code": 4077,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Sweet Corn, White"
+  },
+  {
+    "code": 4078,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Sweet Corn, Yellow"
+  },
+  {
+    "code": 4079,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": ""
+  },
+  {
+    "code": 4080,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Green"
+  },
+  {
+    "code": 4081,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "Regular"
+  },
+  {
+    "code": 4082,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Red"
+  },
+  {
+    "code": 4083,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "White"
+  },
+  {
+    "code": 4084,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": ""
+  },
+  {
+    "code": 4085,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Regular"
+  },
+  {
+    "code": 4086,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Yellow Zucchini/Gold Bar/Yellow Courgette"
+  },
+  {
+    "code": 4087,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Plum/Italian/Saladette/Roma - Red"
+  },
+  {
+    "code": 4088,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - Red"
+  },
+  {
+    "code": 4089,
+    "category": "Vegetables",
+    "commodity": "radish",
+    "variety": "Bunched Red"
+  },
+  {
+    "code": 4090,
+    "category": "Vegetables",
+    "commodity": "spinach",
+    "variety": "Regular/Bunched"
+  },
+  {
+    "code": 4091,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "White"
+  },
+  {
+    "code": 4092,
+    "category": "Vegetables",
+    "commodity": "peas",
+    "variety": "Chinese Snow Pea/Pea Pod/Mange Tout"
+  },
+  {
+    "code": 4093,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Yellow/Brown"
+  },
+  {
+    "code": 4094,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "Bunch"
+  },
+  {
+    "code": 4095,
+    "category": "Vegetables",
+    "commodity": "turnip",
+    "variety": "Yellow"
+  },
+  {
+    "code": 4096,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Ginger Gold"
+  },
+  {
+    "code": 4097,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Ginger Gold"
+  },
+  {
+    "code": 4098,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Akane"
+  },
+  {
+    "code": 4099,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Akane"
+  },
+  {
+    "code": 4100,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Fireside"
+  },
+  {
+    "code": 4101,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Braeburn"
+  },
+  {
+    "code": 4102,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Fireside"
+  },
+  {
+    "code": 4103,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Braeburn"
+  },
+  {
+    "code": 4104,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cortland"
+  },
+  {
+    "code": 4105,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cox Orange Pippin"
+  },
+  {
+    "code": 4106,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cortland"
+  },
+  {
+    "code": 4107,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Crab"
+  },
+  {
+    "code": 4108,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Crispin/Mutsu"
+  },
+  {
+    "code": 4109,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Crispin/Mutsu"
+  },
+  {
+    "code": 4110,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Crispin/Mutsu"
+  },
+  {
+    "code": 4111,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Crispin/Mutsu"
+  },
+  {
+    "code": 4112,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Regent"
+  },
+  {
+    "code": 4113,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Criterion"
+  },
+  {
+    "code": 4114,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Regent"
+  },
+  {
+    "code": 4115,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Criterion"
+  },
+  {
+    "code": 4116,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Early"
+  },
+  {
+    "code": 4117,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Early"
+  },
+  {
+    "code": 4118,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Early"
+  },
+  {
+    "code": 4119,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Early"
+  },
+  {
+    "code": 4120,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Fiesta"
+  },
+  {
+    "code": 4121,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Elstar"
+  },
+  {
+    "code": 4122,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sciros"
+  },
+  {
+    "code": 4123,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Elstar"
+  },
+  {
+    "code": 4124,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Empire"
+  },
+  {
+    "code": 4125,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Empire"
+  },
+  {
+    "code": 4126,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Empire"
+  },
+  {
+    "code": 4127,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Empire"
+  },
+  {
+    "code": 4128,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cripps Pink"
+  },
+  {
+    "code": 4129,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Fuji"
+  },
+  {
+    "code": 4130,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Cripps Pink"
+  },
+  {
+    "code": 4131,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Fuji"
+  },
+  {
+    "code": 4132,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gala"
+  },
+  {
+    "code": 4133,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gala"
+  },
+  {
+    "code": 4134,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gala"
+  },
+  {
+    "code": 4135,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gala"
+  },
+  {
+    "code": 4136,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Golden Delicious"
+  },
+  {
+    "code": 4137,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Golden Delicious"
+  },
+  {
+    "code": 4138,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Granny Smith"
+  },
+  {
+    "code": 4139,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Granny Smith"
+  },
+  {
+    "code": 4140,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Idared"
+  },
+  {
+    "code": 4141,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonamac"
+  },
+  {
+    "code": 4142,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Idared"
+  },
+  {
+    "code": 4143,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonamac"
+  },
+  {
+    "code": 4144,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonagold"
+  },
+  {
+    "code": 4145,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonagold"
+  },
+  {
+    "code": 4146,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonagold"
+  },
+  {
+    "code": 4147,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonagold"
+  },
+  {
+    "code": 4148,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonathan"
+  },
+  {
+    "code": 4149,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonathan"
+  },
+  {
+    "code": 4150,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonathan"
+  },
+  {
+    "code": 4151,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Jonathan"
+  },
+  {
+    "code": 4152,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "McIntosh"
+  },
+  {
+    "code": 4153,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "McIntosh"
+  },
+  {
+    "code": 4154,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "McIntosh"
+  },
+  {
+    "code": 4155,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Paulared"
+  },
+  {
+    "code": 4156,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gravenstein"
+  },
+  {
+    "code": 4157,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Paulared"
+  },
+  {
+    "code": 4158,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Gravenstein"
+  },
+  {
+    "code": 4159,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Vidalia"
+  },
+  {
+    "code": 4160,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Pippin"
+  },
+  {
+    "code": 4161,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Texas Sweet"
+  },
+  {
+    "code": 4162,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Pippin"
+  },
+  {
+    "code": 4163,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Walla Walla"
+  },
+  {
+    "code": 4164,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Maui"
+  },
+  {
+    "code": 4165,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "California Sweet"
+  },
+  {
+    "code": 4166,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Other Sweet"
+  },
+  {
+    "code": 4167,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Red Delicious"
+  },
+  {
+    "code": 4168,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Red Delicious"
+  },
+  {
+    "code": 4169,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Rome"
+  },
+  {
+    "code": 4170,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Rome"
+  },
+  {
+    "code": 4171,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Rome"
+  },
+  {
+    "code": 4172,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Rome"
+  },
+  {
+    "code": 4173,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Royal Gala"
+  },
+  {
+    "code": 4174,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Royal Gala"
+  },
+  {
+    "code": 4176,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Southern Snap"
+  },
+  {
+    "code": 4177,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Spartan"
+  },
+  {
+    "code": 4178,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Spartan"
+  },
+  {
+    "code": 4179,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Spartan"
+  },
+  {
+    "code": 4180,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Spartan"
+  },
+  {
+    "code": 4181,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Stayman"
+  },
+  {
+    "code": 4182,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Sturmer Pippin"
+  },
+  {
+    "code": 4183,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Stayman"
+  },
+  {
+    "code": 4185,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "York"
+  },
+  {
+    "code": 4186,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Yellow (includes Cavendish)"
+  },
+  {
+    "code": 4187,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "York"
+  },
+  {
+    "code": 4188,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "White Flesh, Tree Ripened, Ready-to-eat"
+  },
+  {
+    "code": 4189,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Winesap"
+  },
+  {
+    "code": 4190,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Winesap"
+  },
+  {
+    "code": 4191,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Winesap"
+  },
+  {
+    "code": 4192,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Winesap"
+  },
+  {
+    "code": 4193,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4194,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4195,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4196,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4197,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4198,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4199,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4200,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4201,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4202,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4203,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4204,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4205,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4206,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4207,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4208,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4209,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4210,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4211,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4212,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4213,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4214,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4215,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4216,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4217,
+    "category": "Fruits",
+    "commodity": "apples",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4218,
+    "category": "Fruits",
+    "commodity": "apricots",
+    "variety": "Regular"
+  },
+  {
+    "code": 4219,
+    "category": "Fruits",
+    "commodity": "apricots",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4220,
+    "category": "Fruits",
+    "commodity": "atemoyas",
+    "variety": ""
+  },
+  {
+    "code": 4221,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Green"
+  },
+  {
+    "code": 4222,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Green"
+  },
+  {
+    "code": 4223,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Green"
+  },
+  {
+    "code": 4224,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Green"
+  },
+  {
+    "code": 4225,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Hass"
+  },
+  {
+    "code": 4226,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Cocktail/Seedless"
+  },
+  {
+    "code": 4227,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4228,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4229,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Burro"
+  },
+  {
+    "code": 4230,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Dominique"
+  },
+  {
+    "code": 4231,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Green"
+  },
+  {
+    "code": 4232,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Leaves"
+  },
+  {
+    "code": 4233,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Apple/Manzano"
+  },
+  {
+    "code": 4234,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "baby/Nino"
+  },
+  {
+    "code": 4235,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Plantain/Macho"
+  },
+  {
+    "code": 4236,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Red"
+  },
+  {
+    "code": 4237,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4238,
+    "category": "Fruits",
+    "commodity": "bananas",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4239,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Blackberries"
+  },
+  {
+    "code": 4240,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Blueberries"
+  },
+  {
+    "code": 4241,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Boysenberries"
+  },
+  {
+    "code": 4242,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Cranberries"
+  },
+  {
+    "code": 4243,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Gooseberries"
+  },
+  {
+    "code": 4244,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Raspberries - Black"
+  },
+  {
+    "code": 4245,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Raspberries - Golden"
+  },
+  {
+    "code": 4246,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries"
+  },
+  {
+    "code": 4247,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries"
+  },
+  {
+    "code": 4248,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries"
+  },
+  {
+    "code": 4249,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries"
+  },
+  {
+    "code": 4250,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries"
+  },
+  {
+    "code": 4251,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Long-stemmed Strawberries"
+  },
+  {
+    "code": 4252,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4253,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4254,
+    "category": "Fruits",
+    "commodity": "breadfruit",
+    "variety": ""
+  },
+  {
+    "code": 4255,
+    "category": "Fruits",
+    "commodity": "cactus pear (prickly pear)",
+    "variety": ""
+  },
+  {
+    "code": 4256,
+    "category": "Fruits",
+    "commodity": "carambola (starfruit)",
+    "variety": ""
+  },
+  {
+    "code": 4257,
+    "category": "Fruits",
+    "commodity": "cherimoya",
+    "variety": ""
+  },
+  {
+    "code": 4258,
+    "category": "Fruits",
+    "commodity": "cherries",
+    "variety": "Golden/Rainier/White"
+  },
+  {
+    "code": 4259,
+    "category": "Fruits",
+    "commodity": "cherries",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4260,
+    "category": "Fruits",
+    "commodity": "coconuts",
+    "variety": "In Husk/Waternut"
+  },
+  {
+    "code": 4261,
+    "category": "Fruits",
+    "commodity": "coconuts",
+    "variety": "Husked"
+  },
+  {
+    "code": 4262,
+    "category": "Fruits",
+    "commodity": "coconuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4263,
+    "category": "Fruits",
+    "commodity": "dates",
+    "variety": "Fresh - Regular"
+  },
+  {
+    "code": 4264,
+    "category": "Fruits",
+    "commodity": "dates",
+    "variety": "Fresh - Retailer Assigned"
+  },
+  { "code": 4265, "category": "Fruits", "commodity": "feijoa", "variety": "" },
+  {
+    "code": 4266,
+    "category": "Fruits",
+    "commodity": "figs",
+    "variety": "Black"
+  },
+  {
+    "code": 4267,
+    "category": "Fruits",
+    "commodity": "figs",
+    "variety": "Brown"
+  },
+  {
+    "code": 4268,
+    "category": "Fruits",
+    "commodity": "figs",
+    "variety": "White/Green"
+  },
+  {
+    "code": 4269,
+    "category": "Fruits",
+    "commodity": "figs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4270,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Blue/Black Seeded (Ribier/Exotic/Niabel)"
+  },
+  {
+    "code": 4271,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Champagne"
+  },
+  {
+    "code": 4272,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Concord"
+  },
+  {
+    "code": 4273,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Red Seeded (Cardinal/Emperor/Queen/Christmas Rose)"
+  },
+  {
+    "code": 4274,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "White/Green Seeded (All others not listed)"
+  },
+  {
+    "code": 4275,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4276,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4277,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4278,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4279,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Pummelo - White"
+  },
+  {
+    "code": 4280,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (Includes Ray Ruby, Ray, Ruby Red)"
+  },
+  {
+    "code": 4281,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (ncludes Ray Ruby, Ruby, Ruby Red)"
+  },
+  {
+    "code": 4282,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (Includes Ray Ruby, Ruby, Ruby Red)"
+  },
+  {
+    "code": 4283,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (Includes Ray Ruby, Ray, Ruby Red)"
+  },
+  {
+    "code": 4284,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4285,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4286,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4287,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4288,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4289,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4290,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 4291,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 4292,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 4293,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 4294,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 4295,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "White"
+  },
+  {
+    "code": 4296,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4297,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4298,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Retailer Assigned"
+  },
+  { "code": 4299, "category": "Fruits", "commodity": "guava", "variety": "" },
+  {
+    "code": 4300,
+    "category": "Fruits",
+    "commodity": "homli fruit",
+    "variety": ""
+  },
+  {
+    "code": 4301,
+    "category": "Fruits",
+    "commodity": "kiwifruit",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4302,
+    "category": "Fruits",
+    "commodity": "kiwano (horned melon)",
+    "variety": ""
+  },
+  { "code": 4303, "category": "Fruits", "commodity": "kumquat", "variety": "" },
+  {
+    "code": 4304,
+    "category": "Fruits",
+    "commodity": "lemons",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4305,
+    "category": "Fruits",
+    "commodity": "limes",
+    "variety": "Key (incl. Mexican & West Indian)"
+  },
+  {
+    "code": 4306,
+    "category": "Fruits",
+    "commodity": "limes",
+    "variety": "Retailer Assigned"
+  },
+  { "code": 4307, "category": "Fruits", "commodity": "longan", "variety": "" },
+  { "code": 4308, "category": "Fruits", "commodity": "loquats", "variety": "" },
+  { "code": 4309, "category": "Fruits", "commodity": "lychees", "variety": "" },
+  { "code": 4310, "category": "Fruits", "commodity": "mamey", "variety": "" },
+  {
+    "code": 4311,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Green (Includes Keitt and Francis)"
+  },
+  {
+    "code": 4312,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Yellow (Includes Oro, Ataulfo/Honey Manila)"
+  },
+  {
+    "code": 4313,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4314,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4315,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4316,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4317,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Canary/Yellow Honeydew"
+  },
+  {
+    "code": 4318,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Cantaloupe/Muskmelon"
+  },
+  {
+    "code": 4319,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Cantaloupe/Muskmelon"
+  },
+  {
+    "code": 4320,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Casaba"
+  },
+  {
+    "code": 4321,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Cinnabar"
+  },
+  {
+    "code": 4322,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Crenshaw"
+  },
+  {
+    "code": 4323,
+    "category": "Fruits",
+    "commodity": "berries",
+    "variety": "Strawberries"
+  },
+  {
+    "code": 4324,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "French Afternoon"
+  },
+  {
+    "code": 4325,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "French Breakfast"
+  },
+  {
+    "code": 4326,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Galia"
+  },
+  {
+    "code": 4327,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Orange Flesh/Cantaline"
+  },
+  {
+    "code": 4328,
+    "category": "Fruits",
+    "commodity": "limequats",
+    "variety": ""
+  },
+  {
+    "code": 4329,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Honeydew/White Honeydew"
+  },
+  {
+    "code": 4330,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Mayan"
+  },
+  {
+    "code": 4331,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Mickey Lee Watermelon/Sugarbaby"
+  },
+  {
+    "code": 4332,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Muskmelon"
+  },
+  {
+    "code": 4333,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Pepino"
+  },
+  {
+    "code": 4334,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Persian"
+  },
+  {
+    "code": 4335,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Prince"
+  },
+  {
+    "code": 4336,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Santa Claus"
+  },
+  {
+    "code": 4337,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Saticoy"
+  },
+  {
+    "code": 4338,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Sharlin"
+  },
+  {
+    "code": 4339,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Spanish/Tendral"
+  },
+  {
+    "code": 4340,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Yellow"
+  },
+  {
+    "code": 4341,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Watermelon - Yellow, Seedless"
+  },
+  {
+    "code": 4342,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4343,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4344,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4345,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4346,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4347,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4348,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4349,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4350,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4351,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4352,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4353,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4354,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4355,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4356,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4357,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4358,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4359,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4360,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4361,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4362,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4363,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4364,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4365,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4366,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4367,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4368,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4369,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4370,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4371,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4372,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4373,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4374,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4375,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4376,
+    "category": "Fruits",
+    "commodity": "melon",
+    "variety": "Retailer Assigned (includes pre-cut melons)"
+  },
+  {
+    "code": 4377,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Yellow Flesh, Tree Ripened, Ready-to-eat"
+  },
+  {
+    "code": 4378,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Yellow Flesh, Tree Ripened, Ready-to-eat"
+  },
+  {
+    "code": 4379,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4380,
+    "category": "Fruits",
+    "commodity": "nectarine",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4381,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Blood"
+  },
+  {
+    "code": 4382,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Juice"
+  },
+  {
+    "code": 4383,
+    "category": "Fruits",
+    "commodity": "tangelo",
+    "variety": "Minneola"
+  },
+  {
+    "code": 4384,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navel"
+  },
+  {
+    "code": 4385,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Navel"
+  },
+  {
+    "code": 4386,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Temple"
+  },
+  {
+    "code": 4387,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Temple"
+  },
+  {
+    "code": 4388,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Valencia"
+  },
+  {
+    "code": 4388,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Valencia"
+  },
+  {
+    "code": 4389,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4390,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4391,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4392,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4393,
+    "category": "Fruits",
+    "commodity": "oranges",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4394,
+    "category": "Fruits",
+    "commodity": "papaya/pawpaw",
+    "variety": "Regular"
+  },
+  {
+    "code": 4395,
+    "category": "Fruits",
+    "commodity": "papaya/pawpaw",
+    "variety": "Cooking/Mexican"
+  },
+  {
+    "code": 4396,
+    "category": "Fruits",
+    "commodity": "papaya/pawpaw",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4397,
+    "category": "Fruits",
+    "commodity": "passion fruit",
+    "variety": "Purple"
+  },
+  {
+    "code": 4398,
+    "category": "Fruits",
+    "commodity": "passion fruit",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4399,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Indian"
+  },
+  {
+    "code": 4400,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "White Flesh"
+  },
+  {
+    "code": 4401,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "White Flesh"
+  },
+  {
+    "code": 4402,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh"
+  },
+  {
+    "code": 4403,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Yellow Flesh"
+  },
+  {
+    "code": 4404,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4405,
+    "category": "Fruits",
+    "commodity": "peaches",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4406,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Asian/Nashi - White"
+  },
+  {
+    "code": 4407,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Asian/Nashi - Yellow"
+  },
+  {
+    "code": 4408,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Asian/Nashi - Brown"
+  },
+  {
+    "code": 4409,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bartlett/Williams/WBC"
+  },
+  {
+    "code": 4410,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bartlett - Red/Red Sensation"
+  },
+  {
+    "code": 4411,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bosc/Beurre Bosc"
+  },
+  {
+    "code": 4412,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bosc/Beurre Bosc"
+  },
+  {
+    "code": 4413,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Bosc/Beurre Bosc"
+  },
+  {
+    "code": 4414,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Comice/ Doyenne du Comice"
+  },
+  {
+    "code": 4415,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Red"
+  },
+  {
+    "code": 4416,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Anjou"
+  },
+  {
+    "code": 4417,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Anjou - Red"
+  },
+  {
+    "code": 4418,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Forelle/Corella"
+  },
+  {
+    "code": 4419,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "French"
+  },
+  {
+    "code": 4420,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "King Royal"
+  },
+  {
+    "code": 4421,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Packham/Packhams Triumph"
+  },
+  {
+    "code": 4422,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Seckel"
+  },
+  {
+    "code": 4423,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Tree Ripened"
+  },
+  {
+    "code": 4424,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Winter Nelis/Honey"
+  },
+  {
+    "code": 4425,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4426,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4427,
+    "category": "Fruits",
+    "commodity": "persimmon",
+    "variety": "Regular (American Persimmon)"
+  },
+  {
+    "code": 4428,
+    "category": "Fruits",
+    "commodity": "persimmon",
+    "variety": "Japanese/Sharonfruit (Kaki)"
+  },
+  {
+    "code": 4429,
+    "category": "Fruits",
+    "commodity": "persimmon",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4430,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": ""
+  },
+  {
+    "code": 4431,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": "Jet Fresh"
+  },
+  {
+    "code": 4432,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": "Jet Fresh"
+  },
+  {
+    "code": 4433,
+    "category": "Fruits",
+    "commodity": "pineapple",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4434,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Green (Includes Dolly, Kelsey, Wickson)"
+  },
+  {
+    "code": 4435,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Green (Includes Dolly, Kelsey, Wickson)"
+  },
+  {
+    "code": 4436,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Italian Prune/Sugar"
+  },
+  {
+    "code": 4437,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Purple (Includes Queen Rosa, Laroda, Nublana, Queen Ann, Simka, El Dorado)"
+  },
+  {
+    "code": 4438,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Purple (Includes Queen Rosa, Laroda, Nublana, Queen Ann, Simka, El Dorado) "
+  },
+  {
+    "code": 4439,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Tree Ripened"
+  },
+  {
+    "code": 4440,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Tree Ripened"
+  },
+  {
+    "code": 4441,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Yellow (Includes Golden Globe)"
+  },
+  {
+    "code": 4442,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Yellow (Includes Golden Globe)"
+  },
+  {
+    "code": 4443,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4444,
+    "category": "Fruits",
+    "commodity": "plums",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4445,
+    "category": "Fruits",
+    "commodity": "pomegranate",
+    "variety": ""
+  },
+  {
+    "code": 4446,
+    "category": "Fruits",
+    "commodity": "pomegranate",
+    "variety": "Retailer Assigned"
+  },
+  { "code": 4447, "category": "Fruits", "commodity": "quince", "variety": "" },
+  {
+    "code": 4448,
+    "category": "Fruits",
+    "commodity": "tamarind",
+    "variety": ""
+  },
+  {
+    "code": 4449,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Sunburst"
+  },
+  {
+    "code": 4450,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Clementine (includes Fortune)"
+  },
+  {
+    "code": 4451,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Dancy"
+  },
+  {
+    "code": 4452,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Fairchild"
+  },
+  {
+    "code": 4453,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Honey/Murcott"
+  },
+  {
+    "code": 4454,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Kinnow"
+  },
+  {
+    "code": 4455,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Mandarin/Royal"
+  },
+  { "code": 4456, "category": "Fruits", "commodity": "tangelo", "variety": "" },
+  {
+    "code": 4457,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4458,
+    "category": "Fruits",
+    "commodity": "tangerines/mandarins",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4459,
+    "category": "Fruits",
+    "commodity": "tangelo",
+    "variety": "Jamaican"
+  },
+  {
+    "code": 4460,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4461,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4462,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4463,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4464,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4465,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4466,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4467,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4468,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4469,
+    "category": "ALL",
+    "commodity": "for use with all commodities",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4470,
+    "category": "Fruits",
+    "commodity": "salad bar",
+    "variety": ""
+  },
+  {
+    "code": 4471,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4472,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4473,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4474,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4475,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4476,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4477,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4478,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4479,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4480,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4481,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4482,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4483,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4484,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4485,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4486,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4487,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4488,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4489,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4490,
+    "category": "Fruits",
+    "commodity": "other fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4491,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (includes Ray Ruby, Ruby, Ruby Red)"
+  },
+  {
+    "code": 4492,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (includes Ray Ruby, Ruby, Ruby Red)"
+  },
+  {
+    "code": 4493,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Ruby/Red/Pink (Includes Ray Ruby, Ruby, Ruby Red)"
+  },
+  {
+    "code": 4494,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4495,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4496,
+    "category": "Fruits",
+    "commodity": "grapefruit",
+    "variety": "Deep Red"
+  },
+  {
+    "code": 4497,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Sugraone"
+  },
+  {
+    "code": 4498,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "White/Green Seedless (All others not listed above (including Autumn King))"
+  },
+  {
+    "code": 4499,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Crimson/Majestic"
+  },
+  {
+    "code": 4500,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4501,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4502,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4503,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4504,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4505,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4506,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4507,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4508,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4509,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4510,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4511,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4512,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4513,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4514,
+    "category": "Vegetables",
+    "commodity": "alfalfa sprouts",
+    "variety": ""
+  },
+  {
+    "code": 4515,
+    "category": "Herbs",
+    "commodity": "fennel",
+    "variety": "Florence/Sweet Fennel/Fennel Bulb"
+  },
+  {
+    "code": 4516,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": ""
+  },
+  {
+    "code": 4517,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": "Purple"
+  },
+  {
+    "code": 4518,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": "Purple"
+  },
+  {
+    "code": 4519,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": "Baby/Cocktail"
+  },
+  {
+    "code": 4520,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4521,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Green"
+  },
+  {
+    "code": 4522,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "White"
+  },
+  {
+    "code": 4523,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "White"
+  },
+  {
+    "code": 4524,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Tips"
+  },
+  {
+    "code": 4525,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4526,
+    "category": "Vegetables",
+    "commodity": "asparagus",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4527,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Chinese Long/Snake"
+  },
+  {
+    "code": 4528,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Fava/Broad"
+  },
+  {
+    "code": 4529,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Lima"
+  },
+  {
+    "code": 4530,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Pole/Runner/Stick"
+  },
+  {
+    "code": 4531,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Purple Hull"
+  },
+  {
+    "code": 4532,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Shell"
+  },
+  {
+    "code": 4533,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Wax/Yellow"
+  },
+  {
+    "code": 4534,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Winged"
+  },
+  {
+    "code": 4535,
+    "category": "Vegetables",
+    "commodity": "beans",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4536,
+    "category": "Vegetables",
+    "commodity": "bean sprouts",
+    "variety": "Mung Bean Sprouts"
+  },
+  {
+    "code": 4537,
+    "category": "Vegetables",
+    "commodity": "beets",
+    "variety": "Baby Golden"
+  },
+  {
+    "code": 4538,
+    "category": "Vegetables",
+    "commodity": "beets",
+    "variety": "Baby Red"
+  },
+  {
+    "code": 4539,
+    "category": "Vegetables",
+    "commodity": "beets",
+    "variety": "Bunch"
+  },
+  {
+    "code": 4540,
+    "category": "Vegetables",
+    "commodity": "beets",
+    "variety": "Loose"
+  },
+  {
+    "code": 4541,
+    "category": "Vegetables",
+    "commodity": "beets",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4542,
+    "category": "Vegetables",
+    "commodity": "beet greens",
+    "variety": ""
+  },
+  {
+    "code": 4543,
+    "category": "Vegetables",
+    "commodity": "belgian endive (witloof chicory)",
+    "variety": ""
+  },
+  {
+    "code": 4544,
+    "category": "Vegetables",
+    "commodity": "bok choy (pak choi)",
+    "variety": "Small/Baby"
+  },
+  {
+    "code": 4545,
+    "category": "Vegetables",
+    "commodity": "bok choy (pak choi)",
+    "variety": ""
+  },
+  {
+    "code": 4546,
+    "category": "Vegetables",
+    "commodity": "boniato",
+    "variety": "See also SWEET POTATO"
+  },
+  {
+    "code": 4547,
+    "category": "Vegetables",
+    "commodity": "broccoli",
+    "variety": "Broccoli Rabe (Italian Rapini)/ Chinese Broccoli (GAI LAN)"
+  },
+  {
+    "code": 4548,
+    "category": "Vegetables",
+    "commodity": "broccoli",
+    "variety": "Florettes"
+  },
+  {
+    "code": 4549,
+    "category": "Vegetables",
+    "commodity": "broccoli",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4550,
+    "category": "Vegetables",
+    "commodity": "brussels sprouts",
+    "variety": ""
+  },
+  {
+    "code": 4551,
+    "category": "Vegetables",
+    "commodity": "brussels sprouts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4552,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Chinese/Napa/Wong Bok"
+  },
+  {
+    "code": 4553,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Taylors Gold"
+  },
+  {
+    "code": 4554,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Red"
+  },
+  {
+    "code": 4555,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Savoy, Green"
+  },
+  {
+    "code": 4556,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4557,
+    "category": "Vegetables",
+    "commodity": "cabbage",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4558,
+    "category": "Vegetables",
+    "commodity": "cactus leaves (nopales/cactus pads)",
+    "variety": ""
+  },
+  {
+    "code": 4559,
+    "category": "Vegetables",
+    "commodity": "cardoon (cardoni)",
+    "variety": ""
+  },
+  {
+    "code": 4560,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "Baby"
+  },
+  {
+    "code": 4561,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "French"
+  },
+  {
+    "code": 4562,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "Loose"
+  },
+  {
+    "code": 4563,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "Carrot Sticks"
+  },
+  {
+    "code": 4564,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4565,
+    "category": "Vegetables",
+    "commodity": "carrots",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4566,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Florettes"
+  },
+  {
+    "code": 4567,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Green"
+  },
+  {
+    "code": 4568,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Purple"
+  },
+  {
+    "code": 4569,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4570,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4571,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4572,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": ""
+  },
+  {
+    "code": 4573,
+    "category": "Vegetables",
+    "commodity": "cauliflower",
+    "variety": "Baby"
+  },
+  {
+    "code": 4575,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Hearts"
+  },
+  {
+    "code": 4576,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Celery Sticks"
+  },
+  {
+    "code": 4577,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4578,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4579,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4580,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4581,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4582,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Bunch"
+  },
+  {
+    "code": 4583,
+    "category": "Vegetables",
+    "commodity": "celery",
+    "variety": "Bunch"
+  },
+  {
+    "code": 4584,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Green (Includes Keitt and Francis)"
+  },
+  {
+    "code": 4585,
+    "category": "Vegetables",
+    "commodity": "celery root/celeriac",
+    "variety": ""
+  },
+  {
+    "code": 4586,
+    "category": "Vegetables",
+    "commodity": "chard (swiss chard)/silverbeet",
+    "variety": "Green"
+  },
+  {
+    "code": 4587,
+    "category": "Vegetables",
+    "commodity": "chard (swiss chard)/silverbeet",
+    "variety": "Red"
+  },
+  {
+    "code": 4588,
+    "category": "Vegetables",
+    "commodity": "chard (swiss chard)/silverbeet",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4589,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Sweet Corn, Baby"
+  },
+  {
+    "code": 4590,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Sweet Corn, Bi-Color"
+  },
+  {
+    "code": 4591,
+    "category": "Vegetables",
+    "commodity": "corn",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4592,
+    "category": "Vegetables",
+    "commodity": "cucumber",
+    "variety": "Armenian"
+  },
+  {
+    "code": 4593,
+    "category": "Vegetables",
+    "commodity": "cucumber",
+    "variety": "English/Hot House/Long Seedless/Telegraph/Continental"
+  },
+  {
+    "code": 4594,
+    "category": "Vegetables",
+    "commodity": "cucumber",
+    "variety": "Japanese/White"
+  },
+  {
+    "code": 4595,
+    "category": "Vegetables",
+    "commodity": "cucumber",
+    "variety": "Lemon"
+  },
+  {
+    "code": 4596,
+    "category": "Vegetables",
+    "commodity": "cucumber",
+    "variety": "Pickling/Gherkin"
+  },
+  {
+    "code": 4597,
+    "category": "Vegetables",
+    "commodity": "cucumber",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4598,
+    "category": "Vegetables",
+    "commodity": "daikon",
+    "variety": "(See also RADISH)"
+  },
+  {
+    "code": 4599,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "Baby"
+  },
+  {
+    "code": 4600,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "Baby White"
+  },
+  {
+    "code": 4601,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "Japanese"
+  },
+  {
+    "code": 4602,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "White"
+  },
+  {
+    "code": 4603,
+    "category": "Vegetables",
+    "commodity": "eggplant (aubergine)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4604,
+    "category": "Vegetables",
+    "commodity": "endive/chicory",
+    "variety": ""
+  },
+  {
+    "code": 4605,
+    "category": "Vegetables",
+    "commodity": "escarole/batavian chicory",
+    "variety": "Green"
+  },
+  {
+    "code": 4606,
+    "category": "Vegetables",
+    "commodity": "fiddlehead ferns",
+    "variety": ""
+  },
+  {
+    "code": 4607,
+    "category": "Vegetables",
+    "commodity": "gai (gui) choy (chinese or indian mustard)",
+    "variety": "Chinese or Indian Mustard"
+  },
+  {
+    "code": 4608,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "Regular"
+  },
+  {
+    "code": 4609,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "Elephant"
+  },
+  {
+    "code": 4610,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4611,
+    "category": "Vegetables",
+    "commodity": "garlic",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4612,
+    "category": "Vegetables",
+    "commodity": "ginger root",
+    "variety": "Regular"
+  },
+  {
+    "code": 4613,
+    "category": "Vegetables",
+    "commodity": "ginger root",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4614,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Collard"
+  },
+  {
+    "code": 4615,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Dandelion"
+  },
+  {
+    "code": 4616,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Mustard (Synonymous with Gai (Gui) Choy)"
+  },
+  {
+    "code": 4617,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Polk Greens"
+  },
+  {
+    "code": 4618,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Texas Mustard"
+  },
+  {
+    "code": 4619,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Turnip"
+  },
+  {
+    "code": 4620,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4621,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4622,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4623,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4624,
+    "category": "Vegetables",
+    "commodity": "greens",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4625,
+    "category": "Vegetables",
+    "commodity": "horseradish root",
+    "variety": ""
+  },
+  {
+    "code": 4626,
+    "category": "Vegetables",
+    "commodity": "jicama/yam bean",
+    "variety": ""
+  },
+  {
+    "code": 4627,
+    "category": "Vegetables",
+    "commodity": "kale",
+    "variety": ""
+  },
+  {
+    "code": 4628,
+    "category": "Vegetables",
+    "commodity": "kohlrabi",
+    "variety": ""
+  },
+  {
+    "code": 4629,
+    "category": "Vegetables",
+    "commodity": "leeks",
+    "variety": "Regular"
+  },
+  {
+    "code": 4630,
+    "category": "Vegetables",
+    "commodity": "leeks",
+    "variety": "Baby"
+  },
+  {
+    "code": 4631,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Bibb/Flat/Round"
+  },
+  {
+    "code": 4632,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Boston/Butter"
+  },
+  {
+    "code": 4633,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Hydroponic"
+  },
+  {
+    "code": 4634,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Iceberg"
+  },
+  {
+    "code": 4635,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Red Seedless (All others not listed under red seedless)"
+  },
+  {
+    "code": 4636,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Red Globe"
+  },
+  {
+    "code": 4637,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Red Seeded (All others not listed above)"
+  },
+  {
+    "code": 4638,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Fantasy/Marroo"
+  },
+  {
+    "code": 4639,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Mache"
+  },
+  {
+    "code": 4640,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Romaine/Cos"
+  },
+  {
+    "code": 4641,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4642,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4643,
+    "category": "Vegetables",
+    "commodity": "lettuce",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4644,
+    "category": "Vegetables",
+    "commodity": "malanga",
+    "variety": ""
+  },
+  {
+    "code": 4645,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Regular, Button"
+  },
+  {
+    "code": 4646,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Black Forest"
+  },
+  {
+    "code": 4647,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Chanterelle"
+  },
+  {
+    "code": 4648,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Cremini/Brown/Swiss Brown"
+  },
+  {
+    "code": 4649,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Oyster"
+  },
+  {
+    "code": 4650,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Portabella (Synonymous with Cremini, Brown, Swiss Brown Mushrooms)"
+  },
+  {
+    "code": 4651,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Shiitake"
+  },
+  {
+    "code": 4652,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Wood Ear"
+  },
+  {
+    "code": 4653,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4654,
+    "category": "Vegetables",
+    "commodity": "mushrooms",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4655,
+    "category": "Vegetables",
+    "commodity": "okra",
+    "variety": "Regular (Green)"
+  },
+  {
+    "code": 4656,
+    "category": "Vegetables",
+    "commodity": "okra",
+    "variety": "Chinese"
+  },
+  {
+    "code": 4657,
+    "category": "Vegetables",
+    "commodity": "okra",
+    "variety": "Red"
+  },
+  {
+    "code": 4658,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Boiling"
+  },
+  {
+    "code": 4659,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Bulb"
+  },
+  {
+    "code": 4660,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Pearl"
+  },
+  {
+    "code": 4661,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Pickling, White"
+  },
+  {
+    "code": 4662,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Shallots"
+  },
+  {
+    "code": 4663,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "White"
+  },
+  {
+    "code": 4664,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Regular - Red, On the Vine (Truss)"
+  },
+  {
+    "code": 4665,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Yellow/Brown"
+  },
+  {
+    "code": 4666,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4667,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4668,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4669,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4670,
+    "category": "Vegetables",
+    "commodity": "onions",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4671,
+    "category": "Vegetables",
+    "commodity": "parsley root(hamburg parsley)",
+    "variety": ""
+  },
+  {
+    "code": 4672,
+    "category": "Vegetables",
+    "commodity": "parsnip",
+    "variety": ""
+  },
+  {
+    "code": 4673,
+    "category": "Vegetables",
+    "commodity": "peas",
+    "variety": "Blackeyed"
+  },
+  {
+    "code": 4674,
+    "category": "Vegetables",
+    "commodity": "peas",
+    "variety": "Green"
+  },
+  {
+    "code": 4675,
+    "category": "Vegetables",
+    "commodity": "peas",
+    "variety": "Sugar Snap"
+  },
+  {
+    "code": 4676,
+    "category": "Vegetables",
+    "commodity": "peas",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4677,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Anaheim (Green and Red)"
+  },
+  {
+    "code": 4678,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Banana (Yellow Long)"
+  },
+  {
+    "code": 4679,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - Brown"
+  },
+  {
+    "code": 4680,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - Golden (Yellow)"
+  },
+  {
+    "code": 4681,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - Green"
+  },
+  {
+    "code": 4682,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - Orange"
+  },
+  {
+    "code": 4683,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - Purple"
+  },
+  {
+    "code": 4684,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Field Grown - White"
+  },
+  {
+    "code": 4685,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Chili - Dried"
+  },
+  {
+    "code": 4686,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Chili - Green"
+  },
+  {
+    "code": 4687,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Cubanelle"
+  },
+  {
+    "code": 4688,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - Red"
+  },
+  {
+    "code": 4689,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Bell, Greenhouse - Yellow"
+  },
+  {
+    "code": 4690,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Hot (Hungarian Hot)"
+  },
+  {
+    "code": 4691,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Hot Mixed"
+  },
+  {
+    "code": 4692,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Hungarian Wax"
+  },
+  {
+    "code": 4693,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Jalapeno - Green/Mexican Green"
+  },
+  {
+    "code": 4694,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Jalapeno - Red/Mexican Red"
+  },
+  {
+    "code": 4695,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Japanese - Red"
+  },
+  {
+    "code": 4696,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Long Hot - Green"
+  },
+  {
+    "code": 4697,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Long Hot - Red"
+  },
+  {
+    "code": 4698,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Morita Chili"
+  },
+  {
+    "code": 4699,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Negro"
+  },
+  {
+    "code": 4700,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "New Mexico"
+  },
+  {
+    "code": 4701,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Pasilla - Green"
+  },
+  {
+    "code": 4702,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Pasilla - Red"
+  },
+  {
+    "code": 4703,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Pasilla Pod"
+  },
+  {
+    "code": 4704,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Pinole"
+  },
+  {
+    "code": 4705,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Poblano"
+  },
+  {
+    "code": 4706,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Red Cheese"
+  },
+  {
+    "code": 4707,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Red Finger"
+  },
+  {
+    "code": 4708,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Red Pimiento/ Red Sweet Long"
+  },
+  {
+    "code": 4709,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Serrano"
+  },
+  {
+    "code": 4710,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4711,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4712,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4713,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4714,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4715,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4716,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4717,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4718,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4719,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4720,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4721,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4722,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4723,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Creamer - Red"
+  },
+  {
+    "code": 4724,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Creamer - White"
+  },
+  {
+    "code": 4725,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Russet"
+  },
+  {
+    "code": 4726,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Long - White"
+  },
+  {
+    "code": 4727,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Yellow"
+  },
+  {
+    "code": 4728,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4729,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4730,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4731,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4732,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4733,
+    "category": "Vegetables",
+    "commodity": "potato",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4734,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Mini"
+  },
+  {
+    "code": 4735,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Regular"
+  },
+  {
+    "code": 4736,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4737,
+    "category": "Vegetables",
+    "commodity": "pumpkin",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4738,
+    "category": "Vegetables",
+    "commodity": "radicchio",
+    "variety": ""
+  },
+  {
+    "code": 4739,
+    "category": "Vegetables",
+    "commodity": "radish",
+    "variety": "Black"
+  },
+  {
+    "code": 4740,
+    "category": "Vegetables",
+    "commodity": "radish",
+    "variety": "Bunched White"
+  },
+  {
+    "code": 4741,
+    "category": "Vegetables",
+    "commodity": "radish",
+    "variety": "Italian Red"
+  },
+  {
+    "code": 4742,
+    "category": "Vegetables",
+    "commodity": "radish",
+    "variety": "Red"
+  },
+  {
+    "code": 4743,
+    "category": "Vegetables",
+    "commodity": "radish",
+    "variety": "White/Icicle"
+  },
+  {
+    "code": 4744,
+    "category": "Vegetables",
+    "commodity": "radish",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4745,
+    "category": "Vegetables",
+    "commodity": "rhubarb",
+    "variety": "Regular"
+  },
+  {
+    "code": 4746,
+    "category": "Vegetables",
+    "commodity": "rhubarb",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4747,
+    "category": "Vegetables",
+    "commodity": "rutabagas (swede)",
+    "variety": "Regular"
+  },
+  {
+    "code": 4748,
+    "category": "Vegetables",
+    "commodity": "rutabagas (swede)",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4749,
+    "category": "Vegetables",
+    "commodity": "spinach",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4750,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Acorn/Table Queen"
+  },
+  {
+    "code": 4751,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Acorn - Golden"
+  },
+  {
+    "code": 4752,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Acorn - Swan White Table Queen"
+  },
+  {
+    "code": 4753,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Australian Blue"
+  },
+  {
+    "code": 4754,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Baby Scallopini"
+  },
+  {
+    "code": 4755,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Baby Summer (Green)"
+  },
+  {
+    "code": 4756,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Baby Green Zucchini/Courgette"
+  },
+  {
+    "code": 4757,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Banana"
+  },
+  {
+    "code": 4758,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Buttercup"
+  },
+  {
+    "code": 4759,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Butternut"
+  },
+  {
+    "code": 4760,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Calabaza"
+  },
+  {
+    "code": 4761,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Chayote/Choko"
+  },
+  {
+    "code": 4762,
+    "category": "Vegetables",
+    "commodity": "artichokes",
+    "variety": ""
+  },
+  {
+    "code": 4763,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Delicata/Sweet Potato"
+  },
+  {
+    "code": 4764,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "(Sweet) Dumpling"
+  },
+  {
+    "code": 4765,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Gem"
+  },
+  {
+    "code": 4766,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Golden Delicious"
+  },
+  {
+    "code": 4767,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Golden Nugget"
+  },
+  {
+    "code": 4768,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Hubbard"
+  },
+  {
+    "code": 4769,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Kabocha"
+  },
+  {
+    "code": 4770,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Hass"
+  },
+  {
+    "code": 4771,
+    "category": "Fruits",
+    "commodity": "avocados",
+    "variety": "Green"
+  },
+  {
+    "code": 4772,
+    "category": "Vegetables",
+    "commodity": "peppers (capsicums)",
+    "variety": "Chili - Yellow"
+  },
+  {
+    "code": 4773,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Patty Pan/Summer"
+  },
+  {
+    "code": 4774,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Red Kuri"
+  },
+  {
+    "code": 4775,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Scallopini"
+  },
+  {
+    "code": 4776,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Spaghetti/Vegetable Spaghetti"
+  },
+  {
+    "code": 4777,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Sunburst (Yellow)"
+  },
+  {
+    "code": 4778,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Regular - Yellow"
+  },
+  {
+    "code": 4779,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Sweet Mama"
+  },
+  {
+    "code": 4780,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Turban"
+  },
+  {
+    "code": 4781,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "White"
+  },
+  {
+    "code": 4782,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Yellow - Straightneck"
+  },
+  {
+    "code": 4783,
+    "category": "Vegetables",
+    "commodity": "bitter melon/bitter gourd, foo qua",
+    "variety": "Foo Qua"
+  },
+  {
+    "code": 4784,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Yellow - Crookneck"
+  },
+  {
+    "code": 4785,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4786,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4787,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4788,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4789,
+    "category": "Vegetables",
+    "commodity": "squash",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4790,
+    "category": "Vegetables",
+    "commodity": "sugar cane",
+    "variety": ""
+  },
+  {
+    "code": 4791,
+    "category": "Vegetables",
+    "commodity": "sunchokes (jerusalem artichokes)",
+    "variety": ""
+  },
+  {
+    "code": 4792,
+    "category": "Vegetables",
+    "commodity": "tamarillo",
+    "variety": "Golden"
+  },
+  {
+    "code": 4793,
+    "category": "Vegetables",
+    "commodity": "tamarillo",
+    "variety": "Red"
+  },
+  {
+    "code": 4794,
+    "category": "Vegetables",
+    "commodity": "taro root (dasheen)",
+    "variety": ""
+  },
+  {
+    "code": 4795,
+    "category": "Vegetables",
+    "commodity": "taro root (dasheen)",
+    "variety": ""
+  },
+  {
+    "code": 4796,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cherry - Red"
+  },
+  {
+    "code": 4797,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Cherry - Yellow"
+  },
+  {
+    "code": 4798,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Greenhouse/Hydroponic/Regular - Red"
+  },
+  {
+    "code": 4799,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Greenhouse/Hydroponic/Regular - Red"
+  },
+  {
+    "code": 4800,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Native/Home Grown"
+  },
+  {
+    "code": 4801,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Tomatillos/Husk Tomatoes"
+  },
+  {
+    "code": 4802,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Dried"
+  },
+  {
+    "code": 4803,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Teardrop/Pear - Red"
+  },
+  {
+    "code": 4804,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Teardrop/Pear - Yellow"
+  },
+  {
+    "code": 4805,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Vine Ripe, Regular - Red"
+  },
+  {
+    "code": 4806,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4807,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4808,
+    "category": "Vegetables",
+    "commodity": "tomatoes",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4809,
+    "category": "Vegetables",
+    "commodity": "turnip",
+    "variety": "Baby"
+  },
+  {
+    "code": 4810,
+    "category": "Vegetables",
+    "commodity": "turnip",
+    "variety": "Bunch/Banded"
+  },
+  {
+    "code": 4811,
+    "category": "Vegetables",
+    "commodity": "turnip",
+    "variety": "Purple Top"
+  },
+  {
+    "code": 4812,
+    "category": "Vegetables",
+    "commodity": "turnip",
+    "variety": "White"
+  },
+  {
+    "code": 4813,
+    "category": "Vegetables",
+    "commodity": "turnip",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4814,
+    "category": "Vegetables",
+    "commodity": "water chestnuts",
+    "variety": ""
+  },
+  {
+    "code": 4815,
+    "category": "Vegetables",
+    "commodity": "watercress",
+    "variety": ""
+  },
+  {
+    "code": 4816,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "Golden"
+  },
+  {
+    "code": 4817,
+    "category": "Vegetables",
+    "commodity": "sweet potato/yam/kumara",
+    "variety": "Red/Orangy Red Flesh"
+  },
+  {
+    "code": 4818,
+    "category": "Vegetables",
+    "commodity": "name",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4819,
+    "category": "Vegetables",
+    "commodity": "yuca root/cassava/manioc",
+    "variety": ""
+  },
+  {
+    "code": 4820,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4821,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4822,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4823,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4824,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4825,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4826,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4827,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4828,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4829,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4830,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4831,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4832,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4833,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4834,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4835,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4836,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4837,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4838,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4839,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4840,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4841,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4842,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4843,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4844,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4845,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4846,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4847,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4848,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4849,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4850,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4851,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4852,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4853,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4854,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4855,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4856,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4857,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4858,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4859,
+    "category": "Vegetables",
+    "commodity": "other vegetables",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4860,
+    "category": "Dried Fruits",
+    "commodity": "apple slices",
+    "variety": "Dried "
+  },
+  {
+    "code": 4861,
+    "category": "Dried Fruits",
+    "commodity": "apricots",
+    "variety": "Dried"
+  },
+  {
+    "code": 4862,
+    "category": "Dried Fruits",
+    "commodity": "dates",
+    "variety": "Dried"
+  },
+  {
+    "code": 4863,
+    "category": "Dried Fruits",
+    "commodity": "dates",
+    "variety": "Retailer Assigned - Dried"
+  },
+  {
+    "code": 4864,
+    "category": "Dried Fruits",
+    "commodity": "pineapple",
+    "variety": "Dried"
+  },
+  {
+    "code": 4865,
+    "category": "Dried Fruits",
+    "commodity": "prunes",
+    "variety": "Regular (Dried Fruit)"
+  },
+  {
+    "code": 4866,
+    "category": "Dried Fruits",
+    "commodity": "prunes",
+    "variety": "Pitted (Dried Fruit)"
+  },
+  {
+    "code": 4867,
+    "category": "Dried Fruits",
+    "commodity": "prunes",
+    "variety": "Retailer Assigned - Dried"
+  },
+  {
+    "code": 4868,
+    "category": "Dried Fruits",
+    "commodity": "raisins",
+    "variety": "Black (Dried Fruit)"
+  },
+  {
+    "code": 4869,
+    "category": "Dried Fruits",
+    "commodity": "raisins",
+    "variety": "Golden/Yellow (Dried Fruit)"
+  },
+  {
+    "code": 4870,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4871,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4872,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4873,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4874,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4875,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4876,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4877,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4878,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4879,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4880,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4881,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4882,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4883,
+    "category": "Dried Fruits",
+    "commodity": "other dried fruits",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4884,
+    "category": "Herbs",
+    "commodity": "arugula/rocket",
+    "variety": ""
+  },
+  { "code": 4885, "category": "Herbs", "commodity": "basil", "variety": "" },
+  {
+    "code": 4886,
+    "category": "Herbs",
+    "commodity": "basil",
+    "variety": "Opal"
+  },
+  {
+    "code": 4887,
+    "category": "Herbs",
+    "commodity": "basil",
+    "variety": "Sweet"
+  },
+  { "code": 4888, "category": "Herbs", "commodity": "chives", "variety": "" },
+  {
+    "code": 4889,
+    "category": "Herbs",
+    "commodity": "cilantro (chinese parsley/coriander)",
+    "variety": ""
+  },
+  {
+    "code": 4890,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Chinese Yali"
+  },
+  { "code": 4891, "category": "Herbs", "commodity": "dill", "variety": "" },
+  { "code": 4892, "category": "Herbs", "commodity": "dill", "variety": "Baby" },
+  {
+    "code": 4893,
+    "category": "Herbs",
+    "commodity": "dill",
+    "variety": "Pickling"
+  },
+  {
+    "code": 4894,
+    "category": "Herbs",
+    "commodity": "lemongrass",
+    "variety": ""
+  },
+  { "code": 4895, "category": "Herbs", "commodity": "marjoram", "variety": "" },
+  { "code": 4896, "category": "Herbs", "commodity": "mint", "variety": "" },
+  { "code": 4897, "category": "Herbs", "commodity": "oregano", "variety": "" },
+  {
+    "code": 4898,
+    "category": "Herbs",
+    "commodity": "oyster plant/salsify",
+    "variety": ""
+  },
+  {
+    "code": 4899,
+    "category": "Herbs",
+    "commodity": "parsley",
+    "variety": "Regular/Curly"
+  },
+  {
+    "code": 4901,
+    "category": "Herbs",
+    "commodity": "parsley",
+    "variety": "Italian/Continental/French"
+  },
+  {
+    "code": 4902,
+    "category": "Herbs",
+    "commodity": "parsley",
+    "variety": "Retailer Assigned"
+  },
+  { "code": 4903, "category": "Herbs", "commodity": "rosemary", "variety": "" },
+  { "code": 4904, "category": "Herbs", "commodity": "sage", "variety": "" },
+  { "code": 4905, "category": "Herbs", "commodity": "sorrel", "variety": "" },
+  { "code": 4906, "category": "Herbs", "commodity": "tarragon", "variety": "" },
+  { "code": 4907, "category": "Herbs", "commodity": "thyme", "variety": "" },
+  {
+    "code": 4908,
+    "category": "Herbs",
+    "commodity": "vanilla bean",
+    "variety": ""
+  },
+  {
+    "code": 4909,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4910,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4911,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4912,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4913,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4914,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4915,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4916,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4917,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4918,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4919,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4920,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4921,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4922,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4923,
+    "category": "Herbs",
+    "commodity": "other herbs",
+    "variety": "Retailer Assigned"
+  },
+  { "code": 4924, "category": "Nuts", "commodity": "almonds", "variety": "" },
+  {
+    "code": 4925,
+    "category": "Nuts",
+    "commodity": "almonds",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4926,
+    "category": "Nuts",
+    "commodity": "brazilnuts",
+    "variety": ""
+  },
+  { "code": 4927, "category": "Nuts", "commodity": "chestnuts", "variety": "" },
+  {
+    "code": 4928,
+    "category": "Nuts",
+    "commodity": "filberts",
+    "variety": "Cobnut/Hazelnut"
+  },
+  {
+    "code": 4929,
+    "category": "Nuts",
+    "commodity": "mixed nuts",
+    "variety": ""
+  },
+  { "code": 4930, "category": "Nuts", "commodity": "peanuts", "variety": "" },
+  {
+    "code": 4931,
+    "category": "Nuts",
+    "commodity": "peanuts",
+    "variety": "Raw"
+  },
+  {
+    "code": 4932,
+    "category": "Nuts",
+    "commodity": "peanuts",
+    "variety": "Roasted - Salted"
+  },
+  {
+    "code": 4933,
+    "category": "Nuts",
+    "commodity": "peanuts",
+    "variety": "Roasted - Unsalted"
+  },
+  {
+    "code": 4934,
+    "category": "Nuts",
+    "commodity": "peanuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4935,
+    "category": "Nuts",
+    "commodity": "peanuts",
+    "variety": "Retailer Assigned"
+  },
+  { "code": 4936, "category": "Nuts", "commodity": "pecans", "variety": "" },
+  {
+    "code": 4937,
+    "category": "Nuts",
+    "commodity": "pecans",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4938,
+    "category": "Nuts",
+    "commodity": "pine nuts (pignoli)",
+    "variety": ""
+  },
+  {
+    "code": 4939,
+    "category": "Nuts",
+    "commodity": "pistachio",
+    "variety": "Natural"
+  },
+  {
+    "code": 4940,
+    "category": "Nuts",
+    "commodity": "pistachio",
+    "variety": "Red"
+  },
+  {
+    "code": 4941,
+    "category": "Nuts",
+    "commodity": "pistachio",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4942,
+    "category": "Nuts",
+    "commodity": "sunflower seeds",
+    "variety": ""
+  },
+  {
+    "code": 4943,
+    "category": "Nuts",
+    "commodity": "walnuts",
+    "variety": "Regular"
+  },
+  {
+    "code": 4944,
+    "category": "Nuts",
+    "commodity": "walnuts",
+    "variety": "Black"
+  },
+  {
+    "code": 4945,
+    "category": "Nuts",
+    "commodity": "walnuts",
+    "variety": "White"
+  },
+  {
+    "code": 4946,
+    "category": "Nuts",
+    "commodity": "walnuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4947,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4948,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4949,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4950,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4951,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4952,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4953,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4954,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4955,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4956,
+    "category": "Nuts",
+    "commodity": "other nuts",
+    "variety": "Retailer Assigned"
+  },
+  {
+    "code": 4957,
+    "category": "Fruits",
+    "commodity": "grapes",
+    "variety": "Blue/Black Seeded (All others not listed above)"
+  },
+  { "code": 4958, "category": "Fruits", "commodity": "lemons", "variety": "" },
+  {
+    "code": 4959,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Red (Includes Tommy Atkins, Kent, Palmer Vandyke, Edward, Hayden)"
+  },
+  {
+    "code": 4960,
+    "category": "Fruits",
+    "commodity": "pears",
+    "variety": "Fragrant"
+  },
+  {
+    "code": 4961,
+    "category": "Fruits",
+    "commodity": "mango",
+    "variety": "Yellow"
+  }
+]
